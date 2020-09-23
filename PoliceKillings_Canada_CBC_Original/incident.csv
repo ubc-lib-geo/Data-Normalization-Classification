@@ -1,0 +1,461 @@
+id_incident,date,day_week,prov,city_town,postal_code,location_type
+1,6-Jan-12,Fri,QC,Montreal,H3B 4W5,Urban
+2,11-Jan-12,Wed,AB,Onoway,T0E 1V0,Rural
+3,12-Jan-12,Thu,ON,Oakville,L6H 0G6,Urban
+4,3-Feb-12,Fri,ON,Toronto,M4C 1X5,Urban
+5,13-Feb-12,Mon,ON,Hamilton,L8K 5J4,Urban
+6,16-Feb-12,Thu,QC,Montreal,H1W 3L3,Urban
+7,20-Feb-12,Mon,ON,Toronto,M6P 3V6,Urban
+8,28-Feb-12,Tue,QC,La Baie,G7B 2B4,Urban
+9,14-Mar-12,Wed,NT,Yellowknife,X1A 3K6,Urban
+10,20-Apr-12,Fri,ON,Toronto,M3H 1N4,Urban
+11,2-May-12,Wed,ON,Maitland,K6V 5T1,Urban
+12,6-May-12,Sun,QC,Saint-Felicien,G8K 3G3,Urban
+13,30-May-12,Wed,BC,Maple Ridge,V4R 2S8,Urban
+14,15-Jul-12,Sun,AB,Lethbridge,T1K 5A8,Urban
+15,18-Jul-12,Wed,AB,Vegreville,T0B 2S0,Rural
+17,10-Sep-12,Mon,BC,Prince George,V2N 5V8,Urban
+18,29-Oct-12,Mon,BC,Vancouver,V5K 2A6,Urban
+19,8-Nov-12,Thu,BC,New Westminster,V3M 7A3,Urban
+20,13-Nov-12,Tue,BC,Vancouver,V5K 3B2,Urban
+21,11-Dec-12,Tue,AB,Edmonton,T6N 1L2,Urban
+22,31-Jan-13,Thu,BC,Burnaby,V5C 2J1,Urban
+23,26-Apr-13,Fri,ON,Toronto,M1K 2P7,Urban
+24,7-Jun-13,Fri,ON,Hamilton,L9A 5G2,Urban
+25,8-Jun-13,Sat,ON,Toronto,M1M 2E8,Urban
+26,21-Jun-13,Fri,ON,Port Elgin,N0H 2C4,Rural
+27,13-Jul-13,Sat,NB,Moncton,E1C 3S7,Urban
+28,25-Jul-13,Thu,ON,Arden,K0H 1B0,Rural
+29,26-Jul-13,Fri,QC,Montreal,H2J 2L3,Urban
+30,27-Jul-13,Sat,ON,Toronto,M6J 2P9,Urban
+31,3-Aug-13,Sat,AB,Ma-Me-O Beach,T0C 1X0,Rural
+32,2-Aug-13,Fri,AB,Leduc,T9E 7K6,Urban
+33,15-Aug-13,Thu,AB,Cold Lake,T0A 0T0,Rural
+34,31-Jul-13,Wed,QC,Montreal,H4W 1J1,Urban
+35,11-Sep-13,Wed,SK,Holdfast,S0G 2H0,Rural
+37,24-Oct-13,Thu,AB,Edmonton,T5K 0Z7,Urban
+38,11-Nov-13,Mon,QC,Montreal,H2L 3V2,Urban
+39,13-Nov-13,Wed,ON,Toronto,M4X 1K5,Urban
+40,2-Dec-13,Mon,ON,Ajax,L1T 4X9,Urban
+41,17-Jan-14,Fri,BC,Surrey,V3V 2L3,Urban
+42,22-Jan-14,Wed,QC,Ste-Adele,J8B 1A8,Urban
+43,3-Feb-14,Mon,QC,Montreal,H2L 4E9,Urban
+44,28-Feb-14,Fri,AB,Calgary,T2Z 2J8,Urban
+45,28-Feb-14,Fri,NB,Rothesay,E2E 1X1,Urban
+46,22-Mar-14,Sat,AB,Medicine Hat,T1B 0C5,Urban
+47,28-Mar-14,Fri,ON,Brampton,L6W 4T1,Urban
+48,12-Apr-14,Sat,ON,Aurora,L4G 7C7,Urban
+49,9-May-14,Fri,QC,Quebec City,G1E 3K2,Urban
+50,9-May-14,Fri,AB,St. Paul,T0A 3A2,Rural
+51,11-May-14,Sun,AB,Edmonton,T6H 4W2,Urban
+52,4-Jun-14,Wed,BC,Burnaby,V5E 3C4,Urban
+54,17-Sep-14,Wed,BC,Valemount,V0E 2Z0,Rural
+55,24-Sep-14,Wed,ON,Brampton,L6V 1X5,Urban
+56,14-Oct-14,Tue,BC,Slocan,V0G 2C0,Rural
+57,17-Oct-14,Fri,ON,Oakville,L6J 2X6,Urban
+58,20-Oct-14,Mon,QC,Saint-Jean-sur-Richelieu,J3B 5K9,Urban
+59,22-Oct-14,Wed,ON,Ottawa,K1A 0A9,Urban
+60,31-Oct-14,Fri,AB,Calgary,T2G 5J7,Urban
+61,1-Nov-14,Sat,BC,Victoria,V8V 1A6,Urban
+62,12-Nov-14,Wed,AB,Edmonton,T5G 1Z2,Urban
+63,22-Nov-14,Sat,BC,Vancouver,V5W 3R9,Urban
+64,28-Dec-14,Sun,BC,Surrey,V3T 2W6,Urban
+65,31-Dec-14,Wed,ON,Toronto,M1L 3Z9,Urban
+66,2-Jan-15,Fri,AB,Grand Prairie,T8V 4Z8,Urban
+67,12-Jan-15,Mon,NB,Bathurst,E2A 2W8,Urban
+68,29-Jan-15,Thu,BC,Castlegar,V1N 3W5,Urban
+69,11-Feb-15,Wed,BC,Chilliwack,V2P 5A3,Urban
+70,15-Feb-15,Sun,BC,Smithers,V0J 2N0,Rural
+71,18-Feb-15,Wed,ON,Toronto,M5V 2L4,Urban
+72,16-Mar-15,Mon,AB,Calgary,T1Y 1A2,Urban
+73,20-Mar-15,Fri,ON,Mississauga,L4Y 3A9,Urban
+74,29-Mar-15,Sun,BC,Burnaby,V3N 1Y5,Urban
+75,2-Apr-15,Thu,ON,Kitchener,N2M 2C5,Urban
+76,4-Apr-15,Sat,ON,Peterborough,K9J 3P5,Urban
+77,5-Apr-15,Sun,NL,Mitchells Brook,A0B 2M0,Rural
+78,9-Apr-15,Thu,BC,Vancouver,V6A 1P4,Urban
+79,20-May-15,Wed,ON,Guelph,N1E 4J4,Urban
+80,18-May-15,Mon,AB,Edmonton,T5W 4S9,Urban
+81,22-May-15,Fri,AB,Morinville,T0G 1Y0,Rural
+82,31-May-15,Sun,QC,Montreal,H2K 4J1,Urban
+83,5-Jul-15,Sun,ON,Toronto,M6E 4X5,Urban
+84,8-Jul-15,Wed,BC,Port Hardy,V0N 2P0,Rural
+85,16-Jul-15,Thu,BC,Dawson Creek,V1G 0A4,Urban
+86,18-Sep-15,Fri,BC,Burnaby,V5C 2P1,Urban
+87,18-Jul-15,Sat,BC,Surrey,V4A 9Y9,Urban
+88,25-Jul-15,Sat,ON,Toronto,M5V 1P8,Urban
+89,13-Aug-15,Thu,BC,Burnaby,V5J 3L4,Urban
+90,20-Sep-15,Sun,MB,Winnipeg,R2E 1C2,Urban
+92,6-Nov-15,Fri,MB,Winnipeg,R3N 1Z4,Urban
+93,6-Nov-15,Fri,ON,Toronto,M6H 4J2,Urban
+94,16-Nov-15,Mon,QC,Messines,J9E 3M4,Urban
+95,21-Nov-15,Sat,MB,Thompson,R8N 0A1,Urban
+96,2-Dec-15,Wed,QC,Saint-Jean-sur-Richelieu,J2Y 1J9,Urban
+97,7-Dec-15,Mon,AB,Edmonton,T5W 3X3,Urban
+98,25-Dec-15,Fri,AB,Red Deer,T4S 2A1,Urban
+99,27-Dec-15,Sun,QC,Saint-Constant,J5A 2N3,Urban
+100,16-Jan-16,Sat,ON,Port Perry,L9L 1S4,Urban
+101,21-Jan-16,Thu,QC,Saint-Joseph-du-Lac,J0N 1M0,Rural
+102,24-Jan-16,Sun,AB,Calgary,T2K 0S6,Urban
+103,2-Feb-16,Tue,ON,Toronto,M6R 2Z3,Urban
+104,2-Mar-16,Wed,BC,Surrey,V3V 2A1,Urban
+105,4-Mar-16,Fri,ON,Toronto,M2M 3Y7,Urban
+106,13-Mar-16,Sun,QC,Montreal,H1N 1B5,Urban
+107,14-Mar-16,Mon,ON,Toronto,M2K 1E3,Urban
+108,31-Mar-16,Thu,QC,Montreal,H1G 1R9,Urban
+109,6-Apr-16,Wed,QC,Lac-Simon,J0Y 3M0,Rural
+110,18-Mar-16,Fri,QC,Chicoutimi,G7J 3R9,Urban
+111,19-Mar-16,Sat,QC,Dolbeau-Mistassini,G8L 1H6,Urban
+112,21-Apr-16,Thu,BC,Granisle,V0J 1W0,Rural
+113,25-Apr-16,Mon,QC,Montreal,H1V 1L3,Urban
+115,14-Jun-16,Tue,BC,Nanaimo,V9T 1C9,Urban
+116,17-Jun-16,Fri,ON,Toronto,M9M 3A4,Urban
+117,9-Jul-16,Sat,QC,Jonquiere,G7X 2V7,Urban
+118,15-Jul-16,Fri,AB,Calgary,T2G 1B7,Urban
+120,24-Jul-16,Sun,ON,Ottawa,K1Y 4W1,Urban
+121,10-Aug-16,Wed,ON,Strathroy,N7G 3V9,Urban
+122,18-Aug-16,Thu,BC,Terrace,V8G 2X5,Urban
+123,26-Aug-16,Fri,QC,St-Cyrille-de-Wendover,J1Z 1T1,Urban
+124,19-Sep-16,Mon,QC,Rawdon,J0K 1S0,Rural
+125,30-Sep-16,Fri,ON,Hamilton,L8N 3W8,Urban
+126,2-Oct-16,Sun,QC,ele-Perrot,J7V 4Z4,Urban
+127,3-Oct-16,Mon,QC,Rouyn-Noranda,J9X 1Z3,Urban
+128,6-Oct-16,Thu,QC,Montebello,J0V 1L0,Rural
+129,11-Oct-16,Tue,AB,Calgary,T2X 1V9,Urban
+130,19-Oct-16,Wed,BC,Coquitlam,V3J 5Y7,Urban
+131,4-Nov-16,Fri,ON,Toronto,M6N 5E6,Urban
+132,10-Nov-16,Thu,BC,Vancouver,V5M 4H4,Urban
+133,22-Nov-16,Tue,AB,Calgary,T3B 0N3,Urban
+134,26-Nov-16,Sat,ON,Nipigon,P0T 2J0,Rural
+135,29-Nov-16,Tue,AB,Calgary,T3C 0N5,Urban
+136,19-Dec-16,Mon,NU,Gjoa Haven,X0B 1J0,Rural
+137,23-Dec-16,Fri,ON,London,N6C 1N2,Urban
+138,27-Dec-16,Tue,QC,Quebec City,G1P 3W8,Urban
+139,27-Jun-17,Tue,QC,Montreal,H2L 3S8,Urban
+140,6-Apr-16,Wed,BC,Chilliwack,V2P 4P9,Urban
+141,7-Sep-16,Wed,ON,London,N5W 1W6,Urban
+142,13-Sep-17,Wed,MB,Winnipeg,R2X 0E8,Urban
+143,6-Jan-17,Fri,QC,Montreal,H2Z 1J8,Urban
+144,6-Mar-17,Mon,QC,L'ele-Bizard,H9E 1B1,Urban
+152,24-Jan-17,Tue,QC,Gatineau,J8Z 1P9,Urban
+158,15-May-17,Mon,QC,Beauceville,G5X 2T4,Urban
+160,10-Jun-17,Sat,QC,Akulivik,J0M 1V0,Rural
+161,15-Jun-17,Thu,QC,Lachine,H8S 2K9,Urban
+162,29-Jun-17,Thu,QC,Grand-Remous,J0W 1E0,Rural
+163,9-Jul-17,Sun,QC,Pont-Rouge,G3H 3K7,Urban
+164,10-Aug-17,Thu,QC,Saint-Georges-de-Beauce,G5Y 2B6,Urban
+165,20-Aug-17,Sun,QC,La Sarre,J9Z 1M5,Urban
+166,18-Mar-08,Tue,SK,Prince Albert,S6V 3C3,Urban
+167,22-Dec-07,Sat,SK,Saskatoon,S7H 2L8,Urban
+168,27-Apr-01,Fri,SK,Saskatoon,S0K 4S0,Rural
+169,20-May-01,Sun,SK,Wakaw,S0K 4P0,Rural
+170,7-Jan-00,Fri,AB,Edmonton,T5R 1A1,Urban
+171,21-Sep-00,Thu,AB,Red Deer,T4N 2N4,Urban
+172,21-Dec-01,Fri,SK,Wolseley,S0G 5H0,Rural
+173,31-Oct-07,Wed,ON,Toronto,M4K 2N5,Urban
+174,26-Aug-00,Sat,NL,Little Catalina,A0C 1W0,Rural
+175,23-Dec-00,Sat,AB,Calgary,T2P 2Y9,Urban
+176,29-Apr-01,Sun,AB,Lethbridge,T1J 0B7,Urban
+177,16-Oct-00,Mon,NL,Cornerbrook,A2H 5R1,Urban
+178,3-Jun-17,Sat,ON,Ottawa,K1N 7E5,Urban
+179,11-May-01,Fri,AB,Edmonton,T5K 2J5,Urban
+180,5-May-05,Thu,NB,Riverview,E1C 4L6,Urban
+181,16-May-01,Wed,AB,Edmonton,T6J 0R4,Urban
+182,30-Apr-04,Fri,SK,Saskatoon,S7L 0N2,Urban
+184,22-Jun-11,Wed,ON,Lindsay,K9V 2E7,Urban
+185,27-Jul-02,Sat,AB,Edmonton,T6A 2Z6,Urban
+186,4-Sep-02,Wed,AB,Calgary,T2M 4L2,Urban
+187,15-Jul-05,Fri,NS,Digby,B0V 1A0,Rural
+188,11-Aug-05,Thu,NS,Forest Glen/Carleton,B0W 1L0,Rural
+189,14-Jun-08,Sat,SK,White Bear First Nation,S0C 2S0,Rural
+190,2-Sep-08,Tue,SK,Clearwater River Dene First Nation,S0M 3H0,Rural
+191,3-Sep-02,Tue,AB,Canmore,T1W 2H4,Urban
+192,5-Feb-03,Wed,AB,Edmonton,T5J 0Y8,Urban
+193,25-Oct-03,Sat,AB,Calgary,T2A 1E9,Urban
+194,28-Feb-04,Sat,AB,Spruce Grove,T7X 1Y2,Urban
+195,19-Mar-04,Fri,AB,Edmonton,T5C 0A4,Urban
+196,21-Jan-05,Fri,AB,Calgary,T2J 4E3,Urban
+197,7-Sep-06,Thu,ON,Newmarket,L3Y 8C5,Urban
+198,11-Mar-05,Fri,AB,Edmonton,T5Y 2G5,Urban
+199,2-Dec-08,Tue,NS,Wagmatcook First Nation,B0E 3N0,Rural
+201,24-Dec-05,Sat,AB,Edmonton,T6G 0H6,Urban
+202,26-Mar-06,Sun,AB,Rocky Mountain House,T4T 1W9,Urban
+203,6-Mar-05,Sun,ON,Oshawa,L1H 4Z9,Urban
+205,30-Jun-06,Fri,AB,Edmonton,T5C 0E7,Urban
+206,8-Jul-06,Sat,AB,Edmonton,T5J 0X2,Urban
+207,13-Nov-06,Mon,SK,Muskowekwan First Nation,S0A 2G0,Rural
+208,10-Aug-06,Thu,AB,Red Deer,T4N 5J3,Urban
+209,30-Aug-04,Mon,SK,La Ronge,S0J 1L0,Rural
+210,24-Apr-15,Fri,QC,Inukjuak,J0M 1M0,Rural
+211,12-Jul-08,Sat,AB,Vegreville,T9C 1A0,Urban
+212,6-Oct-16,Thu,SK,Saskatoon,S7L 2V7,Urban
+213,4-Sep-08,Thu,AB,Calgary,T2T 1C3,Urban
+214,29-Oct-08,Wed,AB,Edmonton,T5P 3Y6,Urban
+215,1-Nov-08,Sat,AB,Calgary,T2A 3C4,Urban
+216,5-Nov-01,Mon,MB,Winnipeg,R2W 4L7,Urban
+217,3-Jan-05,Mon,MB,Norway House,R0B 1B0,Rural
+218,18-Mar-09,Wed,AB,Calgary,T3E 4P2,Urban
+219,6-May-09,Wed,AB,Brooks,T1R 0L3,Urban
+220,28-Sep-03,Sun,YT,Lewes Lake,Y1A 5Y9,Urban
+221,30-Aug-08,Sat,YT,Whitehorse,Y1A 1J8,Urban
+222,31-Jan-05,Mon,MB,Winnipeg,R2W 3B2,Urban
+223,2-Dec-05,Fri,MB,Winnipeg,R2W 1X5,Urban
+224,10-May-09,Sun,AB,Edmonton,T5H 0V7,Urban
+225,24-May-09,Sun,AB,Calgary,T2W 1Y7,Urban
+226,16-Jan-10,Sat,AB,Edmonton,T5B 0W3,Urban
+227,18-Jul-10,Sun,AB,Okotoks,T1S 1G8,Urban
+228,20-Nov-10,Sat,AB,Driftpile First Nation,T0G 0X0,Rural
+229,10-Jan-11,Mon,AB,Canmore,T1W 1P3,Urban
+230,16-Jan-11,Sun,AB,Sherwood Park,T8C 1G9,Urban
+231,10-Apr-11,Sun,QC,St-Raymond de Portneuf,G3L 2M3,Urban
+232,30-Dec-05,Fri,MB,Winnipeg,R3J 0L3,Urban
+233,7-Jun-11,Tue,QC,Montreal,H2L 4Y2,Urban
+234,27-Mar-07,Tue,MB,Winnipeg,R3G 2A3,Urban
+235,27-Oct-17,Fri,ON,Cobourg,K9A 5W6,Urban
+236,5-Feb-11,Sat,AB,Edmonton,T5B 4L3,Urban
+237,16-Mar-11,Wed,AB,Fort McMurray,T9H 1T1,Urban
+238,17-Dec-07,Mon,MB,Winnipeg,R3C 1Z5,Urban
+239,31-Mar-11,Thu,AB,Edmonton,T5P 0K8,Urban
+240,6-Feb-11,Sun,QC,Kirkland,H9J 4A1,Urban
+241,22-Jul-08,Tue,MB,Winnipeg,R3E 0Z5,Urban
+242,22-Apr-09,Wed,ON,Ottawa,K1B 3V8,Urban
+243,10-Jun-11,Fri,AB,Calgary,T2B 3E4,Urban
+244,10-Jan-04,Sat,ON,Toronto,M6E 3R3,Urban
+245,11-Aug-11,Thu,AB,Calgary,T1Y 1R1,Urban
+246,26-Jan-11,Wed,QC,Montreal,H1Y 3C2,Urban
+247,20-Oct-11,Thu,AB,Calgary,T3G 4E9,Urban
+248,18-Oct-05,Tue,ON,Markham,L3R 2S1,Urban
+249,25-Jul-04,Sun,ON,Toronto,M5J 1E6,Urban
+250,10-May-10,Mon,ON,Markdale,N0C 1H0,Rural
+251,2-Aug-08,Sat,MB,Winnipeg,R3E 2C4,Urban
+252,3-Oct-11,Mon,QC,Quebec City,G1G 3J1,Urban
+253,7-Mar-10,Sun,MB,Winnipeg,R3E 0B9,Urban
+254,17-Jul-00,Mon,ON,London,N5Y 3J1,Urban
+255,27-Nov-10,Sat,QC,Danville,J0A 1A0,Rural
+256,9-May-10,Sun,MB,Winnipeg,R3C 1Z5,Urban
+257,14-Mar-11,Mon,MB,God's Lake Narrows,R0B 0M0,Rural
+258,30-Oct-00,Mon,ON,Amherstburg,N9V 3K4,Urban
+259,6-Oct-10,Wed,QC,Val-d'Or,J9P 5V6,Urban
+260,7-Jan-17,Sat,AB,Stoney Nakoda First Nation,T0L 1N0,Rural
+261,8-Mar-17,Wed,AB,Edmonton,T6R 3S9,Urban
+262,6-Sep-17,Wed,AB,Whitefish Lake First Nation,T0G 0C0,Rural
+263,9-Sep-17,Sat,AB,Edmonton,T5M 3J8,Urban
+264,19-Oct-17,Thu,AB,Gleichen,T0J 1N0,Rural
+265,19-Oct-17,Thu,AB,Alix,T0C 0B0,Rural
+266,11-Apr-00,Tue,BC,Williams Lake,V2G 1N1,Urban
+267,21-Aug-00,Mon,BC,Langford (Western Communities),V9B 4C6,Urban
+269,22-Oct-00,Sun,BC,Vancouver,V5R 2A2,Urban
+270,12-May-02,Sun,BC,Vancouver,V6B 2G5,Urban
+271,18-Jan-10,Mon,QC,Laval,H7X 0A4,Urban
+272,1-Aug-02,Thu,BC,Vancouver,V6E 2B4,Urban
+273,7-Dec-02,Sat,BC,Vancouver,V6A 1T9,Urban
+274,28-Feb-03,Fri,BC,Alert Bay,V0N 1A0,Rural
+275,20-Apr-03,Sun,BC,Burnaby,V5C 2J3,Urban
+276,3-Jul-09,Fri,ON,Brockville,K6V 5T4,Urban
+277,14-Jul-03,Mon,BC,Port Moody,V3H 2E6,Urban
+278,21-Jul-03,Mon,BC,Prince George,V2L 3S6,Urban
+279,1-Jan-10,Fri,QC,Trois-Rivieres,G8T 8A8,Urban
+280,2-Aug-03,Sat,BC,Vancouver,V6P 3W5,Urban
+281,29-Nov-03,Sat,BC,Sidney,V8L 2N1,Urban
+282,15-Nov-17,Wed,MB,Lake Manitoba First Nation,R0C 1T0,Rural
+283,23-Sep-17,Sat,MB,Winnipeg,R2P 1G2,Urban
+284,11-Sep-02,Wed,NU,Pond Inlet,X0A 0S0,Rural
+285,12-Feb-04,Thu,BC,Vancouver,V6B 2Z5,Urban
+286,24-Feb-04,Tue,BC,Langford,V9B 3H7,Urban
+287,2-Feb-01,Fri,ON,Hamilton,L8L 3B1,Urban
+288,20-Mar-12,Tue,NU,Igloolik,X0A 0L0,Rural
+289,20-Jun-06,Tue,ON,Toronto,M1G 1H7,Urban
+290,8-Nov-09,Sun,QC,Papineauville,J0V 1R0,Rural
+291,1-May-04,Sat,BC,Vancouver,V6M 1E8,Urban
+292,27-May-04,Thu,BC,Sicamous,V0E 2S0,Rural
+293,23-Jun-04,Wed,BC,Vancouver,V6Z 2R7,Urban
+294,11-Jul-04,Sun,BC,Victoria,V8R 4T4,Urban
+295,13-Jun-04,Sun,ON,Toronto,M3C 1R1,Urban
+296,26-Aug-09,Wed,QC,Sorel-Tracy,J3P 1X2,Urban
+297,27-Dec-09,Sun,ON,Toronto,M1L 2L6,Urban
+298,16-Feb-08,Sat,ON,Toronto,M5P 2H1,Urban
+299,29-Sep-04,Wed,BC,Vancouver,V5P 3W4,Urban
+300,19-Dec-04,Sun,BC,Vanderhoof,V0J 3A0,Rural
+301,26-Dec-04,Sun,BC,Vancouver,V6A 1P1,Urban
+302,18-Mar-17,Sat,NU,Pond Inlet,X0A 0S0,Rural
+303,1-May-17,Mon,NU,Hall Beach,X0A 0K0,Rural
+304,12-Nov-06,Sun,ON,Toronto,M9P 1A4,Urban
+305,6-Feb-05,Sun,BC,Vancouver,V6A 1R1,Urban
+306,27-Jun-05,Mon,BC,Kamloops,V2B 8N6,Urban
+307,31-Jan-09,Sat,QC,Lac-Simon,J0Y 3M0,Rural
+308,19-Apr-10,Mon,ON,Toronto,M5A 3L3,Urban
+309,28-Jun-08,Sat,QC,Gatineau,J9H 5L5,Urban
+310,30-Jun-05,Thu,BC,Surrey,V3W 0T8,Urban
+311,23-Aug-05,Tue,BC,Burnaby,V5E 1T4,Urban
+312,7-Mar-07,Wed,ON,Sarnia,N7T 4P8,Urban
+313,5-Apr-06,Wed,ON,Windsor,N9C 1E3,Urban
+314,8-Mar-08,Sat,ON,Toronto,M6R 1J1,Urban
+315,24-Jun-10,Thu,ON,Collingwood,L9Y 3L4,Urban
+316,29-Oct-05,Sat,BC,Houston,V0J 1Z0,Rural
+317,21-Jan-08,Mon,QC,Grondines,G0A 1W0,Rural
+318,19-May-06,Fri,BC,Okanagan Indian Reserve (near Vernon),V1T 7Z3,Urban
+319,7-Jun-06,Wed,BC,Kelowna,V4T 1G7,Urban
+320,13-Aug-06,Sun,BC,McLeese Lake,V0K 2G0,Rural
+321,9-Aug-08,Sat,QC,Montreal,H1G 1Y6,Urban
+322,12-Oct-06,Thu,BC,Burnaby,V5E 3R9,Urban
+323,3-Feb-07,Sat,BC,Victoria,V8T 2B2,Urban
+324,13-Aug-07,Mon,BC,Vancouver,V6H 3K1,Urban
+325,27-Aug-03,Wed,ON,Grassy Narrows Reserve,P0X 1B0,Rural
+326,1-Jul-05,Fri,ON,Beamsville,L0R 1B8,Rural
+327,7-Apr-07,Sat,ON,Renfrew,K7V 1Y9,Urban
+328,28-Aug-07,Tue,BC,Fort St. John,V1J 3Y5,Urban
+329,14-Oct-07,Sun,BC,Richmond,V7B 0A4,Urban
+330,19-Nov-07,Mon,BC,Chilliwack,V2P 1A3,Urban
+331,10-Dec-07,Mon,BC,Vancouver,V5W 1R8,Urban
+332,27-Dec-07,Thu,BC,Vernon,V1T 9C9,Urban
+333,29-Jul-01,Sun,ON,Bradford,L3Z 1X2,Urban
+334,17-Jun-08,Tue,BC,Surrey,V4P 1K8,Urban
+335,27-Jun-08,Fri,BC,Surrey,V3W 2N5,Urban
+336,31-Jul-08,Thu,BC,Surrey,V3T 3V9,Urban
+337,20-Nov-07,Tue,ON,Kitchener,N2E 4E2,Urban
+338,25-Aug-10,Wed,ON,Brantford,N3P 1X6,Urban
+339,20-Jan-09,Tue,ON,Brantford,N3S 7S9,Urban
+340,18-Mar-06,Sat,ON,Brantford,N3R 5M4,Urban
+341,3-Feb-09,Tue,ON,Midland,L4R 2M6,Urban
+342,4-Oct-00,Wed,ON,Stittsville,K2S 1S1,Urban
+344,27-Mar-07,Tue,ON,Toronto,M3J 3H5,Urban
+347,26-Sep-07,Wed,QC,Sagard,G0T 1X0,Rural
+348,13-Dec-17,Wed,ON,Vaughan,L6A 0A9,Urban
+349,27-Aug-07,Mon,QC,Lorraine,J6Z 3N2,Urban
+350,28-Aug-10,Sat,ON,Toronto,M1R 1P1,Urban
+351,14-Oct-07,Sun,QC,Montreal,H1Z 3T8,Urban
+352,11-May-07,Fri,ON,Sudbury/Minnow Lake,P3B 3E7,Urban
+353,18-Jun-17,Sun,BC,Port Coquitlam,V3C 1G9,Urban
+354,18-Jul-17,Tue,BC,Prince George,V2M 3C9,Urban
+355,12-Oct-17,Thu,BC,Qualicum Beach,V9K 2G8,Urban
+356,6-Mar-09,Fri,ON,Ottawa,K1K 2S2,Urban
+357,12-Mar-11,Sat,ON,Burlington,L7M 4N6,Urban
+358,23-Jul-01,Mon,ON,Maynard,K0E 1T0,Rural
+359,7-Oct-11,Fri,ON,Toronto,M2M 2H4,Urban
+360,17-Jul-04,Sat,ON,Mississauga,L5T 1A8,Urban
+361,12-Sep-06,Tue,ON,London,N6E 3B9,Urban
+362,29-Oct-05,Sat,ON,Thunder Bay,P7B 5B4,Urban
+363,11-Mar-02,Mon,ON,Morrisburg,K0C 1X0,Rural
+365,14-Jan-01,Sun,ON,Moosonee,P0L 1Y0,Rural
+366,5-May-10,Wed,ON,Toronto,L4K 4N5,Urban
+367,30-Sep-08,Tue,BC,Langley,V3A 7S2,Urban
+368,10-Feb-09,Tue,BC,100 Mile House,V0K 2E0,Rural
+369,1-Mar-09,Sun,BC,Duncan,V9L 6W4,Urban
+370,20-Mar-09,Fri,BC,Vancouver,V6B 1K8,Urban
+371,1-Jun-07,Fri,QC,Quebec City,G2C 1M3,Urban
+372,7-Apr-07,Sat,QC,Saint-Zotique,J0P 1Z0,Rural
+373,14-Jul-09,Tue,BC,Surrey,V3W 3A6,Urban
+375,9-Jul-07,Mon,QC,Montreal,H1G 2V4,Urban
+376,27-Apr-12,Fri,ON,Moorseburg,N0H 1K0,Rural
+377,18-Sep-09,Fri,BC,Vancouver,V6H 2T4,Urban
+378,26-Sep-09,Sat,BC,Kisega'as (aka Kisgegas),V0J 1Y0,Rural
+379,25-Jul-07,Wed,ON,Niagara Falls,L2G 3L5,Urban
+380,14-Jun-06,Wed,QC,St-Sulpice,J5W 4K4,Urban
+381,30-Sep-09,Wed,BC,Buick Creek,V0C 2R0,Rural
+382,22-Jun-09,Mon,ON,Elmvale,L0L 1P0,Rural
+383,23-Oct-09,Fri,BC,Nanaimo,V9R 2R9,Urban
+384,29-Sep-05,Thu,QC,Yamachiche,G0X 3L0,Rural
+385,9-Jan-10,Sat,BC,Deep Cove,V7G 1V7,Urban
+386,6-Mar-05,Sun,QC,Brossard,J4W 3K8,Urban
+387,24-Jun-09,Wed,ON,Osnaburgh Lake shore,P0V 2H0,Rural
+388,1-Aug-11,Mon,ON,Thornhill,L3T 5X1,Urban
+389,1-Dec-05,Thu,QC,Montreal,H3S 2A3,Urban
+390,30-Jul-10,Fri,BC,Kamloops,V2B 3G1,Urban
+391,6-Aug-10,Fri,BC,Langley,V3A 5C5,Urban
+392,2-Mar-11,Wed,BC,Surrey,V3X 2Z8,Urban
+393,29-Dec-10,Wed,ON,Sudbury,P3C 1X3,Urban
+394,23-Mar-11,Wed,BC,Surrey,V4A 3H1,Urban
+395,1-Jul-11,Fri,BC,Abbotsford,V2S 3S7,Urban
+396,4-Jul-05,Mon,QC,Montreal,H2J 2S7,Urban
+397,11-Feb-04,Wed,QC,Gatineau,J9A 1M8,Urban
+398,1-Aug-11,Mon,ON,Toronto,M6G 1L6,Urban
+399,2-Jul-04,Fri,QC,Laval,H7N 2H3,Urban
+400,13-Apr-06,Thu,ON,Markham,L3T 1M2,Urban
+401,22-Jul-11,Fri,BC,Vancouver,V6A 1G4,Urban
+402,24-Sep-11,Sat,BC,Nimpo Lake,V0L 1R0,Rural
+403,6-Feb-03,Thu,ON,Toronto,M4C 1M3,Urban
+404,5-Jul-09,Sun,ON,Barrie,L4M 3B9,Urban
+405,19-May-10,Wed,BC,Surrey,V3S 1E9,Urban
+406,29-Sep-10,Wed,ON,Etobicoke,M9A 1C4,Urban
+407,22-Jun-10,Tue,BC,Surrey,V4N 1H5,Urban
+408,24-Jun-04,Thu,QC,Montreal,H1E 1B3,Urban
+409,9-Jul-10,Fri,BC,Surrey,V4N 1B4,Urban
+411,21-Feb-04,Sat,QC,Montreal,H4C 3C8,Urban
+412,28-Jun-13,Fri,BC,Vancouver,V6A 4C4,Urban
+413,30-Jan-00,Sun,ON,Toronto,M4X 1C7,Urban
+414,21-Dec-08,Sun,ON,Mississauga,L5G 3B7,Urban
+415,30-Jul-11,Sat,ON,Toronto,M4M 2M2,Urban
+416,1-Jan-00,Sat,ON,Toronto,M5B 1W8,Urban
+417,29-Jul-17,Sat,ON,Mississauga,L5V 2A8,Urban
+418,27-May-05,Fri,ON,Toronto,M3L 1Y7,Urban
+419,16-Jan-06,Mon,ON,Caledon,L7C 2R5,Urban
+420,7-Feb-13,Thu,ON,Kirkfield,K0M 2T0,Rural
+421,5-Nov-05,Sat,ON,Elgin,K0G 1E0,Rural
+422,6-Apr-07,Fri,ON,Hamilton,L8H 5X4,Urban
+423,31-Dec-04,Fri,ON,Toronto,M4C 1J8,Urban
+424,24-Sep-03,Wed,QC,Quebec City,G1N 2J7,Urban
+425,28-Jun-03,Sat,QC,Montreal,H1G 4J9,Urban
+426,14-Oct-04,Thu,ON,Scarborough,M1R 4C1,Urban
+427,4-Sep-02,Wed,QC,Montreal,H2X 3K6,Urban
+428,5-Jun-02,Wed,QC,Evain,J0Z 1Y0,Rural
+430,29-Nov-08,Sat,ON,Oshawa,L1J 3V1,Urban
+431,30-Dec-17,Sat,ON,Mississauga,L4W 3N5,Urban
+432,23-Jun-02,Sun,ON,Toronto,M4H 1L1,Urban
+433,23-Jun-08,Mon,ON,Fisher's Glen,N0E 1W0,Rural
+434,1-Feb-02,Fri,ON,Toronto,M6H 1M5,Urban
+435,7-Apr-00,Fri,ON,Mississauga,L4T 1T8,Urban
+436,8-Mar-10,Mon,ON,Seaforth/Walton,N0K 1Z0,Rural
+437,1-Dec-07,Sat,ON,Oakville,L6J 4P4,Urban
+438,18-Jul-00,Tue,QC,St. Leonard,H1R 2A8,Urban
+439,16-Jul-00,Sun,QC,Montreal,H2K 4H8,Urban
+440,31-May-00,Wed,QC,Montreal,H2S 1S1,Urban
+444,17-Nov-13,Sun,ON,Oakville,L6H 5P9,Urban
+445,28-Dec-17,Thu,QC,Danford Lake,J0X 1P0,Rural
+446,8-Aug-04,Sun,ON,Kingston,K7M 1X3,Urban
+447,24-May-17,Wed,ON,Cobourg,K9A 2K5,Urban
+448,28-Dec-17,Thu,QC,Umiujaq,J0M 1Y0,Rural
+452,21-Oct-17,Sat,SK,North Battleford,S9A 1T4,Urban
+455,29-Aug-13,Thu,ON,Toronto,M5B 1S1,Urban
+456,25-Jul-12,Wed,ON,Newmarket,L3Y 2R9,Urban
+457,30-May-06,Tue,ON,Toronto,M2R 1Z5,Urban
+458,11-Jan-06,Wed,ON,Unionville,L3R 1N3,Urban
+459,8-Aug-10,Sun,ON,London,N5W 2L6,Urban
+460,18-Nov-07,Sun,ON,Toronto,M4J 2X5,Urban
+461,9-Aug-00,Wed,ON,Toronto,M6H 1C5,Urban
+462,13-May-04,Thu,ON,London,N5Z 1R7,Urban
+463,21-May-06,Sun,ON,Toronto,M1H 1L2,Urban
+464,17-Apr-06,Mon,ON,Brampton,L6W 3C3,Urban
+466,12-Apr-05,Tue,ON,Kitchener,N2C 1X1,Urban
+467,1-Jul-15,Wed,ON,Markdale,N0C 1H0,Rural
+468,21-Feb-05,Mon,ON,Toronto,M6B 3A1,Urban
+469,16-Feb-04,Mon,ON,Toronto,M4L 3P3,Urban
+470,23-Oct-10,Sat,ON,Toronto,M6K 1Z4,Urban
+473,9-Sep-10,Thu,ON,Cat Lake First Nation,P0V 1J0,Rural
+474,12-Jul-09,Sun,BC,Victoria,V8S 3N9,Urban
+475,14-Jan-05,Fri,ON,Toronto,M6N 3C5,Urban
+476,10-Jul-01,Tue,SK,Regina,S4T 0T6,Urban
+477,9-Oct-01,Tue,SK,Regina,S4P 1K2,Urban
+478,1-Sep-01,Sat,SK,Regina,S4R 7L4,Urban
+479,27-Sep-02,Fri,BC,Prince George,V2L 3X3,Urban
+480,2-Sep-07,Sun,BC,Vancouver,V6Z 1B3,Urban
+481,11-Jun-11,Sat,QC,Montreal,H1W 1H6,Urban
+482,23-Dec-17,Sat,ON,Morrisburg,K0C 1X0,Rural
+484,5-Jun-05,Sun,ON,Ottawa,K1V 9B4,Urban
+486,11-May-05,Wed,ON,Whitby,L1P 1K7,Urban
+487,15-Nov-03,Sat,ON,Brockville,K6V 5T4,Urban
+488,22-May-17,Mon,ON,Cambridge,N1S 1W8,Urban
+489,31-Mar-04,Wed,QC,Aupaluk,J0M 1X0,Rural
+491,11-May-15,Mon,AB,Trout Lake,T0G 2N0,Rural
+492,2-Jun-00,Fri,ON,London,N6C 2Y1,Urban
+493,23-Jun-01,Sat,ON,Ottawa,K1N 5P8,Urban
+494,7-May-02,Tue,ON,Toronto,M1H 2X1,Urban
+495,29-Nov-08,Sat,MB,The Pas,R9A 1K3,Urban
+496,20-Feb-03,Thu,ON,Hamilton,L8L 5Z6,Urban
+497,17-Aug-13,Sat,QC,Akulivik,J0M 1V0,Rural
+498,25-Jul-11,Mon,ON,Toronto,L5P 1B2,Urban
+499,8-Jun-08,Sun,ON,Lindsay,K9V 4R2,Urban
+500,27-Mar-11,Sun,QC,Terrebonne,J6W 1H3,Urban
+501,21-Oct-10,Thu,QC,Cloutier,J0Z 1S0,Rural
+502,25-Apr-07,Wed,QC,Matagami,J0Y 2A0,Rural
+503,19-Apr-05,Tue,ON,Toronto,M5B 1W8,Urban
+504,9-Jul-13,Tue,SK,Prince Albert,S6V 1P5,Urban

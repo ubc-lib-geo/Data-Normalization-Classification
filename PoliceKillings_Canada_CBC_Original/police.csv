@@ -1,0 +1,462 @@
+id_incident,Department,charge_type,Charges,Officers Involved
+1,Service de police de la Ville de Montreal,None,No,0001-P1
+2,RCMP,None,No,0002-P1
+3,Halton Regional Police Service,None,No,0003-P1
+4,Toronto Police Service,None,No,0004-P1
+5,Hamilton Police Service,None,No,0005-P1
+6,Service de police de la Ville de Montreal,None,No,0006-P1
+7,Toronto Police Service,None,No,0007-P1
+8,Service de securite publique de Saguenay,None,No,0008-P1
+9,RCMP,None,No,0009-P1
+10,Toronto Police Service,None,No,0010-P1
+11,OPP,None,No,0011-P1
+12,Surete du Quebec,None,No,0012-P1
+13,RCMP,None,No,0013-P1
+14,Lethbridge Police Services,None,No,0014-P1
+15,RCMP,None,No,0015-P1
+17,RCMP,None,No,0017-P1
+18,Vancouver Police Department,None,No,0018-P1
+19,Delta Police Department,2nd Murder,Yes,0019-P1
+20,Vancouver Police Department,None,No,0020-P1
+21,Edmonton Police Service,None,No,0021-P1
+22,RCMP,None,No,0022-P1
+23,Toronto Police Service,None,No,0023-P1
+24,Hamilton Police Service,None,No,0024-P1
+25,Toronto Police Service,None,No,0025-P1
+26,Saugeen Shores Police Service,None,No,0026-P1
+27,RCMP,None,No,0027-P1
+28,OPP,None,No,0028-P1
+29,Service de police de la Ville de Montreal,None,No,0029-P1
+30,Toronto Police Service,2nd Murder & Misconduct,Yes,0030-P1
+31,RCMP,None,No,0031-P1
+32,RCMP,None,No,0032-P1
+33,RCMP,None,No,0033-P1
+34,Service de police de la Ville de Montreal,None,No,0034-P1
+35,RCMP,None,No,0035-P1
+37,Edmonton Police Service,None,No,0037-P1
+38,Service de police de la Ville de Montreal,None,No,0038-P1
+39,Toronto Police Service,None,No,0039-P1
+40,Durham Regional Police Service,None,No,0040-P1
+41,RCMP,None,No,0041-P1
+42,Surete du Quebec,Manslaugher,Yes,0042-P1
+43,Service de police de la Ville de Montreal,None,No,0043-P1
+44,Calgary Police Service,None,No,0044-P1
+45,Kennebecasis Regional Police Force,None,No,0045-P1
+46,Medicine Hat Police Service; RCMP,None,No,0046-P1
+47,Peel Regional Police,None,No,0047-P1
+48,York Regional Police,None,No,0048-P1
+49,Service de police de la Ville de Quebec,None,No,0049-P1
+50,RCMP,None,No,0050-P1
+51,Edmonton Police Service,None,No,0051-P1
+52,RCMP,None,No,0052-P1
+54,RCMP,None,No,0054-P1
+55,Peel Regional Police,None,No,0055-P1
+56,RCMP,Under Invest.,TBD,0056-P1
+57,Halton Regional Police Service,None,No,0057-P1
+58,Regie intermunicipale de police de Saint-Jean-sur-Richelieu,None,No,0058-P1
+59,RCMP & Parlimentary Security,None,No,0059-P1
+60,Calgary Police Service,None,No,0060-P1
+61,Victoria Police Department,None,No,0061-P1
+62,Edmonton Police Service,None,No,0062-P1
+63,Vancouver Police Department,None,No,0063-P1
+64,South Coast British Columbia Transit Authority Police Service,None,No,0064-P1
+65,Toronto Police Service,None,No,0065-P1
+66,RCMP,None,No,0066-P1
+67,Bathurst Police Force,Manslaugher,Yes,0067-P1
+68,RCMP,Manslaugher,Yes,0068-P1
+69,RCMP,None,No,0069-P1
+70,RCMP,None,No,0070-P1
+71,Toronto Police Service,None,No,0071-P1
+72,Calgary Police Service,None,No,0072-P1
+73,Peel Regional Police,None,No,0073-P1
+74,RCMP,None,No,0074-P1
+75,Waterloo Regional Police Service,None,No,0075-P1
+76,Peterborough Police Service,None,No,0076-P1
+77,Royal Newfoundland Constabulary,None,No,0077-P1
+78,Vancouver Police Department,None,No,0078-P1
+79,Guelph Police Service,None,No,0079-P1
+80,Edmonton Police Service,None,No,0080-P1
+81,RCMP,None,No,0081-P1
+82,Service de police de la Ville de Montreal,None,No,0082-P1
+83,Toronto Police Service,None,No,0083-P1
+84,RCMP,None,No,0084-P1
+85,RCMP,None,No,0085-P1
+86,RCMP; Vancouver Police Department,None,No,0086-P1
+87,RCMP,Agg. Assault,Yes,0087-P1
+88,Toronto Police Service,None,No,0088-P1
+89,Vancouver Police Department,None & Under Invest.,TBD,0089-P1
+90,Winnipeg Police Service,None,No,0090-P1
+92,Winnipeg Police Service,None,No,0092-P1
+93,Toronto Police Service,None,No,0093-P1
+94,Surete du Quebec,None,No,0094-P1
+95,RCMP,Manslaugher,Yes,0095-P1
+96,Regie intermunicipale de police de Saint-Jean-sur-Richelieu,None,No,0096-P1
+97,Edmonton Police Service,None,No,0097-P1
+98,RCMP,None,No,0098-P1
+99,Regie intermunicipale de police Roussillon,None,No,0099-P1
+100,Durham Regional Police Service,None,No,0100-P1
+101,Regie intermunicipale de police du Lac-des-Deux-Montagnes,None,No,0101-P1
+102,Calgary Police Service,None,No,0102-P1
+103,Toronto Police Service,Other,Yes,0103-P1
+104,RCMP,Under Invest.,TBD,0104-P1
+105,Toronto Police Service,None,No,0105-P1
+106,Service de police de la Ville de Montreal,None,No,0106-P1
+107,Toronto Police Service,None,No,0107-P1
+108,Service de police de la Ville de Montreal,Manslaugher,Yes,0108-P1
+109,Anishnabe Takonewini Police Service,None,No,0109-P1
+110,Securite publique de Saguenay,None,No,0110-P1
+111,Surete du Quebec,None,No,0111-P1
+112,RCMP,Under Invest.,TBD,0112-P1
+113,Service de police de la Ville de Montreal,None,No,0113-P1
+115,RCMP,None,No,0115-P1
+116,Toronto Police Service,None,No,0116-P1
+117,Surete du Quebec,None,No,0117-P1
+118,Calgary Police Service,Under Invest.,TBD,0118-P1
+120,Ottawa Police Service,Manslaugher,Yes,0120-P1
+121,RCMP,None,No,0121-P1
+122,RCMP,Under Invest.,TBD,0122-P1
+123,Surete du Quebec,None,No,0123-P1
+124,Surete du Quebec,None,No,0124-P1
+125,Hamilton Police Service,None,No,0125-P1
+126,Surete du Quebec,None,No,0126-P1
+127,Surete du Quebec,None,No,0127-P1
+128,Surete du Quebec,Under Invest.,TBD,0128-P1
+129,Calgary Police Service,Under Invest.,TBD,0129-P1
+130,RCMP,None,No,0130-P1
+131,Toronto Police Service,Under Invest.,TBD,0131-P1
+132,Vancouver Police Department,None,No,0132-P1
+133,Calgary Police Service,Under Invest.,TBD,0133-P1
+134,OPP,Under Invest.,TBD,0134-P1
+135,Calgary Police Service,Under Invest.,TBD,0135-P1
+136,RCMP,Under Invest.,TBD,0136-P1
+137,London Police Service,Under Invest.,TBD,0137-P1
+138,Service de police de la Ville de Levis; Surete du Quebec; Service de police de la Ville de Quebec,None,No,0138-P1
+139,Service de police de la Ville de Montreal,Under Invest.,TBD,0139-P1
+140,RCMP,None,No,0140-P1
+141,OPP & London Police Service,Other,Yes,0141-P1
+142,Winnipeg Police Service,Under Invest.,TBD,0142-P1
+143,Service de police de la Ville de Montreal,Under Invest.,TBD,0143-P1
+144,Service de police de la Ville de Montreal,Under Invest.,TBD,0144-P1
+152,Service de police de la Ville de Gatineau,Under Invest.,TBD,0152-P1
+158,Surete du Quebec,Under Invest.,TBD,0158-P1
+160,Kativik Regional Police Force,Under Invest.,TBD,0160-P1
+161,Service de police de la Ville de Montreal,Under Invest.,TBD,0161-P1
+162,Surete du Quebec,Under Invest.,TBD,0162-P1
+163,Surete du Quebec,Under Invest.,TBD,0163-P1
+164,Surete du Quebec,Under Invest.,TBD,0164-P1
+165,Surete du Quebec,Under Invest.,TBD,0165-P1
+166,Prince Albert Police Service,None,No,0166-P1
+167,Saskatoon Police Service,None,No,0167-P1
+168,RCMP,None,No,0168-P1
+169,Saskatoon Police Service,None,No,0169-P1
+170,Edmonton Police Service,None,No,0170-P1
+171,RCMP,None,No,0171-P1
+172,RCMP,None,No,0172-P1
+173,Toronto Police Service,None,No,0173-P1
+174,RCMP,None,No,0174-P1
+175,Calgary Police Service,None,No,0175-P1
+176,Lethbridge Police Services,None,No,0176-P1
+177,Royal Newfoundland Constabulary,None,No,0177-P1
+178,Ottawa Police Service,Under Invest.,TBD,0178-P1
+179,Edmonton Police Service,None,No,0179-P1
+180,RCMP,None,No,0180-P1
+181,Edmonton Police Service,None,No,0181-P1
+182,Saskatoon Police Service,None,No,0182-P1
+184,Peterborough Lakefield Community Police Force,None,No,0184-P1
+185,Edmonton Police Service,None,No,0185-P1
+186,Calgary Police Service,None,No,0186-P1
+187,RCMP,None,No,0187-P1
+188,RCMP,None,No,0188-P1
+189,RCMP,None,No,0189-P1
+190,RCMP,None,No,0190-P1
+191,RCMP,None,No,0191-P1
+192,Edmonton Police Service,None,No,0192-P1
+193,Calgary Police Service,None,No,0193-P1
+194,RCMP,None,No,0194-P1
+195,Edmonton Police Service,None,No,0195-P1
+196,Calgary Police Service,None,No,0196-P1
+197,York Regional Police,None,No,0197-P1
+198,Edmonton Police Service,None,No,0198-P1
+199,RCMP,None,No,0199-P1
+201,Edmonton Police Service,None,No,0201-P1
+202,RCMP,None,No,0202-P1
+203,Durham Regional Police Service,None,No,0203-P1
+205,Edmonton Police Service,None,No,0205-P1
+206,Edmonton Police Service,None,No,0206-P1
+207,RCMP,None,No,0207-P1
+208,RCMP,None,No,0208-P1
+209,RCMP,None,No,0209-P1
+210,Kativik Regional Police Force,None,No,0210-P1
+211,RCMP,None,No,0211-P1
+212,Saskatoon Police Service,None,No,0212-P1
+213,Calgary Police Service,None,No,0213-P1
+214,Edmonton Police Service,None,No,0214-P1
+215,Calgary Police Service,None,No,0215-P1
+216,Winnipeg Police Service,None,No,0216-P1
+217,RCMP,None,No,0217-P1
+218,Calgary Police Service,None,No,0218-P1
+219,RCMP,None,No,0219-P1
+220,RCMP,None,No,0220-P1
+221,RCMP,None,No,0221-P1
+222,Winnipeg Police Service,None,No,0222-P1
+223,Winnipeg Police Service,None,No,0223-P1
+224,Edmonton Police Service,None,No,0224-P1
+225,Calgary Police Service,None,No,0225-P1
+226,Edmonton Police Service,None,No,0226-P1
+227,RCMP,None,No,0227-P1
+228,Lake Shore Regional Police Service; RCMP,None,No,0228-P1
+229,RCMP,None,No,0229-P1
+230,RCMP,None,No,0230-P1
+231,Surete du Quebec,None,No,0231-P1
+232,Winnipeg Police Service,None,No,0232-P1
+233,Service de police de la Ville de Montreal,None,No,0233-P1
+234,Winnipeg Police Service,None,No,0234-P1
+235,Cobourg Police Service,Under Invest.,TBD,0235-P1
+236,Edmonton Police Service,None,No,0236-P1
+237,RCMP,None,No,0237-P1
+238,Winnipeg Police Service,Under Invest.,TBD,0238-P1
+239,Edmonton Police Service,None,No,0239-P1
+240,Service de police de la Ville de Montreal,None,No,0240-P1
+241,Winnipeg Police Service,None,No,0241-P1
+242,Ottawa Police Service,None,No,0242-P1
+243,Calgary Police Service,None,No,0243-P1
+244,Toronto Police Service,None,No,0244-P1
+245,Calgary Police Service,None,No,0245-P1
+246,Service de police de la Ville de Montreal,None,No,0246-P1
+247,Calgary Police Service,None,No,0247-P1
+248,York Regional Police,None,No,0248-P1
+249,Toronto Police Service,None,No,0249-P1
+250,OPP,None,No,0250-P1
+251,Winnipeg Police Service,None,No,0251-P1
+252,Service de police de la Ville de Quebec,None,No,0252-P1
+253,Winnipeg Police Service,None,No,0253-P1
+254,London Police Service,None,No,0254-P1
+255,Surete du Quebec,None,No,0255-P1
+256,Winnipeg Police Service,None,No,0256-P1
+257,RCMP,None,No,0257-P1
+258,Amherstburg Police Service,None,No,0258-P1
+259,RCMP; Surete du Quebec,None,No,0259-P1
+260,RCMP,Under Invest.,TBD,0260-P1
+261,Edmonton Police Service,Under Invest.,TBD,0261-P1
+262,RCMP,Under Invest.,TBD,0262-P1
+263,Edmonton Police Service,Under Invest.,TBD,0263-P1
+264,RCMP,Under Invest.,TBD,0264-P1
+265,RCMP,Under Invest.,TBD,0265-P1
+266,RCMP,None,No,0266-P1
+267,RCMP,None,No,0267-P1
+269,Vancouver Police Department,None,No,0269-P1
+270,Vancouver Police Department,None,No,0270-P1
+271,Service de police de Laval,None,No,0271-P1
+272,Vancouver Police Department,None,No,0272-P1
+273,Vancouver Police Department,None,No,0273-P1
+274,RCMP,None,No,0274-P1
+275,RCMP,None,No,0275-P1
+276,OPP,None,No,0276-P1
+277,Port Moody Police Department,None,No,0277-P1
+278,RCMP,None,No,0278-P1
+279,Service de la securite publique de Trois Rivi√®res,None,No,0279-P1
+280,Vancouver Police Department,None,No,0280-P1
+281,RCMP,None,No,0281-P1
+282,RCMP,None,No,0282-P1
+283,Winnipeg Police Service,None,No,0283-P1
+284,RCMP,None,No,0284-P1
+285,Vancouver Police Department,None,No,0285-P1
+286,RCMP,None,No,0286-P1
+287,Hamilton Police Service,None,No,0287-P1
+288,RCMP,None,No,0288-P1
+289,Toronto Police Service,None,No,0289-P1
+290,Surete du Quebec,None,No,0290-P1
+291,Vancouver Police Department,None,No,0291-P1
+292,RCMP,None,No,0292-P1
+293,Vancouver Police Department; RCMP,None,No,0293-P1
+294,Saanich Police Department,None,No,0294-P1
+295,Toronto Police Service,None,No,0295-P1
+296,Surete du Quebec,None,No,0296-P1
+297,Toronto Police Service,None,No,0297-P1
+298,Toronto Police Service,None,No,0298-P1
+299,Vancouver Police Department,None,No,0299-P1
+300,RCMP,None,No,0300-P1
+301,Vancouver Police Department,None,No,0301-P1
+302,RCMP,None,No,0302-P1
+303,RCMP,None,No,0303-P1
+304,Toronto Police Service,None,No,0304-P1
+305,Vancouver Police Department,None,No,0305-P1
+306,RCMP,None,No,0306-P1
+307,Anishnabe Takonewini Police Service,None,No,0307-P1
+308,Toronto Police Service,None,No,0308-P1
+309,Service de police de la Ville de Gatineau,None,No,0309-P1
+310,RCMP,None,No,0310-P1
+311,New Westminster Police Service,None,No,0311-P1
+312,Sarnia Police Services,None,No,0312-P1
+313,Windsor Police Service,None,No,0313-P1
+314,Toronto Police Service,None,No,0314-P1
+315,OPP,None,No,0315-P1
+316,RCMP,None,No,0316-P1
+317,Surete du Quebec,None,No,0317-P1
+318,RCMP,None,No,0318-P1
+319,RCMP,None,No,0319-P1
+320,RCMP,None,No,0320-P1
+321,Service de police de la Ville de Montreal,None,No,0321-P1
+322,RCMP; New Westminster Police Service,None,No,0322-P1
+323,Victoria Police Department,None,No,0323-P1
+324,Vancouver Police Department,None,No,0324-P1
+325,OPP,None,No,0325-P1
+326,Niagara Regional Police Services,None,No,0326-P1
+327,OPP,None,No,0327-P1
+328,RCMP,None,No,0328-P1
+329,RCMP,Other,Yes,0329-P1
+330,RCMP,None,No,0330-P1
+331,Vancouver Police Department,None,No,0331-P1
+332,RCMP,None,No,0332-P2
+333,South Simcoe Police,None,No,0333-P1
+334,RCMP,None,No,0334-P1
+335,RCMP,None,No,0335-P1
+336,RCMP,None,No,0336-P2
+337,Waterloo Regional Police Service,None,No,0337-P1
+338,Brantford Police Service,None,No,0338-P1
+339,Brantford Police Service,None,No,0339-P1
+340,Brantford Police Service,None,No,0340-P1
+341,Midland Police Service,None,No,0341-P1
+342,Ottawa Police Service,None,No,0342-P1
+343,Service de police de la Ville de Quebec,None,No,0343-P1
+344,Toronto Police Service,None,No,0344-P1
+347,Surete du Quebec,None,No,0347-P1
+348,York Regional Police,None,No,0348-P1
+349,Surete du Quebec; Service de po‚Äãlice de Laval; Service de police de Terrebonne,None,No,0349-P1
+350,Toronto Police Service,None,No,0350-P1
+351,Service de police de la Ville de Montreal,None,No,0351-P1
+352,Greater Sudbury Police Service,None,No,0352-P1
+353,RCMP,Under Invest.,TBD,0353-P1
+354,RCMP,Under Invest.,TBD,0354-P1
+355,RCMP,None,No,0355-P1
+356,Ottawa Police Service,None,No,0356-P1
+357,Halton Regional Police Service,None,No,0357-P1
+358,OPP,None,No,0358-P1
+359,Toronto Police Service,None,No,0359-P1
+360,Peel Regional Police,None,No,0360-P1
+361,London Police Service,None,No,0361-P1
+362,Thunder Bay Police Service,None,No,0362-P1
+363,OPP,None,No,0363-P1
+365,OPP,None,No,0365-P1
+366,Toronto Police Service,None,No,0366-P1
+367,RCMP,None,No,0367-P1
+368,RCMP,None,No,0368-P1
+369,RCMP,None,No,0369-P1
+370,Vancouver Police Department,None,No,0370-P1
+371,Service de police de la Ville de Quebec,None,No,0371-P1
+372,Surete du Quebec,None,No,0372-P1
+373,RCMP,None,No,0373-P1
+375,Service de police de la Ville de Montreal,None,No,0375-P1
+376,OPP,None,No,0376-P1
+377,Vancouver Police Department,None,No,0377-P1
+378,RCMP,None,No,0378-P1
+379,Niagara Regional Police Services,None,No,0379-P1
+380,Surete du Quebec,None,No,0380-P1
+381,RCMP,Under Invest.,TBD,0381-P1
+382,OPP,None,No,0382-P1
+383,RCMP,None,No,0383-P1
+384,Surete du Quebec,None,No,0384-P1
+385,RCMP,None,No,0385-P1
+386,Service de police de l'agglomeration de Longueuil,None,No,0386-P1
+387,OPP,None,No,0387-P1
+388,York Regional Police,None,No,0388-P1
+389,Service de police de la Ville de Montreal,None,No,0389-P1
+390,RCMP,None,No,0390-P1
+391,RCMP,None,No,0391-P1
+392,RCMP,None,No,0392-P1
+393,Greater Sudbury Police Service,None,No,0393-P1
+394,RCMP,None,No,0394-P1
+395,Abbotsford Police Department,None,No,0395-P1
+396,Service de police de la Ville de Montreal,None,No,0396-P1
+397,Service de police de la Ville de Gatineau,None,No,0397-P1
+398,Toronto Police Service,None,No,0398-P1
+399,Service de police de la Ville de Montreal,None,No,0399-P1
+400,York Regional Police,None,No,0400-P1
+401,Vancouver Police Department,None,No,0401-P1
+402,RCMP,None,No,0402-P1
+403,Toronto Police Service,None,No,0403-P1
+404,Barrie Police Services,None,No,0404-P1
+405,RCMP,None,No,0405-P1
+406,Toronto Police Service,2nd Murder,Yes,0406-P1
+407,RCMP,None,No,0407-P1
+408,Service de police de la Ville de Montreal,None,No,0408-P1
+409,RCMP,None,No,0409-P1
+411,Service de police de la Ville de Montreal,None,No,0411-P1
+412,Vancouver Police Department,None,No,0412-P1
+413,Toronto Police Service,None,No,0413-P1
+414,Peel Regional Police,None,No,0414-P1
+415,Toronto Police Service,None,No,0415-P1
+416,Toronto Police Service,None,No,0416-P1
+417,Peel Regional Police,None,No,0417-P1
+418,Toronto Police Service,None,No,0418-P1
+419,Peel Regional Police,None,No,0419-P1
+420,OPP,None,No,0420-P1
+421,OPP,None,No,0421-P1
+422,Hamilton Police Service,None,No,0422-P1
+423,Toronto Police Service,None,No,0423-P1
+424,Service de police de la Ville de Quebec,None,No,0424-P1
+425,Service de police de la Ville de Montreal,None,No,0425-P1
+426,Toronto Police Service,None,No,0426-P1
+427,Service de police de la Ville de Montreal,None,No,0427-P1
+428,Surete du Quebec,None,No,0428-P1
+430,Durham Regional Police Service,None,No,0430-P1
+431,Peel Regional Police,None,No,0431-P1
+432,Toronto Police Service,None,No,0432-P1
+433,OPP,None,No,0433-P1
+434,Toronto Police Service,None,No,0434-P1
+435,Peel Regional Police,None,No,0435-P1
+436,OPP,Died & None,No,0436-P1
+437,Halton Regional Police Service,None,No,0437-P1
+438,Service de police de la Ville de Montreal,None,No,0438-P1
+439,Service de police de la Ville de Montreal,None,No,0439-P1
+440,Service de police de la Ville de Montreal,None,No,0440-P1
+444,Halton Regional Police Service,None,No,0444-P1
+445,Surete du Quebec,Under Invest.,TBD,0445-P1
+446,Kingston Police,None,No,0446-P1
+447,Cobourg Police Service,None,No,0447-P1
+448,Kativik Regional Police Force,Under Invest.,TBD,0448-P1
+452,RCMP,None,No,0452-P1
+455,Toronto Police Service,None,No,0455-P1
+456,York Regional Police,None,No,0456-P1
+457,Toronto Police Service,None,No,0457-P1
+458,York Regional Police,None,No,0458-P1
+459,London Police Service,None,No,0459-P1
+460,Toronto Police Service,None,No,0460-P1
+461,Toronto Police Service,Manslaugher,Yes,0461-P1
+462,London Police Service,None,No,0462-P1
+463,Toronto Police Service,None,No,0463-P1
+464,Peel Regional Police,None,No,0464-P1
+466,Waterloo Regional Police Service,None,No,0466-P1
+467,OPP,None,No,0467-P1
+468,Toronto Police Service,None,No,0468-P1
+469,Toronto Police Service,None,No,0469-P1
+470,Toronto Police Service,None,No,0470-P1
+473,Nishnawbe-Aski Police Service,None,No,0473-P1
+474,Victoria Police Department,None,No,0474-P1
+475,Toronto Police Service,None,No,0475-P1
+476,Regina Police Service,None,No,0476-P1
+477,Regina Police Service,None,No,0477-P1
+478,Regina Police Service,None,No,0478-P1
+479,RCMP,None,No,0479-P1
+480,Vancouver Police Department,None,No,0480-P1
+481,Service de police de la Ville de Montreal,None,No,0481-P1
+482,OPP,None,No,0482-P1
+484,Ottawa Police Service,None,No,0484-P1
+486,Durham Regional Police Service,None,No,0486-P1
+487,OPP,None,No,0487-P1
+488,Waterloo Regional Police Service,Under Invest.,TBD,0488-P1
+489,Kativik Regional Police Force,None,No,0489-P1
+491,RCMP,None,No,0491-P1
+492,London Police Service,None,No,0492-P1
+493,Ottawa Police Service,None,No,0493-P1
+494,Scarborough Police Service,None,No,0494-P1
+495,RCMP,None,No,0495-P1
+496,Hamilton Police Service,None,No,0496-P1
+497,Kativik Regional Police Force,None,No,0497-P1
+498,Peel Regional Police,None,No,0498-P1
+499,Kawartha Lakes Police Service,None,No,0499-P1
+500,Service de police de Terrebonne,None,No,0500-P1
+501,Surete du Quebec,None,No,0501-P1
+502,Surete du Quebec,None,No,0502-P1
+503,Toronto Police Service,None,No,0503-P1
+504,Prince Albert Police Service,None,No,0504-P1
