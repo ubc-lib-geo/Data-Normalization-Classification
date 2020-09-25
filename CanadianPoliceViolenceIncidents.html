@@ -1,0 +1,1735 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7badca519468410d9d9b6e2c8162d0cb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7badca519468410d9d9b6e2c8162d0cb" ></div>
+        
+</body>
+<script>    
+    
+            var map_7badca519468410d9d9b6e2c8162d0cb = L.map(
+                "map_7badca519468410d9d9b6e2c8162d0cb",
+                {
+                    center: [60.0, -95.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_feb2c22ecb014a258fbc7882fc5c56c8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+            var circle_marker_bf668a1076ac4c609928226b4dbf7315 = L.circleMarker(
+                [49.053554, -122.329648],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_d0ea51f92b2f4517a0e414dabf3dc0ba = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_e3623a86f934406ea0c13066a21e1c7b = $(`<div id="html_e3623a86f934406ea0c13066a21e1c7b" style="width: 100.0%; height: 100.0%;"><body> <h2>Abbotsford Police Department, British Columbia</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Other &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_d0ea51f92b2f4517a0e414dabf3dc0ba.setContent(html_e3623a86f934406ea0c13066a21e1c7b);
+        
+
+        circle_marker_bf668a1076ac4c609928226b4dbf7315.bindPopup(popup_d0ea51f92b2f4517a0e414dabf3dc0ba)
+        ;
+
+        
+    
+    
+            var circle_marker_6472990fa6274a4a83e58dfa537ea75a = L.circleMarker(
+                [49.4515636581, -84.2539813003493],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_a5a33355fc004c63864e6b7416382c51 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_a208d8ec3ae446afad2b252a2fa0f038 = $(`<div id="html_a208d8ec3ae446afad2b252a2fa0f038" style="width: 100.0%; height: 100.0%;"><body> <h2>Nishnawbe-Aski Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_a5a33355fc004c63864e6b7416382c51.setContent(html_a208d8ec3ae446afad2b252a2fa0f038);
+        
+
+        circle_marker_6472990fa6274a4a83e58dfa537ea75a.bindPopup(popup_a5a33355fc004c63864e6b7416382c51)
+        ;
+
+        
+    
+    
+            var circle_marker_be6ba0cd410e498882aac7ace616d778 = L.circleMarker(
+                [46.32, -79.4579],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_64e7ee5ddbb7488e8ddaa97ec809b82b = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_b88565fc0b9743a498ce7e072c304d55 = $(`<div id="html_b88565fc0b9743a498ce7e072c304d55" style="width: 100.0%; height: 100.0%;"><body> <h2>North Bay Police, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_64e7ee5ddbb7488e8ddaa97ec809b82b.setContent(html_b88565fc0b9743a498ce7e072c304d55);
+        
+
+        circle_marker_be6ba0cd410e498882aac7ace616d778.bindPopup(popup_64e7ee5ddbb7488e8ddaa97ec809b82b)
+        ;
+
+        
+    
+    
+            var circle_marker_a06798d4e4d24f4580f63f04d8c63e0d = L.circleMarker(
+                [48.4761, -81.3283],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_abade052a1144a319086a3446c7bbabb = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_475f86c733ae4b2aa85f4870cca02a99 = $(`<div id="html_475f86c733ae4b2aa85f4870cca02a99" style="width: 100.0%; height: 100.0%;"><body> <h2>Timmins Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_abade052a1144a319086a3446c7bbabb.setContent(html_475f86c733ae4b2aa85f4870cca02a99);
+        
+
+        circle_marker_a06798d4e4d24f4580f63f04d8c63e0d.bindPopup(popup_abade052a1144a319086a3446c7bbabb)
+        ;
+
+        
+    
+    
+            var circle_marker_586b3c3563fd4eb98635440c040f4d65 = L.circleMarker(
+                [50.0668, -91.9836],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_ccad451cf990453e906b701667fcb059 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_a7fdf9d056aa43eb8dbd0e197521f969 = $(`<div id="html_a7fdf9d056aa43eb8dbd0e197521f969" style="width: 100.0%; height: 100.0%;"><body> <h2>OPP Sioux Lookout, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_ccad451cf990453e906b701667fcb059.setContent(html_a7fdf9d056aa43eb8dbd0e197521f969);
+        
+
+        circle_marker_586b3c3563fd4eb98635440c040f4d65.bindPopup(popup_ccad451cf990453e906b701667fcb059)
+        ;
+
+        
+    
+    
+            var circle_marker_e46811ac34ac45c895d235e3c3958030 = L.circleMarker(
+                [48.413199, -89.258801],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_2cb76907bb654e1d81e77b2efb60655b = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_45dc7b9962e445ccb578cbcccf0de8e1 = $(`<div id="html_45dc7b9962e445ccb578cbcccf0de8e1" style="width: 100.0%; height: 100.0%;"><body> <h2>Thunder Bay Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_2cb76907bb654e1d81e77b2efb60655b.setContent(html_45dc7b9962e445ccb578cbcccf0de8e1);
+        
+
+        circle_marker_e46811ac34ac45c895d235e3c3958030.bindPopup(popup_2cb76907bb654e1d81e77b2efb60655b)
+        ;
+
+        
+    
+    
+            var circle_marker_043c7c06c2414d939f0f819ecbb461ab = L.circleMarker(
+                [45.426386, -73.628461],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_44cebb3e7a0a4a8aaf003c9c9d760966 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_5b659d226ebe4bcaa98ab5dfd1518575 = $(`<div id="html_5b659d226ebe4bcaa98ab5dfd1518575" style="width: 100.0%; height: 100.0%;"><body> <h2>Sécurité publique de Saguenay, Quebec</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_44cebb3e7a0a4a8aaf003c9c9d760966.setContent(html_5b659d226ebe4bcaa98ab5dfd1518575);
+        
+
+        circle_marker_043c7c06c2414d939f0f819ecbb461ab.bindPopup(popup_44cebb3e7a0a4a8aaf003c9c9d760966)
+        ;
+
+        
+    
+    
+            var circle_marker_449a7ff213e04ea7b9df9b7641480f75 = L.circleMarker(
+                [44.30958, -78.318851],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_e96760fbb2a84d0abcbf1b805b86461a = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_dea6ded238e241c399732b0cd39bdbe5 = $(`<div id="html_dea6ded238e241c399732b0cd39bdbe5" style="width: 100.0%; height: 100.0%;"><body> <h2>Peterborough Lakefield Community Police Force, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Black &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_e96760fbb2a84d0abcbf1b805b86461a.setContent(html_dea6ded238e241c399732b0cd39bdbe5);
+        
+
+        circle_marker_449a7ff213e04ea7b9df9b7641480f75.bindPopup(popup_e96760fbb2a84d0abcbf1b805b86461a)
+        ;
+
+        
+    
+    
+            var circle_marker_fcfc9acf9da0471d94bf192fe94d4fa2 = L.circleMarker(
+                [49.27622, -122.842144],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_4f737f843a714dfdba5a098dba976d92 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_e2523ab44f97467da592a8ff6a7df4b8 = $(`<div id="html_e2523ab44f97467da592a8ff6a7df4b8" style="width: 100.0%; height: 100.0%;"><body> <h2>Port Moody Police Department, British Columbia</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_4f737f843a714dfdba5a098dba976d92.setContent(html_e2523ab44f97467da592a8ff6a7df4b8);
+        
+
+        circle_marker_fcfc9acf9da0471d94bf192fe94d4fa2.bindPopup(popup_4f737f843a714dfdba5a098dba976d92)
+        ;
+
+        
+    
+    
+            var circle_marker_ad4f775abb744663913a31a91c0e5fec = L.circleMarker(
+                [46.3939, -63.7887],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_dec447b93b954a948b1ff5a5b2b016cc = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_4bee65764e19403d9665368bba2a0248 = $(`<div id="html_4bee65764e19403d9665368bba2a0248" style="width: 100.0%; height: 100.0%;"><body> <h2>Summerside Police Services, Prince Edward Island</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_dec447b93b954a948b1ff5a5b2b016cc.setContent(html_4bee65764e19403d9665368bba2a0248);
+        
+
+        circle_marker_ad4f775abb744663913a31a91c0e5fec.bindPopup(popup_dec447b93b954a948b1ff5a5b2b016cc)
+        ;
+
+        
+    
+    
+            var circle_marker_3d15b55e3d1c45bbb7b610213b1d65f0 = L.circleMarker(
+                [44.18929, -79.700439],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_f9669e853dfa4ee89eb426c981457140 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_c837470695634befb12a1cca7f4b198b = $(`<div id="html_c837470695634befb12a1cca7f4b198b" style="width: 100.0%; height: 100.0%;"><body> <h2>South Simcoe Police, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_f9669e853dfa4ee89eb426c981457140.setContent(html_c837470695634befb12a1cca7f4b198b);
+        
+
+        circle_marker_3d15b55e3d1c45bbb7b610213b1d65f0.bindPopup(popup_f9669e853dfa4ee89eb426c981457140)
+        ;
+
+        
+    
+    
+            var circle_marker_202fe71c578144b3a60baedb9c59282f = L.circleMarker(
+                [52.7458531839, -60.0393930155171],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_15e16df49ea14f87849a93eff61a4d9c = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_4d6637c271434e27ae57cd24fbba526c = $(`<div id="html_4d6637c271434e27ae57cd24fbba526c" style="width: 100.0%; height: 100.0%;"><body> <h2>RCMP, Newfoundland and Labrador</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_15e16df49ea14f87849a93eff61a4d9c.setContent(html_4d6637c271434e27ae57cd24fbba526c);
+        
+
+        circle_marker_202fe71c578144b3a60baedb9c59282f.bindPopup(popup_15e16df49ea14f87849a93eff61a4d9c)
+        ;
+
+        
+    
+    
+            var circle_marker_d337d1d3e1c248f69fb3af09e06559ef = L.circleMarker(
+                [63.6963550874, -118.540250478607],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_d89ead1664a547d7866c3e11c0b47e76 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_616a37e8c8204414a6ad803a572651f9 = $(`<div id="html_616a37e8c8204414a6ad803a572651f9" style="width: 100.0%; height: 100.0%;"><body> <h2>RCMP, Northwest Territories</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_d89ead1664a547d7866c3e11c0b47e76.setContent(html_616a37e8c8204414a6ad803a572651f9);
+        
+
+        circle_marker_d337d1d3e1c248f69fb3af09e06559ef.bindPopup(popup_d89ead1664a547d7866c3e11c0b47e76)
+        ;
+
+        
+    
+    
+            var circle_marker_4d241c99b3dd44778ad96eb856f43ae5 = L.circleMarker(
+                [45.419880500000005, -75.6601015],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_e250eb9dde5f4485a57fb48809a6489c = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_4d262167a175436796abafd80f5cedff = $(`<div id="html_4d262167a175436796abafd80f5cedff" style="width: 100.0%; height: 100.0%;"><body> <h2>RCMP, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_e250eb9dde5f4485a57fb48809a6489c.setContent(html_4d262167a175436796abafd80f5cedff);
+        
+
+        circle_marker_4d241c99b3dd44778ad96eb856f43ae5.bindPopup(popup_e250eb9dde5f4485a57fb48809a6489c)
+        ;
+
+        
+    
+    
+            var circle_marker_a05773ff9f82405c9ff9bf782f2c9515 = L.circleMarker(
+                [49.21, -122.9],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_b52a7bbd0c6b41169ab92535e9ab98ac = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_721f1b6031ff4f76b6626dbb7491c103 = $(`<div id="html_721f1b6031ff4f76b6626dbb7491c103" style="width: 100.0%; height: 100.0%;"><body> <h2>South Coast British Columbia Transit Authority Police Service, British Columbia</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_b52a7bbd0c6b41169ab92535e9ab98ac.setContent(html_721f1b6031ff4f76b6626dbb7491c103);
+        
+
+        circle_marker_a05773ff9f82405c9ff9bf782f2c9515.bindPopup(popup_b52a7bbd0c6b41169ab92535e9ab98ac)
+        ;
+
+        
+    
+    
+            var circle_marker_92faf62b6685463a8d316a9a6ca07db8 = L.circleMarker(
+                [45.419880500000005, -75.6601015],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_28b95fcfe6894eed843b026d3a77b04f = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_d05e50c99c444fb8accb822980d33cf1 = $(`<div id="html_d05e50c99c444fb8accb822980d33cf1" style="width: 100.0%; height: 100.0%;"><body> <h2>RCMP, Parlimentary Security, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Arab &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_28b95fcfe6894eed843b026d3a77b04f.setContent(html_d05e50c99c444fb8accb822980d33cf1);
+        
+
+        circle_marker_92faf62b6685463a8d316a9a6ca07db8.bindPopup(popup_28b95fcfe6894eed843b026d3a77b04f)
+        ;
+
+        
+    
+    
+            var circle_marker_3e83bfcf446844799ae59c0d25844bab = L.circleMarker(
+                [45.529014, -73.555389],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_5a0b25d998e24b0dab1869f6c917b2ac = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_256ab3a31b3f4af08abcf3292d43c5bf = $(`<div id="html_256ab3a31b3f4af08abcf3292d43c5bf" style="width: 100.0%; height: 100.0%;"><body> <h2>RCMP, Sûreté du Québec, Quebec</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_5a0b25d998e24b0dab1869f6c917b2ac.setContent(html_256ab3a31b3f4af08abcf3292d43c5bf);
+        
+
+        circle_marker_3e83bfcf446844799ae59c0d25844bab.bindPopup(popup_5a0b25d998e24b0dab1869f6c917b2ac)
+        ;
+
+        
+    
+    
+            var circle_marker_8d0cf115f4f349c0843607c28c21f7a9 = L.circleMarker(
+                [50.2677350012, -71.9274606668578],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_39bb084eafcb4631b8904f6644cafe75 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_3b49d001f2304bbdbeb2628506e64076 = $(`<div id="html_3b49d001f2304bbdbeb2628506e64076" style="width: 100.0%; height: 100.0%;"><body> <h2>Régie intermunicipale de police Roussillon, Quebec</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Black &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_39bb084eafcb4631b8904f6644cafe75.setContent(html_3b49d001f2304bbdbeb2628506e64076);
+        
+
+        circle_marker_8d0cf115f4f349c0843607c28c21f7a9.bindPopup(popup_39bb084eafcb4631b8904f6644cafe75)
+        ;
+
+        
+    
+    
+            var circle_marker_128edd20d2e5456b8f3dd1d29df0d58c = L.circleMarker(
+                [45.5437573, -73.8908846],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_0c93cae634c1470b876d9f6098eeb39c = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_611bafbeac054237b2510bd59842a0ff = $(`<div id="html_611bafbeac054237b2510bd59842a0ff" style="width: 100.0%; height: 100.0%;"><body> <h2>Régie intermunicipale de police du Lac-des-Deux-Montagnes, Quebec</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_0c93cae634c1470b876d9f6098eeb39c.setContent(html_611bafbeac054237b2510bd59842a0ff);
+        
+
+        circle_marker_128edd20d2e5456b8f3dd1d29df0d58c.bindPopup(popup_0c93cae634c1470b876d9f6098eeb39c)
+        ;
+
+        
+    
+    
+            var circle_marker_391f62a6d01d4cada130e717b9e18dac = L.circleMarker(
+                [48.4055, -71.0678],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_986e13c0efe34ac9a0627a4e3b0e14d8 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_3514214ae0d945f08a0886ccb189c75f = $(`<div id="html_3514214ae0d945f08a0886ccb189c75f" style="width: 100.0%; height: 100.0%;"><body> <h2>Service de sécurité publique de Saguenay, Quebec</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_986e13c0efe34ac9a0627a4e3b0e14d8.setContent(html_3514214ae0d945f08a0886ccb189c75f);
+        
+
+        circle_marker_391f62a6d01d4cada130e717b9e18dac.bindPopup(popup_986e13c0efe34ac9a0627a4e3b0e14d8)
+        ;
+
+        
+    
+    
+            var circle_marker_febc035d086b409ea6029609c2374e8e = L.circleMarker(
+                [48.45981, -123.377355],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_bf2f4a9d4fd84d73abab2cf17728739a = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_eb00a1eef9c64c978ea3a2de3da2855b = $(`<div id="html_eb00a1eef9c64c978ea3a2de3da2855b" style="width: 100.0%; height: 100.0%;"><body> <h2>Saanich Police Department, British Columbia</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Asian &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_bf2f4a9d4fd84d73abab2cf17728739a.setContent(html_eb00a1eef9c64c978ea3a2de3da2855b);
+        
+
+        circle_marker_febc035d086b409ea6029609c2374e8e.bindPopup(popup_bf2f4a9d4fd84d73abab2cf17728739a)
+        ;
+
+        
+    
+    
+            var circle_marker_beb77888767447938b854ec1d1d48fb6 = L.circleMarker(
+                [42.976097, -82.341617],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_cb0cd166d3c74477964cce9d2638675c = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_9cd6c778b5aa4d5eb8860630a7b2e866 = $(`<div id="html_9cd6c778b5aa4d5eb8860630a7b2e866" style="width: 100.0%; height: 100.0%;"><body> <h2>Sarnia Police Services, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_cb0cd166d3c74477964cce9d2638675c.setContent(html_9cd6c778b5aa4d5eb8860630a7b2e866);
+        
+
+        circle_marker_beb77888767447938b854ec1d1d48fb6.bindPopup(popup_cb0cd166d3c74477964cce9d2638675c)
+        ;
+
+        
+    
+    
+            var circle_marker_ba08a1d00b304876b9a7489fbdfd17d4 = L.circleMarker(
+                [44.44, -81.39],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_77e683701a1140508d8b8d6bee7e0842 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_912c665af8a547f4b469f996836a86df = $(`<div id="html_912c665af8a547f4b469f996836a86df" style="width: 100.0%; height: 100.0%;"><body> <h2>Saugeen Shores Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_77e683701a1140508d8b8d6bee7e0842.setContent(html_912c665af8a547f4b469f996836a86df);
+        
+
+        circle_marker_ba08a1d00b304876b9a7489fbdfd17d4.bindPopup(popup_77e683701a1140508d8b8d6bee7e0842)
+        ;
+
+        
+    
+    
+            var circle_marker_66a162b95d5b4932b9f72058d3759ace = L.circleMarker(
+                [43.671757, -79.379358],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_1c09a46d688e47729009c5cbb72de7e4 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_b969569629924217ad3cd9aa5bc1812a = $(`<div id="html_b969569629924217ad3cd9aa5bc1812a" style="width: 100.0%; height: 100.0%;"><body> <h2>Scarborough Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_1c09a46d688e47729009c5cbb72de7e4.setContent(html_b969569629924217ad3cd9aa5bc1812a);
+        
+
+        circle_marker_66a162b95d5b4932b9f72058d3759ace.bindPopup(popup_1c09a46d688e47729009c5cbb72de7e4)
+        ;
+
+        
+    
+    
+            var circle_marker_552d558e91d041dc9ee2f67d4569651b = L.circleMarker(
+                [46.343557, -72.539735],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_8344f7a664934d7b9e6bcc73027d8f2d = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_cacb658f83d84d789596e48f52ef785a = $(`<div id="html_cacb658f83d84d789596e48f52ef785a" style="width: 100.0%; height: 100.0%;"><body> <h2>Service de la sécurité publique de Trois Rivières, Quebec</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_8344f7a664934d7b9e6bcc73027d8f2d.setContent(html_cacb658f83d84d789596e48f52ef785a);
+        
+
+        circle_marker_552d558e91d041dc9ee2f67d4569651b.bindPopup(popup_8344f7a664934d7b9e6bcc73027d8f2d)
+        ;
+
+        
+    
+    
+            var circle_marker_b98711f74b00414ca3dc1e363f20bb7a = L.circleMarker(
+                [45.451847, -75.73031],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_1b088e02f438449e9b9520fcce2274c2 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_194e72cbefb1410481d2c52011070194 = $(`<div id="html_194e72cbefb1410481d2c52011070194" style="width: 100.0%; height: 100.0%;"><body> <h2>Service de police de Terrebonne, Quebec</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_1b088e02f438449e9b9520fcce2274c2.setContent(html_194e72cbefb1410481d2c52011070194);
+        
+
+        circle_marker_b98711f74b00414ca3dc1e363f20bb7a.bindPopup(popup_1b088e02f438449e9b9520fcce2274c2)
+        ;
+
+        
+    
+    
+            var circle_marker_fb41a2cddb754d608783039cd32ee9b0 = L.circleMarker(
+                [45.451847, -75.73031],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_e9b668d82e39438f9f8a6882eac778b4 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_3c2d82b7d66445a9b26e8fe881896959 = $(`<div id="html_3c2d82b7d66445a9b26e8fe881896959" style="width: 100.0%; height: 100.0%;"><body> <h2>Service de police de l'agglomération de Longueuil, Quebec</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_e9b668d82e39438f9f8a6882eac778b4.setContent(html_3c2d82b7d66445a9b26e8fe881896959);
+        
+
+        circle_marker_fb41a2cddb754d608783039cd32ee9b0.bindPopup(popup_e9b668d82e39438f9f8a6882eac778b4)
+        ;
+
+        
+    
+    
+            var circle_marker_49cab6de5a1b4789ba0e53a99bf141a5 = L.circleMarker(
+                [49.201533, -122.925141],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_269a32096a4e4f13bedae038635f01a2 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_52d4472266564d2292a01adfc867ca13 = $(`<div id="html_52d4472266564d2292a01adfc867ca13" style="width: 100.0%; height: 100.0%;"><body> <h2>New Westminster Police Service, RCMP, British Columbia</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_269a32096a4e4f13bedae038635f01a2.setContent(html_52d4472266564d2292a01adfc867ca13);
+        
+
+        circle_marker_49cab6de5a1b4789ba0e53a99bf141a5.bindPopup(popup_269a32096a4e4f13bedae038635f01a2)
+        ;
+
+        
+    
+    
+            var circle_marker_6bdbcb63df82485c9f06a690ac2ba8c0 = L.circleMarker(
+                [49.201533, -122.925141],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_dd8d55f4b2384719b1cbde5c0c43a0d9 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_c5d5b2ae077244e1b510790b3e2d1609 = $(`<div id="html_c5d5b2ae077244e1b510790b3e2d1609" style="width: 100.0%; height: 100.0%;"><body> <h2>New Westminster Police Service, British Columbia</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_dd8d55f4b2384719b1cbde5c0c43a0d9.setContent(html_c5d5b2ae077244e1b510790b3e2d1609);
+        
+
+        circle_marker_6bdbcb63df82485c9f06a690ac2ba8c0.bindPopup(popup_dd8d55f4b2384719b1cbde5c0c43a0d9)
+        ;
+
+        
+    
+    
+            var circle_marker_68229075fb204a388f26924ca1ef6db3 = L.circleMarker(
+                [42.986822, -81.22291],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_61a2f4cc2a554b259de0384a3730eb63 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_bb6181178843438c97c9c2c4c25002a6 = $(`<div id="html_bb6181178843438c97c9c2c4c25002a6" style="width: 100.0%; height: 100.0%;"><body> <h2>OPP, London Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_61a2f4cc2a554b259de0384a3730eb63.setContent(html_bb6181178843438c97c9c2c4c25002a6);
+        
+
+        circle_marker_68229075fb204a388f26924ca1ef6db3.bindPopup(popup_61a2f4cc2a554b259de0384a3730eb63)
+        ;
+
+        
+    
+    
+            var circle_marker_9c4d1fccf81443459c90b36dd3ec11e2 = L.circleMarker(
+                [44.7501, -79.8855],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_95a40ed683864b03bfaf2d2970216cc2 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_2f3dae1f1cd749ada33d957f85cb9796 = $(`<div id="html_2f3dae1f1cd749ada33d957f85cb9796" style="width: 100.0%; height: 100.0%;"><body> <h2>Midland Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_95a40ed683864b03bfaf2d2970216cc2.setContent(html_2f3dae1f1cd749ada33d957f85cb9796);
+        
+
+        circle_marker_9c4d1fccf81443459c90b36dd3ec11e2.bindPopup(popup_95a40ed683864b03bfaf2d2970216cc2)
+        ;
+
+        
+    
+    
+            var circle_marker_c4075d9e6b4f4273a1575e6e465eac92 = L.circleMarker(
+                [42.1103, -83.0622],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_54687c8df85c412a8576f148c428f46a = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_b77d3c68c7344313b90302dc588e1698 = $(`<div id="html_b77d3c68c7344313b90302dc588e1698" style="width: 100.0%; height: 100.0%;"><body> <h2>Amherstburg Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_54687c8df85c412a8576f148c428f46a.setContent(html_b77d3c68c7344313b90302dc588e1698);
+        
+
+        circle_marker_c4075d9e6b4f4273a1575e6e465eac92.bindPopup(popup_54687c8df85c412a8576f148c428f46a)
+        ;
+
+        
+    
+    
+            var circle_marker_9ee13866dc3849bea5b021650d48bf68 = L.circleMarker(
+                [44.3787, -79.7031],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_a46fd4ad3d0b431d85b8f3fc64f598d1 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_1b30aaabfefd4585af4782bf97126fc7 = $(`<div id="html_1b30aaabfefd4585af4782bf97126fc7" style="width: 100.0%; height: 100.0%;"><body> <h2>Barrie Police Services, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_a46fd4ad3d0b431d85b8f3fc64f598d1.setContent(html_1b30aaabfefd4585af4782bf97126fc7);
+        
+
+        circle_marker_9ee13866dc3849bea5b021650d48bf68.bindPopup(popup_a46fd4ad3d0b431d85b8f3fc64f598d1)
+        ;
+
+        
+    
+    
+            var circle_marker_1555a0f0c334448b84d6e339cc6b239c = L.circleMarker(
+                [47.6181, -65.6511],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_3a6c5ab487b64e0da840152825b3f399 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_ebed22d6a5744b55ba8dcf848e509e86 = $(`<div id="html_ebed22d6a5744b55ba8dcf848e509e86" style="width: 100.0%; height: 100.0%;"><body> <h2>Bathurst Police Force, New Brunswick</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_3a6c5ab487b64e0da840152825b3f399.setContent(html_ebed22d6a5744b55ba8dcf848e509e86);
+        
+
+        circle_marker_1555a0f0c334448b84d6e339cc6b239c.bindPopup(popup_3a6c5ab487b64e0da840152825b3f399)
+        ;
+
+        
+    
+    
+            var circle_marker_8524db5414d74e27b18bc0abb09d9398 = L.circleMarker(
+                [43.9639, -78.1689],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_ad1daa99b39c4cdfbd2b7c3a90657662 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_7324db3cda8b4fb099e5fdd88f9f229b = $(`<div id="html_7324db3cda8b4fb099e5fdd88f9f229b" style="width: 100.0%; height: 100.0%;"><body> <h2>Cobourg Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_ad1daa99b39c4cdfbd2b7c3a90657662.setContent(html_7324db3cda8b4fb099e5fdd88f9f229b);
+        
+
+        circle_marker_8524db5414d74e27b18bc0abb09d9398.bindPopup(popup_ad1daa99b39c4cdfbd2b7c3a90657662)
+        ;
+
+        
+    
+    
+            var circle_marker_82b08bcfeb10439db105cc8aa1b47e10 = L.circleMarker(
+                [49.266712, -123.114506],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_7e42b23c08474a39b9ce3f4f1e18f1c3 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_2c4630cce12941498577a3e3ffa9b48c = $(`<div id="html_2c4630cce12941498577a3e3ffa9b48c" style="width: 100.0%; height: 100.0%;"><body> <h2>Delta Police Department, British Columbia</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>0</td>                         <td>0%</td>                         </tr><tr>                         <td>South Asian &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_7e42b23c08474a39b9ce3f4f1e18f1c3.setContent(html_2c4630cce12941498577a3e3ffa9b48c);
+        
+
+        circle_marker_82b08bcfeb10439db105cc8aa1b47e10.bindPopup(popup_7e42b23c08474a39b9ce3f4f1e18f1c3)
+        ;
+
+        
+    
+    
+            var circle_marker_cbe32cc582e148e3bbca884e2abb23d5 = L.circleMarker(
+                [47.363739, -68.326083],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_27a44aa1c68b4d4fa74b060ea530e60d = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_3b68509f38364142ae5b645782640007 = $(`<div id="html_3b68509f38364142ae5b645782640007" style="width: 100.0%; height: 100.0%;"><body> <h2>Edmunston Police Force, New Brunswick</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_27a44aa1c68b4d4fa74b060ea530e60d.setContent(html_3b68509f38364142ae5b645782640007);
+        
+
+        circle_marker_cbe32cc582e148e3bbca884e2abb23d5.bindPopup(popup_27a44aa1c68b4d4fa74b060ea530e60d)
+        ;
+
+        
+    
+    
+            var circle_marker_e1ec20690c9641edbbba5af6c26a6c46 = L.circleMarker(
+                [43.543055, -80.246068],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_b1024348b20046958686b775a91af4ff = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_b5f605f2ef8b4a62ac8f3eeda535bde3 = $(`<div id="html_b5f605f2ef8b4a62ac8f3eeda535bde3" style="width: 100.0%; height: 100.0%;"><body> <h2>Guelph Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_b1024348b20046958686b775a91af4ff.setContent(html_b5f605f2ef8b4a62ac8f3eeda535bde3);
+        
+
+        circle_marker_e1ec20690c9641edbbba5af6c26a6c46.bindPopup(popup_b1024348b20046958686b775a91af4ff)
+        ;
+
+        
+    
+    
+            var circle_marker_41aa725bb0964f12bb9445772458b244 = L.circleMarker(
+                [43.415334, -79.743226],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_2a92e936128c47c7bf4c1019529bd82c = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_4a1723d1514645e68229a72bc3cc96e6 = $(`<div id="html_4a1723d1514645e68229a72bc3cc96e6" style="width: 100.0%; height: 100.0%;"><body> <h2>Halton Regional Police Services, OPP, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_2a92e936128c47c7bf4c1019529bd82c.setContent(html_4a1723d1514645e68229a72bc3cc96e6);
+        
+
+        circle_marker_41aa725bb0964f12bb9445772458b244.bindPopup(popup_2a92e936128c47c7bf4c1019529bd82c)
+        ;
+
+        
+    
+    
+            var circle_marker_fda6149188744c2b9983a369b43182da = L.circleMarker(
+                [44.5834, -78.8329],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_cd2426e897fc4aa8b2684b3eed79ae5a = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_bf5817b78e8c4bd3b382c235e6bd9195 = $(`<div id="html_bf5817b78e8c4bd3b382c235e6bd9195" style="width: 100.0%; height: 100.0%;"><body> <h2>Kawartha Lakes Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_cd2426e897fc4aa8b2684b3eed79ae5a.setContent(html_bf5817b78e8c4bd3b382c235e6bd9195);
+        
+
+        circle_marker_fda6149188744c2b9983a369b43182da.bindPopup(popup_cd2426e897fc4aa8b2684b3eed79ae5a)
+        ;
+
+        
+    
+    
+            var circle_marker_ea44b4de95964b23b1191d597e76be3a = L.circleMarker(
+                [44.708108, -63.577503],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_e42f767f0e234108896c63d36eca7c0c = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_c2ba1bae2d1f4b68853f58412ddc8e9f = $(`<div id="html_c2ba1bae2d1f4b68853f58412ddc8e9f" style="width: 100.0%; height: 100.0%;"><body> <h2>Halifax Regional Police, Nova Scotia</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_e42f767f0e234108896c63d36eca7c0c.setContent(html_c2ba1bae2d1f4b68853f58412ddc8e9f);
+        
+
+        circle_marker_ea44b4de95964b23b1191d597e76be3a.bindPopup(popup_e42f767f0e234108896c63d36eca7c0c)
+        ;
+
+        
+    
+    
+            var circle_marker_2d291c451d714c1e84326a6e36ef2d04 = L.circleMarker(
+                [45.408591, -65.94861],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_6a084a9264c94822ba2b498c4af61897 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_b02e67b39690411db99f3d9a45142837 = $(`<div id="html_b02e67b39690411db99f3d9a45142837" style="width: 100.0%; height: 100.0%;"><body> <h2>Kennebecasis Regional Police Force, New Brunswick</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_6a084a9264c94822ba2b498c4af61897.setContent(html_b02e67b39690411db99f3d9a45142837);
+        
+
+        circle_marker_2d291c451d714c1e84326a6e36ef2d04.bindPopup(popup_6a084a9264c94822ba2b498c4af61897)
+        ;
+
+        
+    
+    
+            var circle_marker_44fd8fe827df487aa2a22a987e023670 = L.circleMarker(
+                [49.679035, -112.889285],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_b364209a470c42f483765438860f6802 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_290b51b3cbf347a2b9b035e21c8fa79e = $(`<div id="html_290b51b3cbf347a2b9b035e21c8fa79e" style="width: 100.0%; height: 100.0%;"><body> <h2>Lethbridge Police Service, Alberta</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_b364209a470c42f483765438860f6802.setContent(html_290b51b3cbf347a2b9b035e21c8fa79e);
+        
+
+        circle_marker_44fd8fe827df487aa2a22a987e023670.bindPopup(popup_b364209a470c42f483765438860f6802)
+        ;
+
+        
+    
+    
+            var circle_marker_63fee1b039064605883b7f1ee6172b64 = L.circleMarker(
+                [54.6426717391, -114.757175843012],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_b017a9c4d4e44ff4bca8628cc5c8e785 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_9a04de19b9814d41bf6fbb79e0c4544f = $(`<div id="html_9a04de19b9814d41bf6fbb79e0c4544f" style="width: 100.0%; height: 100.0%;"><body> <h2>Lake Shore Regional Police Service, RCMP, Alberta</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_b017a9c4d4e44ff4bca8628cc5c8e785.setContent(html_9a04de19b9814d41bf6fbb79e0c4544f);
+        
+
+        circle_marker_63fee1b039064605883b7f1ee6172b64.bindPopup(popup_b017a9c4d4e44ff4bca8628cc5c8e785)
+        ;
+
+        
+    
+    
+            var circle_marker_1b52ecb8c8054f488ddac3cb7d307be6 = L.circleMarker(
+                [50.028575, -110.646107],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_7bd189fb2c834009b0ad1458a68edf96 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_0b05eb5189e4405db027e636567cd7fc = $(`<div id="html_0b05eb5189e4405db027e636567cd7fc" style="width: 100.0%; height: 100.0%;"><body> <h2>Medicine Hat Police Service, RCMP, Alberta</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_7bd189fb2c834009b0ad1458a68edf96.setContent(html_0b05eb5189e4405db027e636567cd7fc);
+        
+
+        circle_marker_1b52ecb8c8054f488ddac3cb7d307be6.bindPopup(popup_7bd189fb2c834009b0ad1458a68edf96)
+        ;
+
+        
+    
+    
+            var circle_marker_7fff576034e84430b27b619efa49d74e = L.circleMarker(
+                [53.4604863996, -98.4703457399514],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_a8619eb5dba84d3c84693dee4e6352d6 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_1b9dad525062430986366b7d363393e3 = $(`<div id="html_1b9dad525062430986366b7d363393e3" style="width: 100.0%; height: 100.0%;"><body> <h2>Manitoba First Nations Police, Manitoba</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>1</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_a8619eb5dba84d3c84693dee4e6352d6.setContent(html_1b9dad525062430986366b7d363393e3);
+        
+
+        circle_marker_7fff576034e84430b27b619efa49d74e.bindPopup(popup_a8619eb5dba84d3c84693dee4e6352d6)
+        ;
+
+        
+    
+    
+            var circle_marker_9cf2001bde884a848537ea6f045a7efb = L.circleMarker(
+                [46.489526, -80.989445],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_4906d76087e5436c9c9e948f55543202 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_9f8e79e408a240919cb5d823fa2b613d = $(`<div id="html_9f8e79e408a240919cb5d823fa2b613d" style="width: 100.0%; height: 100.0%;"><body> <h2>Greater Sudbury Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>2</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>2</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_4906d76087e5436c9c9e948f55543202.setContent(html_9f8e79e408a240919cb5d823fa2b613d);
+        
+
+        circle_marker_9cf2001bde884a848537ea6f045a7efb.bindPopup(popup_4906d76087e5436c9c9e948f55543202)
+        ;
+
+        
+    
+    
+            var circle_marker_1c959bb37afb4d52bba335257975d850 = L.circleMarker(
+                [62.6372140296, -134.099418184247],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_2170e3f79d7e4271abaab7fd8e765999 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_5e06d22eb8db45daae5e09a480e089bf = $(`<div id="html_5e06d22eb8db45daae5e09a480e089bf" style="width: 100.0%; height: 100.0%;"><body> <h2>RCMP, Yukon</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>50%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>50%</td>                         </tr><tr>                   <th>Total </th>                   <th>2</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_2170e3f79d7e4271abaab7fd8e765999.setContent(html_5e06d22eb8db45daae5e09a480e089bf);
+        
+
+        circle_marker_1c959bb37afb4d52bba335257975d850.bindPopup(popup_2170e3f79d7e4271abaab7fd8e765999)
+        ;
+
+        
+    
+    
+            var circle_marker_feca7d1eca0545d2be0a980ce6485330 = L.circleMarker(
+                [49.6932, -112.8509],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_e82d94479d3e4624824cac67c66e6236 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_053d111a7150493ba2aa4cf0c4f5e6a7 = $(`<div id="html_053d111a7150493ba2aa4cf0c4f5e6a7" style="width: 100.0%; height: 100.0%;"><body> <h2>Lethbridge Police Services, Alberta</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Asian &nbsp </td>                         <td>1</td>                         <td>50%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>50%</td>                         </tr><tr>                   <th>Total </th>                   <th>2</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_e82d94479d3e4624824cac67c66e6236.setContent(html_053d111a7150493ba2aa4cf0c4f5e6a7);
+        
+
+        circle_marker_feca7d1eca0545d2be0a980ce6485330.bindPopup(popup_e82d94479d3e4624824cac67c66e6236)
+        ;
+
+        
+    
+    
+            var circle_marker_69a798221653418491c3edf5694fc1cd = L.circleMarker(
+                [42.332732, -83.039579],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_3e5852d8e9b240f78c17dd30e64ad481 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_36a8a6e1878945d28457c3e6578045d6 = $(`<div id="html_36a8a6e1878945d28457c3e6578045d6" style="width: 100.0%; height: 100.0%;"><body> <h2>Windsor Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>2</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>2</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_3e5852d8e9b240f78c17dd30e64ad481.setContent(html_36a8a6e1878945d28457c3e6578045d6);
+        
+
+        circle_marker_69a798221653418491c3edf5694fc1cd.bindPopup(popup_3e5852d8e9b240f78c17dd30e64ad481)
+        ;
+
+        
+    
+    
+            var circle_marker_3299218a444d4bdf9d91a2ec29630a71 = L.circleMarker(
+                [44.2876, -78.3273],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_fd9e9e38345449d19b2e7a0bfb930ed2 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_0ec4197323654d02b341efdb319cce94 = $(`<div id="html_0ec4197323654d02b341efdb319cce94" style="width: 100.0%; height: 100.0%;"><body> <h2>Peterborough Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>2</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>2</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_fd9e9e38345449d19b2e7a0bfb930ed2.setContent(html_0ec4197323654d02b341efdb319cce94);
+        
+
+        circle_marker_3299218a444d4bdf9d91a2ec29630a71.bindPopup(popup_fd9e9e38345449d19b2e7a0bfb930ed2)
+        ;
+
+        
+    
+    
+            var circle_marker_a5298366e9804486bbd3350b30fbe438 = L.circleMarker(
+                [45.501819749999996, -73.57154225],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_52f904f94e134162a444f7a119d48448 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_61ecee7eb86947b48e507edea80d2e75 = $(`<div id="html_61ecee7eb86947b48e507edea80d2e75" style="width: 100.0%; height: 100.0%;"><body> <h2>Anishnabe Takonewini Police Service, Quebec</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>2</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>2</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_52f904f94e134162a444f7a119d48448.setContent(html_61ecee7eb86947b48e507edea80d2e75);
+        
+
+        circle_marker_a5298366e9804486bbd3350b30fbe438.bindPopup(popup_52f904f94e134162a444f7a119d48448)
+        ;
+
+        
+    
+    
+            var circle_marker_45d62af677c64036a01b0bacb3cffc6e = L.circleMarker(
+                [45.6299, -73.7168],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_e4445170d46d40fa96a2070f8e93f579 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_81c45a1129da4e089528ecf381f2e37f = $(`<div id="html_81c45a1129da4e089528ecf381f2e37f" style="width: 100.0%; height: 100.0%;"><body> <h2>Service de police de la Ville de Laval, Quebec</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>50%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>50%</td>                         </tr><tr>                   <th>Total </th>                   <th>2</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_e4445170d46d40fa96a2070f8e93f579.setContent(html_81c45a1129da4e089528ecf381f2e37f);
+        
+
+        circle_marker_45d62af677c64036a01b0bacb3cffc6e.bindPopup(popup_e4445170d46d40fa96a2070f8e93f579)
+        ;
+
+        
+    
+    
+            var circle_marker_7a92dff253a94cabb9f68b2e8da2dbbe = L.circleMarker(
+                [53.1998, -105.7468],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_da4a72feb45e4cf093113108d6018bf6 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_523af7473ced4743bb38a26a2350a4f1 = $(`<div id="html_523af7473ced4743bb38a26a2350a4f1" style="width: 100.0%; height: 100.0%;"><body> <h2>Prince Albert Police Service, Saskatchewan</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>2</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>2</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_da4a72feb45e4cf093113108d6018bf6.setContent(html_523af7473ced4743bb38a26a2350a4f1);
+        
+
+        circle_marker_7a92dff253a94cabb9f68b2e8da2dbbe.bindPopup(popup_da4a72feb45e4cf093113108d6018bf6)
+        ;
+
+        
+    
+    
+            var circle_marker_1e2ab9199d544e3799bb58aef4930d9f = L.circleMarker(
+                [45.3057, -73.2533],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_9786139634914465beffcdf0dc09109b = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_602eb65b710d4f28b9cbf8f2bb3eb77e = $(`<div id="html_602eb65b710d4f28b9cbf8f2bb3eb77e" style="width: 100.0%; height: 100.0%;"><body> <h2>Régie intermunicipale de police de Saint-Jean-sur-Richelieu, Quebec</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>2</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>2</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_9786139634914465beffcdf0dc09109b.setContent(html_602eb65b710d4f28b9cbf8f2bb3eb77e);
+        
+
+        circle_marker_1e2ab9199d544e3799bb58aef4930d9f.bindPopup(popup_9786139634914465beffcdf0dc09109b)
+        ;
+
+        
+    
+    
+            var circle_marker_85c8503548b742b78ad6feef64e4c8ae = L.circleMarker(
+                [43.10783, -79.063642],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_c1895346e7be4255a57ee1a93f8618a2 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_7484132f75604ff4a9fff471778898dd = $(`<div id="html_7484132f75604ff4a9fff471778898dd" style="width: 100.0%; height: 100.0%;"><body> <h2>Niagara Regional Police Services, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>33%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>2</td>                         <td>66%</td>                         </tr><tr>                   <th>Total </th>                   <th>3</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_c1895346e7be4255a57ee1a93f8618a2.setContent(html_7484132f75604ff4a9fff471778898dd);
+        
+
+        circle_marker_85c8503548b742b78ad6feef64e4c8ae.bindPopup(popup_c1895346e7be4255a57ee1a93f8618a2)
+        ;
+
+        
+    
+    
+            var circle_marker_c009ccc926b44b449b40f76e2b6ec237 = L.circleMarker(
+                [45.451847, -75.73031],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_bea11810574b41719583537c8a72be9d = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_23b4a24cfdf144b082effde51ddb9db0 = $(`<div id="html_23b4a24cfdf144b082effde51ddb9db0" style="width: 100.0%; height: 100.0%;"><body> <h2>Service de police de la Ville de Gatineau, Quebec</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>3</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>3</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_bea11810574b41719583537c8a72be9d.setContent(html_23b4a24cfdf144b082effde51ddb9db0);
+        
+
+        circle_marker_c009ccc926b44b449b40f76e2b6ec237.bindPopup(popup_bea11810574b41719583537c8a72be9d)
+        ;
+
+        
+    
+    
+            var circle_marker_25f866280c17418093943cbcf7cace78 = L.circleMarker(
+                [43.150875, -80.23697],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_e59729ad828b4c0fbd5741f35fee61ed = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_1a022d091e5047cc8709e3df5c8a5e2b = $(`<div id="html_1a022d091e5047cc8709e3df5c8a5e2b" style="width: 100.0%; height: 100.0%;"><body> <h2>Brantford Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>3</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>3</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_e59729ad828b4c0fbd5741f35fee61ed.setContent(html_1a022d091e5047cc8709e3df5c8a5e2b);
+        
+
+        circle_marker_25f866280c17418093943cbcf7cace78.bindPopup(popup_e59729ad828b4c0fbd5741f35fee61ed)
+        ;
+
+        
+    
+    
+            var circle_marker_1ed19f1d9fc54e0696f157f2b876b34d = L.circleMarker(
+                [47.566088, -52.714624],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_2331f56aeaeb4f99aaafc999ac2be407 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_07bfb569e0ba4383b25bf21360823631 = $(`<div id="html_07bfb569e0ba4383b25bf21360823631" style="width: 100.0%; height: 100.0%;"><body> <h2>Royal Newfoundland Constabulary, Newfoundland and Labrador</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>3</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>3</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_2331f56aeaeb4f99aaafc999ac2be407.setContent(html_07bfb569e0ba4383b25bf21360823631);
+        
+
+        circle_marker_1ed19f1d9fc54e0696f157f2b876b34d.bindPopup(popup_2331f56aeaeb4f99aaafc999ac2be407)
+        ;
+
+        
+    
+    
+            var circle_marker_7acca5bb7cf6467a811e8cb345b8f455 = L.circleMarker(
+                [48.430959, -123.359245],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_270351b13a3240a89f858ad9ede68618 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_7a5a8ecf4e4543bea1e63522fe5cb9ac = $(`<div id="html_7a5a8ecf4e4543bea1e63522fe5cb9ac" style="width: 100.0%; height: 100.0%;"><body> <h2>Victoria Police Department, British Columbia</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>33%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>2</td>                         <td>66%</td>                         </tr><tr>                   <th>Total </th>                   <th>3</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_270351b13a3240a89f858ad9ede68618.setContent(html_7a5a8ecf4e4543bea1e63522fe5cb9ac);
+        
+
+        circle_marker_7acca5bb7cf6467a811e8cb345b8f455.bindPopup(popup_270351b13a3240a89f858ad9ede68618)
+        ;
+
+        
+    
+    
+            var circle_marker_3daf10073cd14c10bba79b44af38d65a = L.circleMarker(
+                [44.2298, -76.4803],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_3ef7f4e5426045fdb0f91246cb8453dd = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_0174b7dc913a4545b6511087ac2c8110 = $(`<div id="html_0174b7dc913a4545b6511087ac2c8110" style="width: 100.0%; height: 100.0%;"><body> <h2>Kingston Police Services, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>33%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>2</td>                         <td>66%</td>                         </tr><tr>                   <th>Total </th>                   <th>3</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_3ef7f4e5426045fdb0f91246cb8453dd.setContent(html_0174b7dc913a4545b6511087ac2c8110);
+        
+
+        circle_marker_3daf10073cd14c10bba79b44af38d65a.bindPopup(popup_3ef7f4e5426045fdb0f91246cb8453dd)
+        ;
+
+        
+    
+    
+            var circle_marker_8d99908b2f8f451fa1c3202c1c3f00f7 = L.circleMarker(
+                [43.381853, -80.320062],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_3923c2b1d28b49a4acbd8785c3091e5e = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_b109fb003f104b13b9ce3d3c23e8c5b1 = $(`<div id="html_b109fb003f104b13b9ce3d3c23e8c5b1" style="width: 100.0%; height: 100.0%;"><body> <h2>Waterloo Regional Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>33%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>2</td>                         <td>66%</td>                         </tr><tr>                   <th>Total </th>                   <th>3</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_3923c2b1d28b49a4acbd8785c3091e5e.setContent(html_b109fb003f104b13b9ce3d3c23e8c5b1);
+        
+
+        circle_marker_8d99908b2f8f451fa1c3202c1c3f00f7.bindPopup(popup_3923c2b1d28b49a4acbd8785c3091e5e)
+        ;
+
+        
+    
+    
+            var circle_marker_d2ae3ee5d1174e399131b799ea3074db = L.circleMarker(
+                [50.473591, -104.569594],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_93023812478643ba8ec6fc708689b5c3 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_ccd1955e6dc94a5f987db3af7a99f605 = $(`<div id="html_ccd1955e6dc94a5f987db3af7a99f605" style="width: 100.0%; height: 100.0%;"><body> <h2>Regina Police Service, Saskatchewan</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>25%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>25%</td>                         </tr><tr>                         <td>Indigenous &nbsp </td>                         <td>2</td>                         <td>50%</td>                         </tr><tr>                   <th>Total </th>                   <th>4</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_93023812478643ba8ec6fc708689b5c3.setContent(html_ccd1955e6dc94a5f987db3af7a99f605);
+        
+
+        circle_marker_d2ae3ee5d1174e399131b799ea3074db.bindPopup(popup_93023812478643ba8ec6fc708689b5c3)
+        ;
+
+        
+    
+    
+            var circle_marker_337ffa73a786459c9a92a60a268e89f8 = L.circleMarker(
+                [46.6290185868, -66.3773980805214],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_659d3e6e4a174605990e5a31968be975 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_fe51732b12cb467eb982bad819451568 = $(`<div id="html_fe51732b12cb467eb982bad819451568" style="width: 100.0%; height: 100.0%;"><body> <h2>RCMP, New Brunswick</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>25%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>25%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>2</td>                         <td>50%</td>                         </tr><tr>                   <th>Total </th>                   <th>4</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_659d3e6e4a174605990e5a31968be975.setContent(html_fe51732b12cb467eb982bad819451568);
+        
+
+        circle_marker_337ffa73a786459c9a92a60a268e89f8.bindPopup(popup_659d3e6e4a174605990e5a31968be975)
+        ;
+
+        
+    
+    
+            var circle_marker_c9cf32ec21164084b241f1c8c00f7690 = L.circleMarker(
+                [45.451847, -75.73031],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_6ef1bfc6446d4ef0a5a3b452526a51a0 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_d8bafefc0b94452d9c9b2839be47d9c9 = $(`<div id="html_d8bafefc0b94452d9c9b2839be47d9c9" style="width: 100.0%; height: 100.0%;"><body> <h2>Service de police de la Ville de Québec, Quebec</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>2</td>                         <td>50%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>2</td>                         <td>50%</td>                         </tr><tr>                   <th>Total </th>                   <th>4</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_6ef1bfc6446d4ef0a5a3b452526a51a0.setContent(html_d8bafefc0b94452d9c9b2839be47d9c9);
+        
+
+        circle_marker_c9cf32ec21164084b241f1c8c00f7690.bindPopup(popup_6ef1bfc6446d4ef0a5a3b452526a51a0)
+        ;
+
+        
+    
+    
+            var circle_marker_00fc5c04ec444487a5a7ccbefbfc4b18 = L.circleMarker(
+                [43.899342, -78.866515],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_b837f458c7b1435383cbadca60399861 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_f533593a1bf44b0bab36215752b51dda = $(`<div id="html_f533593a1bf44b0bab36215752b51dda" style="width: 100.0%; height: 100.0%;"><body> <h2>Durham Regional Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Arab &nbsp </td>                         <td>1</td>                         <td>20%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>2</td>                         <td>40%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>2</td>                         <td>40%</td>                         </tr><tr>                   <th>Total </th>                   <th>5</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_b837f458c7b1435383cbadca60399861.setContent(html_f533593a1bf44b0bab36215752b51dda);
+        
+
+        circle_marker_00fc5c04ec444487a5a7ccbefbfc4b18.bindPopup(popup_b837f458c7b1435383cbadca60399861)
+        ;
+
+        
+    
+    
+            var circle_marker_fa2726f72edd4ef5afa89c2e472fbafb = L.circleMarker(
+                [52.126514, -106.662576],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_5300fb9484104d8b9e0cffe87baedc4e = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_b02bf66093a14ae5979b24372ad218b7 = $(`<div id="html_b02bf66093a14ae5979b24372ad218b7" style="width: 100.0%; height: 100.0%;"><body> <h2>Saskatoon Police Service, Saskatchewan</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>2</td>                         <td>40%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>3</td>                         <td>60%</td>                         </tr><tr>                   <th>Total </th>                   <th>5</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_5300fb9484104d8b9e0cffe87baedc4e.setContent(html_b02bf66093a14ae5979b24372ad218b7);
+        
+
+        circle_marker_fa2726f72edd4ef5afa89c2e472fbafb.bindPopup(popup_5300fb9484104d8b9e0cffe87baedc4e)
+        ;
+
+        
+    
+    
+            var circle_marker_e5d3d99826d24d4eabad83936f14ee5e = L.circleMarker(
+                [43.415334, -79.743226],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_72b34c574eac4f6fbb8701c351e9edbc = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_d3ff12fdb0084b1bb9d2534bec65bf29 = $(`<div id="html_d3ff12fdb0084b1bb9d2534bec65bf29" style="width: 100.0%; height: 100.0%;"><body> <h2>Halton Regional Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Asian &nbsp </td>                         <td>1</td>                         <td>20%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>20%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>3</td>                         <td>60%</td>                         </tr><tr>                   <th>Total </th>                   <th>5</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_72b34c574eac4f6fbb8701c351e9edbc.setContent(html_d3ff12fdb0084b1bb9d2534bec65bf29);
+        
+
+        circle_marker_e5d3d99826d24d4eabad83936f14ee5e.bindPopup(popup_72b34c574eac4f6fbb8701c351e9edbc)
+        ;
+
+        
+    
+    
+            var circle_marker_33c81002d5334e0cbdf05aa3ead9e4e1 = L.circleMarker(
+                [53.9903977, -97.8158332],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_42ee7afce3ae44ed8e63e47a5c7ddbff = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_7e438c32dcdc45889ed624c65b7f2544 = $(`<div id="html_7e438c32dcdc45889ed624c65b7f2544" style="width: 100.0%; height: 100.0%;"><body> <h2>RCMP, Manitoba</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>2</td>                         <td>40%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>3</td>                         <td>60%</td>                         </tr><tr>                   <th>Total </th>                   <th>5</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_42ee7afce3ae44ed8e63e47a5c7ddbff.setContent(html_7e438c32dcdc45889ed624c65b7f2544);
+        
+
+        circle_marker_33c81002d5334e0cbdf05aa3ead9e4e1.bindPopup(popup_42ee7afce3ae44ed8e63e47a5c7ddbff)
+        ;
+
+        
+    
+    
+            var circle_marker_0671366851ad48bb81fa42c9cde104e5 = L.circleMarker(
+                [46.0329446000001, -73.6694742],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_538ca7261ef9426a8bdbfbbe2ca67356 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_611a1d407a36470aa7f8eb3f9053399e = $(`<div id="html_611a1d407a36470aa7f8eb3f9053399e" style="width: 100.0%; height: 100.0%;"><body> <h2>Kativik Regional Police Force, Quebec</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>5</td>                         <td>100%</td>                         </tr><tr>                   <th>Total </th>                   <th>5</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_538ca7261ef9426a8bdbfbbe2ca67356.setContent(html_611a1d407a36470aa7f8eb3f9053399e);
+        
+
+        circle_marker_0671366851ad48bb81fa42c9cde104e5.bindPopup(popup_538ca7261ef9426a8bdbfbbe2ca67356)
+        ;
+
+        
+    
+    
+            var circle_marker_051998d5a87d4beaa644f02adc8ca538 = L.circleMarker(
+                [42.986822, -81.22291],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_d07df698d5454baeb14b97cf43602e3e = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_2653f8ea00534491b316ed81130409bc = $(`<div id="html_2653f8ea00534491b316ed81130409bc" style="width: 100.0%; height: 100.0%;"><body> <h2>London Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Asian &nbsp </td>                         <td>1</td>                         <td>16%</td>                         </tr><tr>                         <td>Black &nbsp </td>                         <td>1</td>                         <td>16%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>16%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>3</td>                         <td>50%</td>                         </tr><tr>                   <th>Total </th>                   <th>6</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_d07df698d5454baeb14b97cf43602e3e.setContent(html_2653f8ea00534491b316ed81130409bc);
+        
+
+        circle_marker_051998d5a87d4beaa644f02adc8ca538.bindPopup(popup_d07df698d5454baeb14b97cf43602e3e)
+        ;
+
+        
+    
+    
+            var circle_marker_d9eccd28fc20421e9d9f6737371e684e = L.circleMarker(
+                [65.0376110787, -92.5461301044499],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_b3fccef91c494f2cb37d125f08288a50 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_8ede4f306081425f80d97044db183aff = $(`<div id="html_8ede4f306081425f80d97044db183aff" style="width: 100.0%; height: 100.0%;"><body> <h2>RCMP, Nunavut</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>16%</td>                         </tr><tr>                         <td>Indigenous &nbsp </td>                         <td>5</td>                         <td>83%</td>                         </tr><tr>                   <th>Total </th>                   <th>6</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_b3fccef91c494f2cb37d125f08288a50.setContent(html_8ede4f306081425f80d97044db183aff);
+        
+
+        circle_marker_d9eccd28fc20421e9d9f6737371e684e.bindPopup(popup_b3fccef91c494f2cb37d125f08288a50)
+        ;
+
+        
+    
+    
+            var circle_marker_081947f2439743abb07c32eb9f8f7025 = L.circleMarker(
+                [45.197498712, -63.0429875899946],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_076c961671b747f2b9bf98cb538307f1 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_051069fff31a4c5985f867db552ced45 = $(`<div id="html_051069fff31a4c5985f867db552ced45" style="width: 100.0%; height: 100.0%;"><body> <h2>RCMP, Nova Scotia</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>16%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>5</td>                         <td>83%</td>                         </tr><tr>                   <th>Total </th>                   <th>6</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_076c961671b747f2b9bf98cb538307f1.setContent(html_051069fff31a4c5985f867db552ced45);
+        
+
+        circle_marker_081947f2439743abb07c32eb9f8f7025.bindPopup(popup_076c961671b747f2b9bf98cb538307f1)
+        ;
+
+        
+    
+    
+            var circle_marker_1720b55b216b48a18393a5cf77d0fd49 = L.circleMarker(
+                [43.259378, -79.892693],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_d317827157894b7289b0e5bef534c337 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_4d34d94226024a5c90d69bc6f112f10d = $(`<div id="html_4d34d94226024a5c90d69bc6f112f10d" style="width: 100.0%; height: 100.0%;"><body> <h2>Hamilton Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Black &nbsp </td>                         <td>1</td>                         <td>12%</td>                         </tr><tr>                         <td>Asian &nbsp </td>                         <td>2</td>                         <td>25%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>2</td>                         <td>25%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>3</td>                         <td>37%</td>                         </tr><tr>                   <th>Total </th>                   <th>8</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_d317827157894b7289b0e5bef534c337.setContent(html_4d34d94226024a5c90d69bc6f112f10d);
+        
+
+        circle_marker_1720b55b216b48a18393a5cf77d0fd49.bindPopup(popup_d317827157894b7289b0e5bef534c337)
+        ;
+
+        
+    
+    
+            var circle_marker_17fa94aa795b493fb2baaab49933fc04 = L.circleMarker(
+                [43.86889, -79.442553],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_78298468852c4f28a1d19ce618577b30 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_acbcbc649fe84e4480f9f5eae26b763d = $(`<div id="html_acbcbc649fe84e4480f9f5eae26b763d" style="width: 100.0%; height: 100.0%;"><body> <h2>York Regional Police, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Black &nbsp </td>                         <td>1</td>                         <td>11%</td>                         </tr><tr>                         <td>Other &nbsp </td>                         <td>1</td>                         <td>11%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>3</td>                         <td>33%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>4</td>                         <td>44%</td>                         </tr><tr>                   <th>Total </th>                   <th>9</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_78298468852c4f28a1d19ce618577b30.setContent(html_acbcbc649fe84e4480f9f5eae26b763d);
+        
+
+        circle_marker_17fa94aa795b493fb2baaab49933fc04.bindPopup(popup_78298468852c4f28a1d19ce618577b30)
+        ;
+
+        
+    
+    
+            var circle_marker_ffb90157766e42d4b1477d79c1381e2b = L.circleMarker(
+                [53.9090049394, -106.133621976598],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_0e2d40b38ed34d078ccf24b808d4ecdd = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_334c4da34f954902876ae19e8752353b = $(`<div id="html_334c4da34f954902876ae19e8752353b" style="width: 100.0%; height: 100.0%;"><body> <h2>RCMP, Saskatchewan</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Unknown &nbsp </td>                         <td>1</td>                         <td>11%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>11%</td>                         </tr><tr>                         <td>Indigenous &nbsp </td>                         <td>7</td>                         <td>77%</td>                         </tr><tr>                   <th>Total </th>                   <th>9</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_0e2d40b38ed34d078ccf24b808d4ecdd.setContent(html_334c4da34f954902876ae19e8752353b);
+        
+
+        circle_marker_ffb90157766e42d4b1477d79c1381e2b.bindPopup(popup_0e2d40b38ed34d078ccf24b808d4ecdd)
+        ;
+
+        
+    
+    
+            var circle_marker_8a9854b0a6e8404f954d11a8c7df3d20 = L.circleMarker(
+                [45.412698, -75.686137],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_9697d08039cb47a8ac10bc4d0f61277f = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_2e045b21336a4a9c953771d4efe2e072 = $(`<div id="html_2e045b21336a4a9c953771d4efe2e072" style="width: 100.0%; height: 100.0%;"><body> <h2>Ottawa Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>11%</td>                         </tr><tr>                         <td>Black &nbsp </td>                         <td>2</td>                         <td>22%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>2</td>                         <td>22%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>4</td>                         <td>44%</td>                         </tr><tr>                   <th>Total </th>                   <th>9</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_9697d08039cb47a8ac10bc4d0f61277f.setContent(html_2e045b21336a4a9c953771d4efe2e072);
+        
+
+        circle_marker_8a9854b0a6e8404f954d11a8c7df3d20.bindPopup(popup_9697d08039cb47a8ac10bc4d0f61277f)
+        ;
+
+        
+    
+    
+            var circle_marker_8f34105928a9490aa99c11fddda99685 = L.circleMarker(
+                [43.660609, -79.727804],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_8609a2a75de14089a5a585569a0f7e7f = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_8c63fd3feec34a96b5d9c501d4684450 = $(`<div id="html_8c63fd3feec34a96b5d9c501d4684450" style="width: 100.0%; height: 100.0%;"><body> <h2>Peel Regional Police, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>White &nbsp </td>                         <td>1</td>                         <td>6%</td>                         </tr><tr>                         <td>South Asian &nbsp </td>                         <td>3</td>                         <td>20%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>3</td>                         <td>20%</td>                         </tr><tr>                         <td>Black &nbsp </td>                         <td>8</td>                         <td>53%</td>                         </tr><tr>                   <th>Total </th>                   <th>15</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_8609a2a75de14089a5a585569a0f7e7f.setContent(html_8c63fd3feec34a96b5d9c501d4684450);
+        
+
+        circle_marker_8f34105928a9490aa99c11fddda99685.bindPopup(popup_8609a2a75de14089a5a585569a0f7e7f)
+        ;
+
+        
+    
+    
+            var circle_marker_4b4aabc3d5be4749b4ba0ba4f6d64260 = L.circleMarker(
+                [49.888448, -97.144316],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_aae2c5dc9b44403eb25b0587cd57ed16 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_666e30647db04b2295a45fc55e4df8ab = $(`<div id="html_666e30647db04b2295a45fc55e4df8ab" style="width: 100.0%; height: 100.0%;"><body> <h2>Winnipeg Police Service, Manitoba</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Arab &nbsp </td>                         <td>1</td>                         <td>4%</td>                         </tr><tr>                         <td>Black &nbsp </td>                         <td>2</td>                         <td>9%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>2</td>                         <td>9%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>3</td>                         <td>13%</td>                         </tr><tr>                         <td>Indigenous &nbsp </td>                         <td>14</td>                         <td>63%</td>                         </tr><tr>                   <th>Total </th>                   <th>22</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_aae2c5dc9b44403eb25b0587cd57ed16.setContent(html_666e30647db04b2295a45fc55e4df8ab);
+        
+
+        circle_marker_4b4aabc3d5be4749b4ba0ba4f6d64260.bindPopup(popup_aae2c5dc9b44403eb25b0587cd57ed16)
+        ;
+
+        
+    
+    
+            var circle_marker_34261cd3950a496bb377d032bc9efce9 = L.circleMarker(
+                [49.266712, -123.114506],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_5711ae04ae04491093e7a26a6f420a4c = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_ec2a59e9d8ad49779ddb0ed04252fb72 = $(`<div id="html_ec2a59e9d8ad49779ddb0ed04252fb72" style="width: 100.0%; height: 100.0%;"><body> <h2>Vancouver Police Department, British Columbia</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>4%</td>                         </tr><tr>                         <td>Black &nbsp </td>                         <td>2</td>                         <td>8%</td>                         </tr><tr>                         <td>Asian &nbsp </td>                         <td>3</td>                         <td>13%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>7</td>                         <td>30%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>10</td>                         <td>43%</td>                         </tr><tr>                   <th>Total </th>                   <th>23</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_5711ae04ae04491093e7a26a6f420a4c.setContent(html_ec2a59e9d8ad49779ddb0ed04252fb72);
+        
+
+        circle_marker_34261cd3950a496bb377d032bc9efce9.bindPopup(popup_5711ae04ae04491093e7a26a6f420a4c)
+        ;
+
+        
+    
+    
+            var circle_marker_3ef16d25658f45e486a655c1c29fdda5 = L.circleMarker(
+                [49.4515636581, -84.2539813003493],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_75ba4871e4354b559ffe622b3a389428 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_3bbce5270ec247ed8f6911e1291a0b74 = $(`<div id="html_3bbce5270ec247ed8f6911e1291a0b74" style="width: 100.0%; height: 100.0%;"><body> <h2>OPP, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Other &nbsp </td>                         <td>1</td>                         <td>3%</td>                         </tr><tr>                         <td>Indigenous &nbsp </td>                         <td>3</td>                         <td>11%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>6</td>                         <td>23%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>16</td>                         <td>61%</td>                         </tr><tr>                   <th>Total </th>                   <th>26</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_75ba4871e4354b559ffe622b3a389428.setContent(html_3bbce5270ec247ed8f6911e1291a0b74);
+        
+
+        circle_marker_3ef16d25658f45e486a655c1c29fdda5.bindPopup(popup_75ba4871e4354b559ffe622b3a389428)
+        ;
+
+        
+    
+    
+            var circle_marker_b55e2cab5a384ed9a0846b9973756551 = L.circleMarker(
+                [51.159502, -114.068058],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_e9291213bfba4a68918e2f83378e595e = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_586415ae539344769311538b2fa98f12 = $(`<div id="html_586415ae539344769311538b2fa98f12" style="width: 100.0%; height: 100.0%;"><body> <h2>Calgary Police Service, Alberta</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Black &nbsp </td>                         <td>2</td>                         <td>7%</td>                         </tr><tr>                         <td>Indigenous &nbsp </td>                         <td>3</td>                         <td>11%</td>                         </tr><tr>                         <td>South Asian &nbsp </td>                         <td>4</td>                         <td>15%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>6</td>                         <td>23%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>11</td>                         <td>42%</td>                         </tr><tr>                   <th>Total </th>                   <th>26</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_e9291213bfba4a68918e2f83378e595e.setContent(html_586415ae539344769311538b2fa98f12);
+        
+
+        circle_marker_b55e2cab5a384ed9a0846b9973756551.bindPopup(popup_e9291213bfba4a68918e2f83378e595e)
+        ;
+
+        
+    
+    
+            var circle_marker_d999371009544477bdf5a88070711874 = L.circleMarker(
+                [53.541652, -113.494585],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_3bb47f1459124204afee118df54479a0 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_9e1d28334e8243abb20ff1c4efff39b0 = $(`<div id="html_9e1d28334e8243abb20ff1c4efff39b0" style="width: 100.0%; height: 100.0%;"><body> <h2>Edmonton Police Service, Alberta</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Other &nbsp </td>                         <td>1</td>                         <td>3%</td>                         </tr><tr>                         <td>Asian &nbsp </td>                         <td>2</td>                         <td>7%</td>                         </tr><tr>                         <td>Indigenous &nbsp </td>                         <td>4</td>                         <td>14%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>9</td>                         <td>33%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>11</td>                         <td>40%</td>                         </tr><tr>                   <th>Total </th>                   <th>27</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_3bb47f1459124204afee118df54479a0.setContent(html_9e1d28334e8243abb20ff1c4efff39b0);
+        
+
+        circle_marker_d999371009544477bdf5a88070711874.bindPopup(popup_3bb47f1459124204afee118df54479a0)
+        ;
+
+        
+    
+    
+            var circle_marker_609b401384e7429ab51075cc7580ea4d = L.circleMarker(
+                [51.0711554, -114.1158556],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_470623d072844fa4862012b78d6de407 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_a722f766b5f54c7eac419c8963aec096 = $(`<div id="html_a722f766b5f54c7eac419c8963aec096" style="width: 100.0%; height: 100.0%;"><body> <h2>RCMP, Alberta</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Indigenous &nbsp </td>                         <td>9</td>                         <td>27%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>10</td>                         <td>30%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>14</td>                         <td>42%</td>                         </tr><tr>                   <th>Total </th>                   <th>33</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_470623d072844fa4862012b78d6de407.setContent(html_a722f766b5f54c7eac419c8963aec096);
+        
+
+        circle_marker_609b401384e7429ab51075cc7580ea4d.bindPopup(popup_470623d072844fa4862012b78d6de407)
+        ;
+
+        
+    
+    
+            var circle_marker_921250b5d17b41c39bba4775f1d967ca = L.circleMarker(
+                [50.2677350012, -71.9274606668578],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_b229f13ac31a4e30961d5327a9df4489 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_381494ec7fdf410297fca6eeab20d546 = $(`<div id="html_381494ec7fdf410297fca6eeab20d546" style="width: 100.0%; height: 100.0%;"><body> <h2>SQ, Quebec</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Black &nbsp </td>                         <td>1</td>                         <td>2%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>6</td>                         <td>17%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>27</td>                         <td>79%</td>                         </tr><tr>                   <th>Total </th>                   <th>34</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_b229f13ac31a4e30961d5327a9df4489.setContent(html_381494ec7fdf410297fca6eeab20d546);
+        
+
+        circle_marker_921250b5d17b41c39bba4775f1d967ca.bindPopup(popup_b229f13ac31a4e30961d5327a9df4489)
+        ;
+
+        
+    
+    
+            var circle_marker_2976eabc10924f7887847bf79e12bfca = L.circleMarker(
+                [45.501819749999996, -73.57154225],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 18, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_d27b4b71e328463996f4d3ba23d9202c = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_14859fe8a8ad4e758795c2770b6356e1 = $(`<div id="html_14859fe8a8ad4e758795c2770b6356e1" style="width: 100.0%; height: 100.0%;"><body> <h2>Montreal Police Service, Quebec</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Arab &nbsp </td>                         <td>1</td>                         <td>2%</td>                         </tr><tr>                         <td>Latin American &nbsp </td>                         <td>1</td>                         <td>2%</td>                         </tr><tr>                         <td>Other &nbsp </td>                         <td>1</td>                         <td>2%</td>                         </tr><tr>                         <td>Black &nbsp </td>                         <td>7</td>                         <td>20%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>9</td>                         <td>25%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>16</td>                         <td>45%</td>                         </tr><tr>                   <th>Total </th>                   <th>35</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_d27b4b71e328463996f4d3ba23d9202c.setContent(html_14859fe8a8ad4e758795c2770b6356e1);
+        
+
+        circle_marker_2976eabc10924f7887847bf79e12bfca.bindPopup(popup_d27b4b71e328463996f4d3ba23d9202c)
+        ;
+
+        
+    
+    
+            var circle_marker_308f006bae4b43a9abd658998866ed0a = L.circleMarker(
+                [43.671757, -79.379358],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 28, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_7fbaafaca67441e2832d5b250e0594c4 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_cfaee7a3dc0f4c21bbc909fdb403764b = $(`<div id="html_cfaee7a3dc0f4c21bbc909fdb403764b" style="width: 100.0%; height: 100.0%;"><body> <h2>Toronto Police Service, Ontario</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Arab &nbsp </td>                         <td>1</td>                         <td>1%</td>                         </tr><tr>                         <td>Indigenous &nbsp </td>                         <td>1</td>                         <td>1%</td>                         </tr><tr>                         <td>South Asian &nbsp </td>                         <td>1</td>                         <td>1%</td>                         </tr><tr>                         <td>Asian &nbsp </td>                         <td>2</td>                         <td>3%</td>                         </tr><tr>                         <td>Latin American &nbsp </td>                         <td>2</td>                         <td>3%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>13</td>                         <td>24%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>15</td>                         <td>27%</td>                         </tr><tr>                         <td>Black &nbsp </td>                         <td>19</td>                         <td>35%</td>                         </tr><tr>                   <th>Total </th>                   <th>54</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_7fbaafaca67441e2832d5b250e0594c4.setContent(html_cfaee7a3dc0f4c21bbc909fdb403764b);
+        
+
+        circle_marker_308f006bae4b43a9abd658998866ed0a.bindPopup(popup_7fbaafaca67441e2832d5b250e0594c4)
+        ;
+
+        
+    
+    
+            var circle_marker_fec9b795e312450291a37a69b59b9218 = L.circleMarker(
+                [54.775179, -127.1586739],
+                {"bubblingMouseEvents": true, "color": "black", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 35, "stroke": true, "weight": 3}
+            ).addTo(map_7badca519468410d9d9b6e2c8162d0cb);
+        
+    
+        var popup_dea17c8ce21b495fa264ad28d4ff2a16 = L.popup({"maxWidth": 400, "minWidth": 300});
+
+        
+            var html_810096a03fe44124abe42e1e8056d47b = $(`<div id="html_810096a03fe44124abe42e1e8056d47b" style="width: 100.0%; height: 100.0%;"><body> <h2>RCMP, British Columbia</h2>                          <table style="width:100%">                         <tr>                         <th>Type of Weapon</th>                         <th>Number of Killings &nbsp </th>                         <th>Percentage of Total</th>                         </tr>                         <tr>                         <td>Asian &nbsp </td>                         <td>2</td>                         <td>2%</td>                         </tr><tr>                         <td>South Asian &nbsp </td>                         <td>3</td>                         <td>4%</td>                         </tr><tr>                         <td>Indigenous &nbsp </td>                         <td>11</td>                         <td>15%</td>                         </tr><tr>                         <td>Unknown &nbsp </td>                         <td>14</td>                         <td>20%</td>                         </tr><tr>                         <td>White &nbsp </td>                         <td>39</td>                         <td>56%</td>                         </tr><tr>                   <th>Total </th>                   <th>69</th>                   <th> </th>                   </tr></div>`)[0];
+            popup_dea17c8ce21b495fa264ad28d4ff2a16.setContent(html_810096a03fe44124abe42e1e8056d47b);
+        
+
+        circle_marker_fec9b795e312450291a37a69b59b9218.bindPopup(popup_dea17c8ce21b495fa264ad28d4ff2a16)
+        ;
+
+        
+    
+</script>

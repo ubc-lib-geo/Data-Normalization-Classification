@@ -81,8 +81,23 @@ class GetData(object):
     """docstring for GetData"""
     def __init__(self):
         super(GetData, self).__init__()
-        # self.scale = scale
-        
+
+        self.can_province_names = {
+          'AB': 'Alberta',
+          'BC': 'British Columbia',
+          'MB': 'Manitoba',
+          'NB': 'New Brunswick',
+          'NL': 'Newfoundland and Labrador',
+          'NS': 'Nova Scotia',
+          'NT': 'Northwest Territories',
+          'NU': 'Nunavut',
+          'ON': 'Ontario',
+          'PE': 'Prince Edward Island',
+          'QC': 'Quebec',
+          'SK': 'Saskatchewan',
+          'YT': 'Yukon'
+        }
+
         # Import Canadian Data
 
         self.CA_PoliceKillings = pd.read_csv('PoliceKillings_Canada_CBC_Updated.csv',
@@ -99,6 +114,11 @@ class GetData(object):
                                 'Knife, axe, other cutting instruments':'Knife',
                                 'Unknown':'None',
                                 'Chemical or sprays':'Other weapons'})
+        self.CA_PoliceKillings['POLICE SERVICE'] =  self.CA_PoliceKillings['POLICE SERVICE'].replace({
+                                'Service de police de la Ville de Lévis, Sûreté du Québec':'Levis Police Service',
+                                'Sûreté du Québec':'SQ',
+                                'Service de police de la Ville de Montréal':'Montreal Police Service'})
+        
 
         CA_Census = pd.read_csv('Canadian_Census_2016.csv',
                                               index_col=['PRUID']
