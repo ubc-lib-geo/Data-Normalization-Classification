@@ -92,6 +92,13 @@ class GetData(object):
         self.CA_PoliceKillings=self.CA_PoliceKillings.set_index(pd.DatetimeIndex(self.CA_PoliceKillings['DATE']),
                                                       drop=True
                                              )
+        self.CA_PoliceKillings['ARMED TYPE'] =  self.CA_PoliceKillings['ARMED TYPE'].replace({
+                                'Air gun, replica gun':'Other weapons',
+                                'Bat, club, other swinging object':'Other weapons',
+                                'Vehicle':'Other weapons',
+                                'Knife, axe, other cutting instruments':'Knife',
+                                'Unknown':'None',
+                                'Chemical or sprays':'Other weapons'})
 
         CA_Census = pd.read_csv('Canadian_Census_2016.csv',
                                               index_col=['PRUID']
@@ -118,6 +125,9 @@ class GetData(object):
             'Native American':'Indigenous',
             'Unknown race':'Unknown'})
         # self.US_PoliceKillings.loc[self.US_PoliceKillings["Victim's race"]=='Native America',"Victim's race"]='Indigenous'
+
+        self.US_PoliceKillings['AGE']=self.US_PoliceKillings["Victim's age"].replace({
+            'Unknown':np.nan,'40s':np.nan}).astype(float)
 
 
         US_Census_Detailed =  pd.read_csv('US_Census_Data_2018.csv',skiprows=1,
