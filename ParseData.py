@@ -144,6 +144,9 @@ class GetData(object):
         self.US_PoliceKillings['RACE']=self.US_PoliceKillings["Victim's race"].replace({
             'Native American':'Indigenous',
             'Unknown race':'Unknown'})
+        self.US_PoliceKillings['Unarmed/Did Not Have an Actual Weapon']=self.US_PoliceKillings['Unarmed/Did Not Have an Actual Weapon'].replace({
+            'Unclear':'Unarmed/Did Not Have an Actual Weapon'
+            })
         # self.US_PoliceKillings.loc[self.US_PoliceKillings["Victim's race"]=='Native America',"Victim's race"]='Indigenous'
 
         self.US_PoliceKillings['AGE']=self.US_PoliceKillings["Victim's age"].replace({
