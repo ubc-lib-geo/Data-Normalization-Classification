@@ -116,7 +116,8 @@ class GetData(object):
                                 'Chemical or sprays':'Other weapons'})
         self.CA_PoliceKillings['POLICE SERVICE'] =  self.CA_PoliceKillings['POLICE SERVICE'].replace({
                                 'Service de police de la Ville de Lévis, Sûreté du Québec':'Levis Police Service',
-                                'Sûreté du Québec':'SQ',
+                                'Sûreté du Québec':'Quebec Police Service',
+                                'OPP':'Ontario Provincial Police',
                                 'Service de police de la Ville de Montréal':'Montreal Police Service'})
         
 
@@ -234,7 +235,7 @@ class GetData(object):
 
     # return(self.CA,self.US)
 
-    def NaturalBreaks(self,column,classes=5,labels=None):
+    def Breaks(self,column,classes=5,labels=None,Manual_Bins=None):
         CA_Breaks = jenkspy.jenks_breaks(self.CA[column], nb_class=classes)
         self.CA[column+'_NB'] = pd.cut(self.CA[column],
                             bins=CA_Breaks,
@@ -248,4 +249,57 @@ class GetData(object):
                             bins=US_Breaks,
                             labels=labels,
                             include_lowest=True
+                                       )
+
+
+    # Quantiles
+        self.CA[column+'_QB'] = pd.qcut(self.CA[column],
+                            q=classes,
+                            labels=labels,
+                            # include_lowest=True,
+                            duplicates='drop'
+                                       )
+
+        self.US[column+'_QB'] = pd.qcut(self.US[column],
+                            q=classes,
+                            labels=labels,
+                            # include_lowest=True
+                            duplicates='drop'
+                                       )
+
+        # Equal Intervals
+        start = min(self.US[column].min(),self.CA[column].min())
+        end = max(self.US[column].max(),self.CA[column].max())+.01
+        freq = (end-start)/classes
+        self.CA[column+'_EB'] = pd.cut(self.CA[column],
+                            bins=classes,#pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
+                            labels=labels,
+                            # include_lowest=True,
+                            # closed='neither',
+                            duplicates='drop'
+                                       )
+
+        self.US[column+'_EB'] = pd.cut(self.US[column],
+                            bins=classes,#pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
+                            labels=labels,
+                            # include_lowest=True
+                            # closed='neither',
+                            duplicates='drop'
+                                       )
+
+        # Manual Breaks
+        self.CA[column+'_MB'] = pd.cut(self.CA[column],
+                            bins=Manual_Bins,
+                            labels=labels,
+                            # include_lowest=True,
+                            # closed='neither',
+                            duplicates='drop'
+                                       )
+
+        self.US[column+'_MB'] = pd.cut(self.US[column],
+                            bins=Manual_Bins,
+                            labels=labels,
+                            # include_lowest=True
+                            # closed='neither',
+                            duplicates='drop'
                                        )
