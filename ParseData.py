@@ -146,7 +146,8 @@ class GetData(object):
             'Native American':'Indigenous',
             'Unknown race':'Unknown'})
         self.US_PoliceKillings['Unarmed/Did Not Have an Actual Weapon']=self.US_PoliceKillings['Unarmed/Did Not Have an Actual Weapon'].replace({
-            'Unclear':'Unarmed/Did Not Have an Actual Weapon'
+            'Unclear':'Unarmed',
+            'Unarmed/Did Not Have an Actual Weapon':'Unarmed'
             })
         # self.US_PoliceKillings.loc[self.US_PoliceKillings["Victim's race"]=='Native America',"Victim's race"]='Indigenous'
 
@@ -236,32 +237,33 @@ class GetData(object):
     # return(self.CA,self.US)
 
     def Breaks(self,column,classes=5,labels=None,Manual_Bins=None):
-        CA_Breaks = jenkspy.jenks_breaks(self.CA[column], nb_class=classes)
+        self.CA_jenks = jenkspy.jenks_breaks(self.CA[column], nb_class=classes)
         self.CA[column+'_NB'] = pd.cut(self.CA[column],
-                            bins=CA_Breaks,
+                            bins=self.CA_jenks,
                             labels=labels,
                             include_lowest=True,
                             duplicates='drop'
                                        )
 
-        US_Breaks = jenkspy.jenks_breaks(self.US[column], nb_class=classes)
+        self.US_jenks = jenkspy.jenks_breaks(self.US[column], nb_class=classes)
         self.US[column+'_NB'] = pd.cut(self.US[column],
-                            bins=US_Breaks,
+                            bins=self.US_jenks,
                             labels=labels,
                             include_lowest=True
                                        )
 
 
     # Quantiles
+        self.classes = classes
         self.CA[column+'_QB'] = pd.qcut(self.CA[column],
-                            q=classes,
+                            q=self.classes,
                             labels=labels,
                             # include_lowest=True,
                             duplicates='drop'
                                        )
 
         self.US[column+'_QB'] = pd.qcut(self.US[column],
-                            q=classes,
+                            q=self.classes,
                             labels=labels,
                             # include_lowest=True
                             duplicates='drop'
@@ -271,8 +273,12 @@ class GetData(object):
         start = min(self.US[column].min(),self.CA[column].min())
         end = max(self.US[column].max(),self.CA[column].max())+.01
         freq = (end-start)/classes
+
+
+        self.EB_bins= np.linspace(start,end,classes+1)
+                            
         self.CA[column+'_EB'] = pd.cut(self.CA[column],
-                            bins=classes,#pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
+                            bins=pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
                             labels=labels,
                             # include_lowest=True,
                             # closed='neither',
@@ -280,7 +286,7 @@ class GetData(object):
                                        )
 
         self.US[column+'_EB'] = pd.cut(self.US[column],
-                            bins=classes,#pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
+                            bins=pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
                             labels=labels,
                             # include_lowest=True
                             # closed='neither',
@@ -288,8 +294,9 @@ class GetData(object):
                                        )
 
         # Manual Breaks
+        self.Manual_Bins = Manual_Bins
         self.CA[column+'_MB'] = pd.cut(self.CA[column],
-                            bins=Manual_Bins,
+                            bins=self.Manual_Bins,
                             labels=labels,
                             # include_lowest=True,
                             # closed='neither',
@@ -297,7 +304,7 @@ class GetData(object):
                                        )
 
         self.US[column+'_MB'] = pd.cut(self.US[column],
-                            bins=Manual_Bins,
+                            bins=self.Manual_Bins,
                             labels=labels,
                             # include_lowest=True
                             # closed='neither',
