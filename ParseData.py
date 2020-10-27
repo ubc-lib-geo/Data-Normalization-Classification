@@ -236,7 +236,7 @@ class GetData(object):
 
     # return(self.CA,self.US)
 
-    def Breaks(self,column,classes=5,labels=None,Manual_Bins=None):
+    def Breaks(self,column,classes=5,labels=None,Manual_Bins=None,STD_i = 1):
         self.CA_jenks = jenkspy.jenks_breaks(self.CA[column], nb_class=classes)
         self.CA[column+'_NB'] = pd.cut(self.CA[column],
                             bins=self.CA_jenks,
@@ -257,21 +257,22 @@ class GetData(object):
         self.classes = classes
         self.CA[column+'_QB'] = pd.qcut(self.CA[column],
                             q=self.classes,
-                            labels=labels,
+                            # labels=labels,
                             # include_lowest=True,
                             duplicates='drop'
                                        )
 
         self.US[column+'_QB'] = pd.qcut(self.US[column],
                             q=self.classes,
-                            labels=labels,
+                            # labels=labels,
                             # include_lowest=True
                             duplicates='drop'
                                        )
 
         # Equal Intervals
-        start = min(self.US[column].min(),self.CA[column].min())
-        end = max(self.US[column].max(),self.CA[column].max())+.01
+        import math
+        start = math.floor(min(self.US[column].min(),self.CA[column].min())*10)/10
+        end = math.ceil(max(self.US[column].max(),self.CA[column].max())*10)/10
         freq = (end-start)/classes
 
 
@@ -294,19 +295,46 @@ class GetData(object):
                                        )
 
         # Manual Breaks
-        self.Manual_Bins = Manual_Bins
-        self.CA[column+'_MB'] = pd.cut(self.CA[column],
-                            bins=self.Manual_Bins,
-                            labels=labels,
+        if Manual_Bins != None:
+            self.Manual_Bins = Manual_Bins
+            self.CA[column+'_MB'] = pd.cut(self.CA[column],
+                                bins=self.Manual_Bins,
+                                labels=labels,
+                                # include_lowest=True,
+                                # closed='neither',
+                                duplicates='drop'
+                                           )
+
+            self.US[column+'_MB'] = pd.cut(self.US[column],
+                                bins=self.Manual_Bins,
+                                labels=labels,
+                                # include_lowest=True
+                                # closed='neither',
+                                duplicates='drop'
+                                           )
+
+
+        # Manual Breaks
+        # if Manual_Bins != None:
+            # self.CA_std_Bins = [self.CA[column].min()].append(x for)
+
+        
+
+        self.CA['STD'] = (self.CA[column]-self.CA[column].mean())/self.CA[column].std()
+        bins = np.arange(0,max(self.CA['STD'].min()*-1,self.CA['STD'].max())+STD_i,STD_i)
+        self.CA_STD_bins = (np.append(bins[::-1][:-1]*-1,bins))
+        self.CA[column+'_STD'] = pd.cut(self.CA['STD'],
+                            bins=self.CA_STD_bins,
+                            # labels=labels,
                             # include_lowest=True,
-                            # closed='neither',
                             duplicates='drop'
                                        )
-
-        self.US[column+'_MB'] = pd.cut(self.US[column],
-                            bins=self.Manual_Bins,
-                            labels=labels,
+        self.US['STD'] = (self.US[column]-self.US[column].mean())/self.US[column].std()
+        bins = np.arange(0,max(self.US['STD'].min()*-1,self.US['STD'].max())+STD_i,STD_i)
+        self.US_STD_bins = (np.append(bins[::-1][:-1]*-1,bins))
+        self.US[column+'_STD'] = pd.cut(self.US['STD'],
+                            bins=self.US_STD_bins,
+                            # labels=labels,
                             # include_lowest=True
-                            # closed='neither',
                             duplicates='drop'
                                        )
