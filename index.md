@@ -3,7 +3,10 @@ layout: default
 title: Introudction
 nav_order: 1
 ---
-# Using Python to Promote Social Justice
+# Data Normalization & Classification: 
+# Police Violence in North America
+
+### Workshop/Lecture by June Skeeter
 
 <a href="slides.html" target="_blank">View slides in new tab</a>
 
