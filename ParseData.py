@@ -100,7 +100,7 @@ class GetData(object):
 
         # Import Canadian Data
 
-        self.CA_PoliceKillings = pd.read_csv('PoliceKillings_Canada_CBC_Updated.csv',
+        self.CA_PoliceKillings = pd.read_csv('Inputs/PoliceKillings_Canada_CBC_Updated.csv',
                                               parse_dates=['DATE'],
                                               index_col=['VICTIM ID']
                                              )
@@ -121,10 +121,10 @@ class GetData(object):
                                 'Service de police de la Ville de Montréal':'Montreal Police Service'})
         
 
-        CA_Census = pd.read_csv('Canadian_Census_2016.csv',
+        CA_Census = pd.read_csv('Inputs/Canadian_Census_2016.csv',
                                               index_col=['PRUID']
                                               )
-        CA_Provinces= gpd.read_file('Canadian_Census_Boundaries_2016.shp').set_index('PRUID')
+        CA_Provinces= gpd.read_file('Inputs/Canadian_Census_Boundaries_2016.shp').set_index('PRUID')
 
         dtype = 'int64'
         CA_Provinces.index = CA_Provinces.index.astype(dtype)
@@ -134,7 +134,7 @@ class GetData(object):
 
 
         # Import and Parse United States Data
-        self.US_PoliceKillings =  pd.read_csv('PoliceKillings_US.csv',
+        self.US_PoliceKillings =  pd.read_csv('Inputs/PoliceKillings_US.csv',
                                               parse_dates=['Date of Incident (month/day/year)'],
                                               index_col=['MPV ID'],
                                               encoding= 'unicode_escape'
@@ -155,7 +155,7 @@ class GetData(object):
             'Unknown':np.nan,'40s':np.nan}).astype(float)
 
 
-        US_Census_Detailed =  pd.read_csv('US_Census_Data_2018.csv',skiprows=1,
+        US_Census_Detailed =  pd.read_csv('Inputs/US_Census_Data_2018.csv',skiprows=1,
                                               index_col=['id'],
                                              )
         vals = ['Geographic Area Name']
@@ -174,7 +174,7 @@ class GetData(object):
         US_Census['Total']=US_Census_Detailed['Estimate!!SEX AND AGE!!Total population']
         US_Census['Mixed']=US_Census_Detailed['Estimate!!RACE!!Total population!!Two or more races']
 
-        US_States= gpd.read_file('cb_2018_us_state_20m.shp').set_index('AFFGEOID')
+        US_States= gpd.read_file('Inputs/cb_2018_us_state_20m.shp').set_index('AFFGEOID')
         US_States= US_States.join(US_Census)
         US_States= US_States.set_index('STUSPS')
 

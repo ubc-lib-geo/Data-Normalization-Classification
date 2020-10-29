@@ -1,43 +1,38 @@
 ---
 layout: default
-title: Basics of Python
+title: Canadian Police Violence Data
 nav_order: 2
 ---
-# Python is a powerful programming language that is free to download and use.
-* If you want your own installation, check out [Anaconda](https://www.anaconda.com/products/individual)
-  * It will install most commonly used python packages and set everything up for you.
+# Canadian Police Violence Data
 
 
-### GIS w/ Python: Resources:
+This data was collected by the CBC and is available for download here: 
+    https://newsinteractives.cbc.ca/fatalpoliceencounters/
+    
+* "There is no government database listing deaths at the hands of the police available to the public in Canada, so CBC News created its own. The CBC’s research librarians have collected detailed information on each case, such as ethnicity, the role of mental illness or substance abuse, the type of weapon used and the police service involved, to create a picture of who is dying in police encounters. "
+    
+    
+* This is not an official count because police departments in Canada are not mandated to collect all of this information.  Rather this dataset is a collection of second hand information in the form of press releases, news articles, etc.  Some records are incomplete, and the total number of incidents is likely higher than detailed here.
 
-* A great place to go if you're having issues with python is [Stack Overflow](https://stackoverflow.com/)
-	* Its a popular forum where you can search, post, and answer coding questions.
-* A related site that is more GIS focused site is [Stack Exchnage](https://gis.stackexchange.com/)
+# 1) Police killings by year
+* There were 556 killings between January 2000 - June 2020
+    * Increasing trend0.85 killings/year.
+    * 2020 is on pace to be a record breaking year.
 
+    <!-- CA_Trendline.png -->
 
-# Python relies on a series of packages (aka libraries) to handle different tasks
+<a href="CA_Trendline.png" target="_blank">View Image in New Tab</a>
 
-* Packages are collections of code that are designed specifically for performing different tasks, e.g.: Plottoing, Statistics, Linear Algebra, etc.
-
-
-## We'll be workng with the following packages today
-* [numpy](https://numpy.org/doc/stable/)
-	* Numpy is a powerful math libary for multidimensional data
-* [pandas](https://pandas.pydata.org/docs/)
-	* Pandas is a powerful library for handling data
-* [geopandas](https://geopandas.org/)
-	* This is a geospatial extension to pandas.  We'll use it to handle and manipulate our geospatial data
-* [scipy](https://docs.scipy.org/doc/scipy/reference/)
-	* Scipy is math library, we'll use it for calculating a linear regressions
-* [matplotlib](https://matplotlib.org/contents.html)
-	* Matplotlib is a powerful ploting library.  We'll uses it to make detailed maps and graphs
-* [folium](https://python-visualization.github.io/folium/quickstart.html#Getting-Started)
-	* Folium is a webmapping library that interaces with leaflet.js
-* [branca](https://python-visualization.github.io/branca/colormap.html)
-	* A package for creating colormaps
-* [geopy](https://geopy.readthedocs.io/en/stable/)
-	* This is a package that can connect us with different geodocing services
-
-### We'll be using a UBC server with python alread installed.  It has **Almost** every package we need already installed on it.
-* If you are doing this using your own instalaition, you'll need to make sure you install each of the above packages.  Instrctons can be found on each packages webpage
-* geopy isn't installed on this server, but we can easily install it ourselves!  I'll walk you through the process on the getting started page.
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="CA_Trendline.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>

@@ -4,12 +4,28 @@ title: Introudction
 nav_order: 1
 ---
 # Data Normalization & Classification: 
-# Police Violence in North America
+# Hilighting Racial Disparities in Police Violence across North America
 
 ### Workshop/Lecture by June Skeeter
 
-This workshop/lecture uses police violence data and census data from Canada and the United States to highlight the importance of data nomralization when comparing data from differrent populations and show how different data classification methods impact the ways we percieve patterns in a dataset.
+This workshop/lecture focuses on police violence data from Canada and the United States to emphasize the importance of data nomralization and show how different data classification methods impact the ways we percieve information.
 
+
+# Content Warning:
+* This lecture/workshop deals with a difficult and painful subject that may be triggering to some people.  The datasets we're using today describe incidents of police killings in Canada and the United States
+
+
+# Pre-Lecture Poll questions:
+
+### 1) Which country has a higher frequency of police violence?
+    A) Canada
+    B) The United States
+    C) They're about equal
+    
+### 2) Which country has a greater racial disparity in incidetns of police violence?
+    A) Canada
+    B) The United States
+    C) They're about equal
 
 <a href="slides.html" target="_blank">View slides in new tab</a>
 
