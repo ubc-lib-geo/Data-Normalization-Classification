@@ -36,3 +36,54 @@ This data was collected by the CBC and is available for download here:
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
+
+# 2) Age distribution of victims
+
+Histograms show the shape and spread of a dataset.
+* Here we see the age distribution of victims in 5 year increments.
+    * The youngest was 15 and the oldest was 77
+    * The mean age is 35.6, the standard deviation is 11.6
+* The histogram shows us that the age is slightly skewed towards older ages
+    * The distribution has a tail
+
+
+<a href="CA_AgeHist.png" target="_blank">View Image in New Tab</a>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="CA_AgeHist.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+
+
+# 3) The racial breakdown of police killings.
+* The majority of police killings are white people
+    * The second largest demographic is "Unknown", which in most cases means the this information was not recorded by the police.  Since this data was collected and reported by a third party rather through a central database, information is missing.  This information should be mandatory for police departments to collect and publish.
+* Demographic groups are not evenly represented in the populations
+    * Canada is about 73.4% White while its only 4.7% Indigenous and 3.4% Black
+
+
+    
+<a href="CA_Race.png" target="_blank">View Image in New Tab</a>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="CA_Race.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
