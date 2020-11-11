@@ -3,8 +3,8 @@ layout: default
 title: Introudction
 nav_order: 1
 ---
-# Data Normalization & Classification: 
-# Hilighting Racial Disparities in Police Violence across North America
+# Data Normalization & Classification
+# Highlighting Racial Disparities in Police Violence across North America
 
 ### Workshop/Lecture by June Skeeter
 

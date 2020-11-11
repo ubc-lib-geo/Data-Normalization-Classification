@@ -1,0 +1,17 @@
+2016 Census Profiles Files / Profile of Census Subdivisions
+COL0 - GEO UID
+COL1 - CSD name
+COL2 - Population and dwelling counts / Population, 2016
+COL3 - Aboriginals and Visible Minorities - Total Sex / Total - Aboriginal identity for the population in private households - 25% sample data / Aboriginal identity
+COL4 - Aboriginals and Visible Minorities - Total Sex / Total - Visible minority for the population in private households - 25% sample data / Total visible minority population / Visible minority, n.i.e.
+COL5 - Aboriginals and Visible Minorities - Total Sex / Total - Visible minority for the population in private households - 25% sample data / Total visible minority population / Multiple visible minorities
+COL6 - Aboriginals and Visible Minorities - Total Sex / Total - Visible minority for the population in private households - 25% sample data / Total visible minority population / Japanese
+COL7 - Aboriginals and Visible Minorities - Total Sex / Total - Visible minority for the population in private households - 25% sample data / Total visible minority population / Korean
+COL8 - Aboriginals and Visible Minorities - Total Sex / Total - Visible minority for the population in private households - 25% sample data / Total visible minority population / West Asian
+COL9 - Aboriginals and Visible Minorities - Total Sex / Total - Visible minority for the population in private households - 25% sample data / Total visible minority population / Southeast Asian
+COL10 - Aboriginals and Visible Minorities - Total Sex / Total - Visible minority for the population in private households - 25% sample data / Total visible minority population / Latin American
+COL11 - Aboriginals and Visible Minorities - Total Sex / Total - Visible minority for the population in private households - 25% sample data / Total visible minority population / Arab
+COL12 - Aboriginals and Visible Minorities - Total Sex / Total - Visible minority for the population in private households - 25% sample data / Total visible minority population / Filipino
+COL13 - Aboriginals and Visible Minorities - Total Sex / Total - Visible minority for the population in private households - 25% sample data / Total visible minority population / Black
+COL14 - Aboriginals and Visible Minorities - Total Sex / Total - Visible minority for the population in private households - 25% sample data / Total visible minority population / Chinese
+COL15 - Aboriginals and Visible Minorities - Total Sex / Total - Visible minority for the population in private households - 25% sample data / Total visible minority population / South Asian

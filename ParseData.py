@@ -62,21 +62,7 @@ us_state_abbrev = {
     'Wyoming': 'WY'
 }
 
-can_province_abbrev = {
-  'Alberta': 'AB',
-  'British Columbia': 'BC',
-  'Manitoba': 'MB',
-  'New Brunswick': 'NB',
-  'Newfoundland and Labrador': 'NL',
-  'Northwest Territories': 'NT',
-  'Nova Scotia': 'NS',
-  'Nunavut': 'NU',
-  'Ontario': 'ON',
-  'Prince Edward Island': 'PE',
-  'Quebec': 'QC',
-  'Saskatchewan': 'SK',
-  'Yukon': 'YT'
-}
+
 class GetData(object):
     """docstring for GetData"""
     def __init__(self):
@@ -97,7 +83,21 @@ class GetData(object):
           'SK': 'Saskatchewan',
           'YT': 'Yukon'
         }
-
+        self.can_province_abbrev = {
+          'Alberta': 'AB',
+          'British Columbia': 'BC',
+          'Manitoba': 'MB',
+          'New Brunswick': 'NB',
+          'Newfoundland and Labrador': 'NL',
+          'Northwest Territories': 'NT',
+          'Nova Scotia': 'NS',
+          'Nunavut': 'NU',
+          'Ontario': 'ON',
+          'Prince Edward Island': 'PE',
+          'Quebec': 'QC',
+          'Saskatchewan': 'SK',
+          'Yukon': 'YT'
+        }
         # Import Canadian Data
 
         self.CA_PoliceKillings = pd.read_csv('Inputs/PoliceKillings_Canada_CBC_Updated.csv',
@@ -115,10 +115,12 @@ class GetData(object):
                                 'Unknown':'None',
                                 'Chemical or sprays':'Other weapons'})
         self.CA_PoliceKillings['POLICE SERVICE'] =  self.CA_PoliceKillings['POLICE SERVICE'].replace({
-                                'Service de police de la Ville de Lévis, Sûreté du Québec':'Levis Police Service',
-                                'Sûreté du Québec':'Quebec Police Service',
+        #                         'Service de police de la Ville de Lévis, Sûreté du Québec':'Service de police de la Ville de Lévis',
+        #                         'Sûreté du Québec':'SQ',
+                                'Peterborough Lakefield Community Police Force':'Peterborough Police Service',
                                 'OPP':'Ontario Provincial Police',
-                                'Service de police de la Ville de Montréal':'Montreal Police Service'})
+        #                         # 'Service de police de la Ville de Montréal':'Montreal Police Service'
+                                })
         
 
         CA_Census = pd.read_csv('Inputs/Canadian_Census_2016.csv',
@@ -129,7 +131,7 @@ class GetData(object):
         dtype = 'int64'
         CA_Provinces.index = CA_Provinces.index.astype(dtype)
         CA_Provinces= CA_Provinces.join(CA_Census)
-        CA_Provinces= CA_Provinces.rename(columns={'Caucasian':'White'})
+        # CA_Provinces= CA_Provinces.rename(columns={'Caucasian':'White'})
         CA_Provinces= CA_Provinces.set_index('prov')
 
 
