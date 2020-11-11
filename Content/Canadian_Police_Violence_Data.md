@@ -110,7 +110,7 @@ Here are all departments which have killed at least ten people in the last 20 ye
 
 
 
-<a href="Content/PoliceViolenceIncidents.html" target="_blank">View slides in new tab</a>
+<a href="PoliceViolenceIncidents.html" target="_blank">View slides in new tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
