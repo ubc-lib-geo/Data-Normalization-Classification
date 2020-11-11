@@ -1,6 +1,4 @@
-# Geocoding-Web-Mapping-with-Python
-
-This workshop is an introduction to geocoding and web mapping with python.
+# Data-Normalization-Classification
 
 Click here for the workshop webpage: https://ubc-lib-geo.github.io/Data-Normalization-Classification/
 
