@@ -90,9 +90,9 @@ Here are all departments which have killed at least ten people in the last 20 ye
 * The RCMP serves as the provincial police in eight provinces and the territories.
     * All together, the RCMP is responsible for 34% of deaths 
 
-# 10 Deadliest Police Departments
+# 10 Deadliest Police Services
 
-|               Department                |Provnce|Killings|
+|               Police Service            |Provnce|Killings|
 |-----------------------------------------|-------|-------:|
 |RCMP                                     |BC     |      78|
 |Toronto Police Service                   |ON     |      56|
@@ -106,7 +106,7 @@ Here are all departments which have killed at least ten people in the last 20 ye
 |Winnipeg Police Service                  |MB     |      21|
 
 
-<a href="PoliceViolenceIncidents.html" target="_blank">View slides in new tab</a>
+<a href="PoliceViolenceIncidents.html" target="_blank">View map new tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -150,12 +150,12 @@ Here are all departments which have killed at least ten people in the last 20 ye
 
 
 
-<a href="CA_Race_Normalized.png" target="_blank">View Image in New Tab</a>
+<a href="CA_Race_Proportional.png" target="_blank">View Image in New Tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="CA_Race_Normalized.png" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="CA_Race_Proportional.png" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
