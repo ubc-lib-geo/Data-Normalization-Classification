@@ -152,6 +152,16 @@ class GetData(object):
         CA_Provinces= CA_Provinces.set_index('prov')
 
 
+
+        Municipal = pd.read_csv('Inputs/Municipal_Data.csv',index_col=['GEO UID'],
+                                                      encoding= 'unicode_escape')
+        Municipal_Boundaries=gpd.read_file('Inputs/lcsd000a14a_e.shp')
+        Municipal_Boundaries = Municipal_Boundaries.set_index(
+            Municipal_Boundaries['CSDUID'].astype(
+            Municipal.index.dtype))
+        self.Municipal_Boundaries=Municipal_Boundaries.join(Municipal)
+        self.Municipal_Boundaries['PROV']=self.Municipal_Boundaries['PRNAME'].str.split(' / ',expand=True)[0]
+
         # Import and Parse United States Data
         self.US_PoliceKillings =  pd.read_csv('Inputs/PoliceKillings_US.csv',
                                               parse_dates=['Date of Incident (month/day/year)'],
