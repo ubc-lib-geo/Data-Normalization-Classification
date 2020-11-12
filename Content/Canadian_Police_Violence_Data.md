@@ -123,6 +123,49 @@ Here are all departments which have killed at least ten people in the last 20 ye
 </div>
 
 
+# 5) The racial breakdown of police killings.
+* "The majority of people killied by police in Canada are White".  This statement isn't false ... but it is very missleading.
+
+<a href="CA_Race.png" target="_blank">View Image in New Tab</a>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="CA_Race.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+
+
+* Demographic groups are not evenly represented in the populations
+    * Canada's population is 73.4% White, but they only account for 43.0% of police killings.
+    * Canada's population only 4.7% Indigenous and 3.4% Black, but they account for 16.2% and 8.6% of police killings  
+    * The victim's race is unreported 138 (24.8%) of the indidents.   
+
+
+
+<a href="CA_Race_Normalized.png" target="_blank">View Image in New Tab</a>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="CA_Race_Normalized.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+
 
 
 # Data Normalization
