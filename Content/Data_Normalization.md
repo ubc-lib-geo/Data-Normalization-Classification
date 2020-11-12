@@ -1,14 +1,17 @@
-
+---
+layout: default
+title: Canadian Police Violence Data
+nav_order: 3
+---
 # Data Normalization
 
-Normalization, is the process of scaling (AKA Normalizing) one number by another.
-* For example, we can as the question:
-    * Which police departments are most likely to kill an unarmed person?
-* We need two pieces of information for each police department
-    * A) The total unarmed victims
-    * B) The total victims
-* We can divide A by B, this will tell us what percentage of each departments victims were unarmed.
-* So our normalization calculation would look like:
+Normalization, is the process of scaling (AKA Normalizing) one number by another:
+* ie. To find get the proportion of Canada's population made up by each racial group, we need to know:
+    * A) The population of each racial group
+    * B) The total population
+  * Dividing A by B, tells the percentage of Canada's population each demographic group makes up.
+
+* Looking at the proportion
 
     
 \begin{align}
