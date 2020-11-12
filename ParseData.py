@@ -114,6 +114,12 @@ class GetData(object):
                                 'Knife, axe, other cutting instruments':'Knife',
                                 'Unknown':'None',
                                 'Chemical or sprays':'Other weapons'})
+
+        self.CA_PoliceKillings['RACE'] =  self.CA_PoliceKillings['RACE'].replace({
+                                'Other':'Visible minority, n.i.e',
+                                'Caucasian':'Visible minority, n.i.e'})
+        self.CA_PoliceKillings.RACE.fillna('Unknown',inplace=True)
+
         self.CA_PoliceKillings['POLICE SERVICE'] =  self.CA_PoliceKillings['POLICE SERVICE'].replace({
         #                         'Service de police de la Ville de Lévis, Sûreté du Québec':'Service de police de la Ville de Lévis',
         #                         'Sûreté du Québec':'SQ',
@@ -126,6 +132,17 @@ class GetData(object):
         CA_Census = pd.read_csv('Inputs/Canadian_Census_2016.csv',
                                               index_col=['PRUID']
                                               )
+
+        CA_Census =  CA_Census.rename(columns={
+            'Caucasian':'White'})
+        CA_Census['Asian'] = CA_Census['Chinese']+CA_Census['Filipino']+CA_Census['West Asian']+\
+        CA_Census['Japansese']+CA_Census['Korean']+CA_Census['Southeast Asian']
+        CA_Census = CA_Census.drop(['Chinese','Filipino','West Asian','Japansese','Korean','Southeast Asian'],axis=1)
+        CA_Census['Unknown'] = 0
+
+        CA_Census['Visible minority, n.i.e'] = CA_Census['Visible minority, n.i.e']+CA_Census['Mixed']
+        CA_Census = CA_Census.drop(['Mixed'],axis=1)
+
         CA_Provinces= gpd.read_file('Inputs/Canadian_Census_Boundaries_2016.shp').set_index('PRUID')
 
         dtype = 'int64'
@@ -193,7 +210,7 @@ class GetData(object):
         self.CA = CA_Provinces.join(self.CA_PoliceKillings.groupby('PROV').count()["AGE"])
         self.CA = self.CA.rename(columns={'AGE':'Total_Killings'})
         self.CA = self.CA.join(CA_Killings_By_Race,rsuffix='_Killings')
-        self.CA = self.CA.rename(columns={'Unknown':'Unknown_Killings'})
+        # self.CA = self.CA.rename(columns={'Unknown':'Unknown_Killings'})
         self.CA = self.CA.join(CA_Killings_By_Year)
 
 
