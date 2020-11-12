@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Histograms
-nav_order: 6
+nav_order: 7
 ---
 
 # Part 3) Histograms, Data Classification, & Cloropleth Mapping
