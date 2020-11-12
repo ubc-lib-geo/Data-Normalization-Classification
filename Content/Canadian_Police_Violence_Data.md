@@ -91,7 +91,7 @@ Here are all departments which have killed at least ten people in the last 20 ye
     * All together, the RCMP is responsible for 34% of deaths 
 
 # 10 Deadliest Police Departments
-'''
+
 |               Department                |Provnce|Killings|
 |-----------------------------------------|-------|-------:|
 |RCMP                                     |BC     |      78|
@@ -104,7 +104,7 @@ Here are all departments which have killed at least ten people in the last 20 ye
 |Calgary Police Service                   |AB     |      26|
 |Vancouver Police Department              |BC     |      24|
 |Winnipeg Police Service                  |MB     |      21|
-'''
+
 
 <a href="PoliceViolenceIncidents.html" target="_blank">View slides in new tab</a>
 
@@ -125,7 +125,21 @@ Here are all departments which have killed at least ten people in the last 20 ye
 
 
 
+# Data Normalization
 
+Normalization, is the process of scaling (AKA Normalizing) one number by another.
+* For example, we can as the question:
+    * Which police departments are most likely to kill an unarmed person?
+* We need two pieces of information for each police department
+    * A) The total unarmed victims
+    * B) The total victims
+* We can divide A by B, this will tell us what percentage of each departments victims were unarmed.
+* So our normalization calculation would look like:
+
+    
+\begin{align}
+\ Percent Unarmed & = (\frac{Unarmed Victims}{Total Victims})* 100 \\
+\end{align}
 
 
 
