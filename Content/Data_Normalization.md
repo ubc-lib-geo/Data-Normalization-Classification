@@ -16,9 +16,12 @@ Comparing the Proportion of Police Killings for each demogrpahic group to their 
   * The PKR is the number of police killings per unit of population (ie. million) per unit of time (ie. year)
 
 Canada's Total Police Killing Rate is: 
-\begin{align}
-\ $PKR & = (\frac{Total Police Killings}{Total Population}) x (\frac{1,000,000 ppl}{19.5 yr})$ \\
-\end{align}
+<!-- \begin{align} -->
+
+$$\ PKR = (\frac{Total Police Killings}{Total Population}) x (\frac{1,000,000 ppl}{19.5 yr})$$
+
+<!-- \ PKR & = (\frac{Total Police Killings}{Total Population}) x (\frac{1,000,000 ppl}{19.5 yr})$ \\ -->
+<!-- \end{2align} -->
 
 
 
