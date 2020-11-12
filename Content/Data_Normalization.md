@@ -18,8 +18,9 @@ Comparing the Proportion of Police Killings for each demogrpahic group to their 
 Canada's Total Police Killing Rate is: 
 <!-- \begin{align} -->
 
-$$\ PKR = (\frac{Total Police Killings}{Total Population}) x (\frac{1,000,000 ppl}{19.5 yr})$$
+$$\ PKR = (\frac{556 Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{19.5 yr})$$
 
+$$\int_\Omega \nabla u \cdot \nabla v~dx = \int_\Omega fv~dx$$
 <!-- \ PKR & = (\frac{Total Police Killings}{Total Population}) x (\frac{1,000,000 ppl}{19.5 yr})$ \\ -->
 <!-- \end{2align} -->
 
