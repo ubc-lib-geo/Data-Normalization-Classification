@@ -1,21 +1,23 @@
 ---
 layout: default
-title: Canadian Police Violence Data
+title: Data Normalization
 nav_order: 3
 ---
 # Data Normalization
 
 Normalization, is the process of scaling (AKA Normalizing) one number by another:
 * ie. To find get the proportion of Canada's population made up by each racial group, we need to know:
-    * A) The population of each racial group
-    * B) The total population
+     * A) The population of each racial group
+     * B) The total population
   * Dividing A by B, tells the percentage of Canada's population each demographic group makes up.
 
-* Looking at the proportion
+Comparing the Proportion of Police Killings for each demogrpahic group to their respective proporion of the population is informative
+* However, its more meaningful to combine the police killings and population into one statistc: ###The Police Killing Rate (PKR)
+  * The PKR is the number of police killings per unit of population (ie. million) per unit of time (ie. year)
 
-    
+Canada's Total Police Killing Rate is: 
 \begin{align}
-\ Percent Unarmed & = (\frac{Unarmed Victims}{Total Victims})* 100 \\
+\ $PKR & = (\frac{Total Police Killings}{Total Population}) x (\frac{1,000,000 ppl}{19.5 yr})$ \\
 \end{align}
 
 
