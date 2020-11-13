@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Histograms
+title: Data Classification
 nav_order: 6
 ---
 
-# Part 3) Histograms, Data Classification, & Cloropleth Mapping
+# Part 3) Data Classification, Histograms, & Cloropleth Mapping
 
 
 # Rates by Province/State
