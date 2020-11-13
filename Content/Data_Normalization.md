@@ -19,6 +19,8 @@ For example, Canada's Total Police Killing Rate is 0.81 killings per million res
 
 <img src="https://render.githubusercontent.com/render/math?math= PKR = (\frac{556 Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{19.5 yr}) = 0.81 killings per million ppl per yr">
 
+
+
 <!-- 
   This is how I wrote the equation in the .ipynb markdown cell.  It dosn't work here so I tried the img above
 \begin{align}
