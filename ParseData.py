@@ -234,14 +234,14 @@ class GetData(object):
         self.US_Length=(self.US_PoliceKillings.index.max()-self.US_PoliceKillings.index.min()).days/365.25
 
         ## Subset CA_Provincesdata by province and join
-        CA_Killings_By_Race = (self.CA_PoliceKillings.groupby(['PROV','RACE']).count()['AGE'].unstack())
+        CA_Killings_By_Race = (self.CA_PoliceKillings.groupby(['PROV','RACE']).count()['GENDER'].unstack())
         self.CA_PoliceKillings['Year'] = self.CA_PoliceKillings.index.year
-        CA_Killings_By_Year = (self.CA_PoliceKillings.groupby(['PROV','Year']).count()['AGE'].unstack())
+        CA_Killings_By_Year = (self.CA_PoliceKillings.groupby(['PROV','Year']).count()['GENDER'].unstack())
 
         #Join to the geodataframe
 
-        self.CA = CA_Provinces.join(self.CA_PoliceKillings.groupby('PROV').count()["AGE"])
-        self.CA = self.CA.rename(columns={'AGE':'Total_Killings'})
+        self.CA = CA_Provinces.join(self.CA_PoliceKillings.groupby('PROV').count()["GENDER"])
+        self.CA = self.CA.rename(columns={'GENDER':'Total_Killings'})
         self.CA = self.CA.join(CA_Killings_By_Race,rsuffix='_Killings')
         # self.CA = self.CA.rename(columns={'Unknown':'Unknown_Killings'})
         self.CA = self.CA.join(CA_Killings_By_Year)

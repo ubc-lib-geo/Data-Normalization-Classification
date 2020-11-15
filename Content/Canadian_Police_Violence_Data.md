@@ -172,11 +172,18 @@ Here are all departments which have killed at least ten people in the last 20 ye
 A [Chi Square](https://www.youtube.com/watch?v=2QeDRsxSF9M) test can be used to check if the observed number of police killings by racial group is significantly different than what we'd expect
 ex. 
 
-Here is an example using four racial groups:
+Here is an example for the country as a whole:
 
-pvalue<=0.001
-| By Race               |        Asian |   South Asian |   Latin American |         White |         Arab |   Visible minority, n.i.e |        Black |   Indigenous |         Total |
-|:----------------------|-------------:|--------------:|-----------------:|--------------:|-------------:|--------------------------:|-------------:|-------------:|--------------:|
-| Total Population      |  3.21638e+06 |   1.92464e+06 |     447330       |   2.58034e+07 | 523235       |              364460       |  1.19854e+06 |  1.67378e+06 |   3.51517e+07 |
-| Expected Distribtuion | 37.7895      |  22.6127      |          5.25571 | 303.165       |      6.14752 |                   4.28206 | 14.0818      | 19.6654      | 413           |
-| Observed Killings     | 15           |  12           |          3       | 236           |      5       |                   5       | 48           | 89           | 413           |
+There were 556 police killings in Canada between Jan 2000 and June 2020, meaning the police killing rate was: 0.81 per million residents per year.
+  * If Systemic Racism did not exist in Canada, as the RCMP commissioner claims ... This rate would apply to each demographic group. We can get the epxected distribution by multiplying the population of each demographic group by the average PKR and the record lenght (20.4 years).
+  * The Chi Square test, will compare the expected and observed distribution to see if the deviations in the observed killings are beyond what would be randomly expected 
+    * The test is significant to p =  5.2e-62
+      * There is VERY STRONG evidence showing that there are systemic racial biases in police killings
+
+
+Power_divergenceResult(statistic=304.9759918146094, pvalue=5.23539302248104e-62)
+| By Race                     |   Total |   White |   Asian |   South Asian |   Indigenous |   Black |   Arab |   Latin American |   Visible minority, n.i.e | Unknown   |
+|:----------------------------|--------:|--------:|--------:|--------------:|-------------:|--------:|-------:|-----------------:|--------------------------:|:----------|
+| Total Population (Millions) |    35.1 |    25.8 |     3.2 |           1.9 |          1.6 |     1.1 |    0.5 |              0.4 |                       0.3 | --        |
+| Expected Distribtuion       |   556   |   408   |    50   |          30   |         26   |    18   |    8   |              7   |                       5   | --        |
+| Observed Killings           |   556   |   236   |    15   |          12   |         89   |    48   |    5   |              3   |                       5   | 127.0     |
