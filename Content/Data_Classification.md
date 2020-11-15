@@ -9,6 +9,11 @@ nav_order: 6
 
 # Rates by Province/State
 
+
+We can normalize our data by demographic information at different administrative levels (eg. Province, Municipality)
+
+
+
 Police Killing Rates vary by administrative divisions, e.g. (State/Province)
 * If we want to compare rates the first step is to look at histograms.
 * A Histogram shows us the frequency distribution of a given variable

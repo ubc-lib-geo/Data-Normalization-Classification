@@ -166,24 +166,3 @@ Here are all departments which have killed at least ten people in the last 20 ye
  </iframe>
 </div>
 
-
-# What would we excpect from a uniformm proportional distribution.
-
-A [Chi Square](https://www.youtube.com/watch?v=2QeDRsxSF9M) test can be used to check if the observed number of police killings by racial group is significantly different than what we'd expect
-ex. 
-
-Here is an example for the country as a whole:
-
-There were 556 police killings in Canada between Jan 2000 and June 2020, meaning the police killing rate was: 0.81 per million residents per year.
-  * If Systemic Racism did not exist in Canada, as the RCMP commissioner claims ... This rate would apply to each demographic group. We can get the epxected distribution by multiplying the population of each demographic group by the average PKR and the record lenght (20.4 years).
-  * The Chi Square test, will compare the expected and observed distribution to see if the deviations in the observed killings are beyond what would be randomly expected 
-    * The test is significant to p =  5.2e-62
-      * There is VERY STRONG evidence showing that there are systemic racial biases in police killings
-
-
-Power_divergenceResult(statistic=304.9759918146094, pvalue=5.23539302248104e-62)
-| By Race                     |   Total |   White |   Asian |   South Asian |   Indigenous |   Black |   Arab |   Latin American |   Visible minority, n.i.e | Unknown   |
-|:----------------------------|--------:|--------:|--------:|--------------:|-------------:|--------:|-------:|-----------------:|--------------------------:|:----------|
-| Total Population (Millions) |    35.1 |    25.8 |     3.2 |           1.9 |          1.6 |     1.1 |    0.5 |              0.4 |                       0.3 | --        |
-| Expected Distribtuion       |   556   |   408   |    50   |          30   |         26   |    18   |    8   |              7   |                       5   | --        |
-| Observed Killings           |   556   |   236   |    15   |          12   |         89   |    48   |    5   |              3   |                       5   | 127.0     |
