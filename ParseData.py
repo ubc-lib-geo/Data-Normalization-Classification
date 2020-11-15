@@ -154,16 +154,35 @@ class GetData(object):
 
 
         Municipal = pd.read_csv('Inputs/Municipal_Data.csv',index_col=['GEO UID'],
-                                                      encoding= 'unicode_escape')
+                                                      encoding= 'utf-8')
         Municipal.loc[Municipal['Caucasian']<0,'Caucasian']=0
+        
+        Municipal =  Municipal.rename(columns={
+            'Caucasian':'White'})
+        Municipal['Asian'] = Municipal['Chinese']+Municipal['Filipino']+Municipal['West Asian']+\
+        Municipal['Japansese']+Municipal['Korean']+Municipal['Southeast Asian']
+        Municipal = Municipal.drop(['Chinese','Filipino','West Asian','Japansese','Korean','Southeast Asian'],axis=1)
+        Municipal['Unknown'] = 0
+
+        Municipal['Visible minority, n.i.e'] = Municipal['Visible minority, n.i.e']+Municipal['Mixed']
+        Municipal = Municipal.drop(['Mixed'],axis=1)
+
+
+
+
+
+
         Municipal_Boundaries=gpd.read_file('Inputs/lcsd000a14a_e.shp')
         Municipal_Boundaries = Municipal_Boundaries.set_index(
             Municipal_Boundaries['CSDUID'].astype(
             Municipal.index.dtype))
+
+
         self.Municipal_Boundaries=Municipal_Boundaries.join(Municipal)
         self.Municipal_Boundaries['PROV']=self.Municipal_Boundaries['PRNAME'].str.split(' / ',expand=True)[0]
-        self.Municipal_Boundaries = self.Municipal_Boundaries.rename(columns={
-            'Caucasian':'White'})
+        # self.Municipal_Boundaries = self.Municipal_Boundaries.rename(columns={
+        #     'Caucasian':'White'})
+        self.Municipal_Boundaries['Name']=self.Municipal_Boundaries['Name'].astype(str).str[:-1]
 
 
         # Import and Parse United States Data

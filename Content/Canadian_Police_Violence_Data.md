@@ -167,3 +167,19 @@ Here are all departments which have killed at least ten people in the last 20 ye
 </div>
 
 
+# Chi Square 
+
+We can use a Chi square test to check the distribution of police killings against an expected uniform distribution
+ex. 
+
+Here is an example using four racial groups:
+
+|Race | Indigenous | White | Black | Arab |
+|Population | 1673780 | 25803358 | 1198545 | 523235 |
+|Expected Distribtuion | 21.66822894 | 334.04214923 | 15.51598624 | 6.77363558 |
+Observed Distributoin [ 89. 236.  48.   5.]
+|Observed Distribtuion | 89 | 236 | 48 | 5 |
+Power_divergenceResult(statistic=306.4744980807564, pvalue=3.948714612399082e-66)
+
+[Check this link for an explanation](https://www.youtube.com/watch?v=2QeDRsxSF9M)
+
