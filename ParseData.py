@@ -136,12 +136,12 @@ class GetData(object):
         CA_Census =  CA_Census.rename(columns={
             'Caucasian':'White'})
         CA_Census['Asian'] = CA_Census['Chinese']+CA_Census['Filipino']+CA_Census['West Asian']+\
-        CA_Census['Japansese']+CA_Census['Korean']+CA_Census['Southeast Asian']
-        CA_Census = CA_Census.drop(['Chinese','Filipino','West Asian','Japansese','Korean','Southeast Asian'],axis=1)
+        CA_Census['Japanese']+CA_Census['Korean']+CA_Census['Southeast Asian']
+        CA_Census = CA_Census.drop(['Chinese','Filipino','West Asian','Japanese','Korean','Southeast Asian'],axis=1)
         CA_Census['Unknown'] = 0
 
-        CA_Census['Visible minority, n.i.e'] = CA_Census['Visible minority, n.i.e']+CA_Census['Mixed']
-        CA_Census = CA_Census.drop(['Mixed'],axis=1)
+        CA_Census['Visible minority, n.i.e'] = CA_Census['Visible minority, n.i.e']+CA_Census['Multiple visible minorities']
+        CA_Census = CA_Census.drop(['Multiple visible minorities'],axis=1)
 
         CA_Provinces= gpd.read_file('Inputs/Canadian_Census_Boundaries_2016.shp').set_index('PRUID')
 
@@ -160,12 +160,12 @@ class GetData(object):
         Municipal =  Municipal.rename(columns={
             'Caucasian':'White'})
         Municipal['Asian'] = Municipal['Chinese']+Municipal['Filipino']+Municipal['West Asian']+\
-        Municipal['Japansese']+Municipal['Korean']+Municipal['Southeast Asian']
-        Municipal = Municipal.drop(['Chinese','Filipino','West Asian','Japansese','Korean','Southeast Asian'],axis=1)
+        Municipal['Japanese']+Municipal['Korean']+Municipal['Southeast Asian']
+        Municipal = Municipal.drop(['Chinese','Filipino','West Asian','Japanese','Korean','Southeast Asian'],axis=1)
         Municipal['Unknown'] = 0
 
-        Municipal['Visible minority, n.i.e'] = Municipal['Visible minority, n.i.e']+Municipal['Mixed']
-        Municipal = Municipal.drop(['Mixed'],axis=1)
+        Municipal['Visible minority, n.i.e'] = Municipal['Visible minority, n.i.e']+Municipal['Multiple visible minorities']
+        Municipal = Municipal.drop(['Multiple visible minorities'],axis=1)
 
 
 
