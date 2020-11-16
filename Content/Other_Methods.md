@@ -17,6 +17,25 @@ We can normalize our data by demographic information at different administrative
 # Ratio to Ordinal
 
 
+
+<a href="Ordinal_Map_Bad_Labels.png" target="_blank">View Image in New Tab</a>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="Ordinal_Map_Bad_Labels.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+
+
+
 <a href="Ordinal_Map.png" target="_blank">View Image in New Tab</a>
 
 <div style="overflow: hidden;
