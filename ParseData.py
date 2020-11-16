@@ -335,7 +335,8 @@ class GetData(object):
 
         # Equal Intervals
         import math
-        start = math.floor(min(self.US[column].min(),self.CA[column].min())*10)/10
+        # start = math.floor(min(self.US[column].min(),self.CA[column].min())*10)/10\
+        start = 0
         end = math.ceil(max(self.US[column].max(),self.CA[column].max())*10)/10
         freq = (end-start)/classes
 
@@ -345,18 +346,21 @@ class GetData(object):
         self.CA[column+'_EB'] = pd.cut(self.CA[column],
                             bins=pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
                             labels=labels,
+                            include_lowest=True,
                             duplicates='drop'
                                        )
 
         self.US[column+'_EB'] = pd.cut(self.US[column],
                             bins=pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
                             labels=labels,
+                            include_lowest=True,
                             duplicates='drop'
                                        )
 
         self.Combined[column+'_EB'] = pd.cut(self.Combined[column],
                             bins=pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
                             labels=labels,
+                            include_lowest=True,
                             duplicates='drop'
                                        )
 
@@ -366,18 +370,21 @@ class GetData(object):
             self.CA[column+'_MB'] = pd.cut(self.CA[column],
                                 bins=self.Manual_Bins,
                                 labels=labels,
+                                include_lowest=True,
                                 duplicates='drop'
                                            )
 
             self.US[column+'_MB'] = pd.cut(self.US[column],
                                 bins=self.Manual_Bins,
                                 labels=labels,
+                                include_lowest=True,
                                 duplicates='drop'
                                            )
 
             self.Combined[column+'_MB'] = pd.cut(self.Combined[column],
                                 bins=self.Manual_Bins,
                                 labels=labels,
+                                include_lowest=True,
                                 duplicates='drop'
                                            )
         
@@ -399,7 +406,7 @@ class GetData(object):
                                        )
 
         self.Combined['STD'] = (self.Combined[column]-self.Combined[column].mean())/self.Combined[column].std()
-        bins = np.arange(0,max(self.Combined['STD'].min()*-1,self.Combined['STD'].max())+STD_i,STD_i)
+        bins = np.arange(0,max(self.Combined['STD'].min()*-1,self.Combined['STD'].max())+STD_i/.5,STD_i)
         self.Combined_STD_bins = (np.append(bins[::-1][:-1]*-1,bins))
         self.Combined[column+'_STD'] = pd.cut(self.Combined['STD'],
                             bins=self.Combined_STD_bins,

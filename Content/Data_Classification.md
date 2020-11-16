@@ -123,6 +123,23 @@ We'll cover five classification methods
 
 # Quantiles
 
+
+<a href="Quantile_Map.png" target="_blank">View Image in New Tab</a>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="Quantile_Map.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+
 <a href="Quantiled_Hist.png" target="_blank">View Image in New Tab</a>
 
 <div style="overflow: hidden;
@@ -164,6 +181,21 @@ We'll cover five classification methods
 </div>
 
 
+<a href="NaturalBreaks_Hist.png" target="_blank">View Image in New Tab</a>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="NaturalBreaks_Hist.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
 
 
 # Manual Breaks
@@ -171,13 +203,76 @@ We'll cover five classification methods
 
 
 
+<a href="ManualBreaks_Map.png" target="_blank">View Image in New Tab</a>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="ManualBreaks_Map.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+
+
+<a href="ManualBreaks_Hist.png" target="_blank">View Image in New Tab</a>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="ManualBreaks_Hist.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+
 
 # Standard Deviation
 
 
 
+<a href="STDBreaks_Map.png" target="_blank">View Image in New Tab</a>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="STDBreaks_Map.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
 
 
+<a href="STDBreaks_Hist.png" target="_blank">View Image in New Tab</a>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="STDBreaks_Hist.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
 
 
 # Ratio to Ordinal
