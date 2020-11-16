@@ -1,4 +1,4 @@
---
+---
 layout: default
 title: Other Ways to Represent the Data
 nav_order: 6
