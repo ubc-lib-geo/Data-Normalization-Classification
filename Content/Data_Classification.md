@@ -275,6 +275,14 @@ We'll cover five classification methods
 </div>
 
 
+# Question:
+If you want to highlight the severity of systemic racism in policing, which classification method would be best?
+
+A) Quantiles
+B) Equal Interval
+C) Natural Breaks
+D) Manual Breaks
+
 # Ratio to Ordinal
 
 

@@ -341,24 +341,24 @@ class GetData(object):
         freq = (end-start)/classes
 
 
-        self.EB_bins= np.linspace(start,end,classes+1)
+        self.EB_bins = np.linspace(start,end,classes+1)
                             
         self.CA[column+'_EB'] = pd.cut(self.CA[column],
-                            bins=pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
+                            bins=self.EB_bins,#pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
                             labels=labels,
                             include_lowest=True,
                             duplicates='drop'
                                        )
 
         self.US[column+'_EB'] = pd.cut(self.US[column],
-                            bins=pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
+                            bins=self.EB_bins,#pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
                             labels=labels,
                             include_lowest=True,
                             duplicates='drop'
                                        )
 
         self.Combined[column+'_EB'] = pd.cut(self.Combined[column],
-                            bins=pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
+                            bins=self.EB_bins,#pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
                             labels=labels,
                             include_lowest=True,
                             duplicates='drop'
