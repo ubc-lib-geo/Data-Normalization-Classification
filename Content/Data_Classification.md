@@ -123,6 +123,9 @@ We'll cover five classification methods
 
 # Quantiles
 
+* The simplest classification scheme that is based of the data distribution
+  * The data is ranked and broken up by percentiles:
+    * Wih 5 classes, class 1 contains 0-20%, class 2 is 20-40%, class 3 is 40-60%, class 4 is 60-80%, & class 5 is 80-100%
 
 <a href="Quantile_Map.png" target="_blank">View Image in New Tab</a>
 
@@ -157,12 +160,11 @@ We'll cover five classification methods
 </div>
 
 
-
-
-
-
 # Natural Breaks
 
+* Data is split using the [Jenks algorithm](http://wiki.gis.com/wiki/index.php/Jenks_Natural_Breaks_Classification)
+  * This algorithm optimizes the data split into "Natural" classes
+    * The algorithm maximizes within group similarity and between group dissimilarity
 
 <a href="NaturalBreaks_Map.png" target="_blank">View Image in New Tab</a>
 
@@ -199,7 +201,9 @@ We'll cover five classification methods
 
 
 # Manual Breaks
-
+* We can define our own break values to classify data
+  * This allows us to choose more meaningful break values if neccessary (round numbers, clean fractions, etc.).
+  * The choice of manual breakds can influence the way the data is percieved
 
 
 
@@ -238,7 +242,8 @@ We'll cover five classification methods
 
 
 # Standard Deviation
-
+* This distribution based classification method shows how far a value is from the mean in standard deviations.
+  * It can be very informative to a knoledgable user, but it is not particularly accessible for the general public.
 
 
 <a href="STDBreaks_Map.png" target="_blank">View Image in New Tab</a>
@@ -276,17 +281,61 @@ We'll cover five classification methods
 
 
 # Question:
+
 If you want to highlight the severity of systemic racism in policing, which classification method would be best?
 
-A) Quantiles
-B) Equal Interval
+A) Equal Interval
+B) Quantiles
 C) Natural Breaks
 D) Manual Breaks
+E) Standard Deviation
+
+What classification method migth the RCMP choose to minimize the severity of systemic racism in policing?
+
+A) Equal Interval
+B) Quantiles
+C) Natural Breaks
+D) Manual Breaks
+E) Standard Deviation
+
 
 # Ratio to Ordinal
 
 
+<a href="Ordinal_Map.png" target="_blank">View Image in New Tab</a>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="Ordinal_Map.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
 
 
 
 # Categorical
+
+
+
+<a href="MostNumerousRace_Map.png" target="_blank">View Image in New Tab</a>
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="MostNumerousRace_Map.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
