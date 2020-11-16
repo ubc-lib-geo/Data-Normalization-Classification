@@ -50,6 +50,7 @@ This does not describe the whole picture, because there are large dispariteis in
 
 
 
+
 # What would we excpect from a uniform proportional distribution.
 
 A [Chi Square](https://www.youtube.com/watch?v=2QeDRsxSF9M) test can be used to check if the observed number of police killings by racial group is significantly different than what we'd expect
@@ -66,8 +67,19 @@ There were 556 police killings in Canada between Jan 2000 and June 2020, meaning
 
 Power_divergenceResult(statistic=304.9759918146094, pvalue=5.23539302248104e-62)
 
-| By Race                     |   Total |   White |   Asian |   South Asian |   Indigenous |   Black |   Arab |   Latin American |   Visible minority, n.i.e | Unknown   |
-|:----------------------------|--------:|--------:|--------:|--------------:|-------------:|--------:|-------:|-----------------:|--------------------------:|:----------|
-| Total Population (Millions) |    35.1 |    25.8 |     3.2 |           1.9 |          1.6 |     1.1 |    0.5 |              0.4 |                       0.3 | --        |
-| Expected Distribtuion       |   556   |   408   |    50   |          30   |         26   |    18   |    8   |              7   |                       5   | --        |
-| Observed Killings           |   556   |   236   |    15   |          12   |         89   |    48   |    5   |              3   |                       5   | 127.0     |
+|                         | Total Population (Millions)   | Expected Distribtuion   |   Observed Killings |
+|:------------------------|:------------------------------|:------------------------|--------------------:|
+| Total                   | 35.1                          | 556.0                   |                 556 |
+| White                   | 25.8                          | 408.0                   |                 239 |
+| Asian                   | 3.2                           | 50.0                    |                  16 |
+| South Asian             | 1.9                           | 30.0                    |                  12 |
+| Indigenous              | 1.6                           | 26.0                    |                  90 |
+| Black                   | 1.1                           | 18.0                    |                  48 |
+| Arab                    | 0.5                           | 8.0                     |                   5 |
+| Latin American          | 0.4                           | 7.0                     |                   3 |
+| Visible minority, n.i.e | 0.3                           | 5.0                     |                   5 |
+| Unknown                 | --                            | --                      |                 138 |
+
+
+We can normalize and look at test statistics for different administrative levels (eg. Province, Municipality).
+  * We'll cover this in a bit

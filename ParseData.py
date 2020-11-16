@@ -266,6 +266,7 @@ class GetData(object):
         Summary={}
         Summary['US']={}
         Summary['CA']={}
+        Combined = Categories.copy()
         for cat in Categories:
             if cat == 'Unknown':
                 self.CA[cat+'_Rate']=self.CA[cat+'_Killings']/self.CA['Total']*scale/self.CA_Length
@@ -274,6 +275,8 @@ class GetData(object):
                 self.US[cat+'_Rate']=self.US[cat+'_Rate'].fillna(0)
                 CA_Rate = self.CA[cat+'_Killings'].sum()/self.CA['Total'].sum()*scale/self.CA_Length
                 US_Rate = self.US[cat+'_Killings'].sum()/self.US['Total'].sum()*scale/self.US_Length
+                Combined.append(cat+'_Killings')
+                Combined.append(cat+'_Rate')
             else:
                 self.CA[cat+'_Rate']=self.CA[cat+'_Killings']/self.CA[cat]*scale/self.CA_Length
                 self.US[cat+'_Rate']=self.US[cat+'_Killings']/self.US[cat]*scale/self.US_Length
@@ -281,12 +284,14 @@ class GetData(object):
                 self.US[cat+'_Rate']=self.US[cat+'_Rate'].fillna(0)
                 CA_Rate = self.CA[cat+'_Killings'].sum()/self.CA[cat].sum()*scale/self.CA_Length
                 US_Rate = self.US[cat+'_Killings'].sum()/self.US[cat].sum()*scale/self.US_Length
+                Combined.append(cat+'_Killings')
+                Combined.append(cat+'_Rate')
             Summary['CA'][cat] = CA_Rate
             Summary['US'][cat] = US_Rate
         self.Summary = pd.DataFrame(data=Summary)
-        # self.US_Summary = pd.DataFrame(data=Summary['US'])
+        Combined.append('geometry')
+        self.Combined=self.CA[Combined].append(self.US[Combined])
 
-    # return(self.CA,self.US)
 
     def Breaks(self,column,classes=5,labels=None,Manual_Bins=None,STD_i = 1):
         self.CA_jenks = jenkspy.jenks_breaks(self.CA[column], nb_class=classes)
@@ -304,20 +309,27 @@ class GetData(object):
                             include_lowest=True
                                        )
 
+        self.Combined_jenks = jenkspy.jenks_breaks(self.Combined[column], nb_class=classes)
+        self.Combined[column+'_NB'] = pd.cut(self.Combined[column],
+                            bins=self.Combined_jenks,
+                            labels=labels,
+                            include_lowest=True
+                                       )
 
     # Quantiles
         self.classes = classes
         self.CA[column+'_QB'] = pd.qcut(self.CA[column],
                             q=self.classes,
-                            # labels=labels,
-                            # include_lowest=True,
                             duplicates='drop'
                                        )
 
         self.US[column+'_QB'] = pd.qcut(self.US[column],
                             q=self.classes,
-                            # labels=labels,
-                            # include_lowest=True
+                            duplicates='drop'
+                                       )
+
+        self.Combined[column+'_QB'] = pd.qcut(self.Combined[column],
+                            q=self.classes,
                             duplicates='drop'
                                        )
 
@@ -333,16 +345,18 @@ class GetData(object):
         self.CA[column+'_EB'] = pd.cut(self.CA[column],
                             bins=pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
                             labels=labels,
-                            # include_lowest=True,
-                            # closed='neither',
                             duplicates='drop'
                                        )
 
         self.US[column+'_EB'] = pd.cut(self.US[column],
                             bins=pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
                             labels=labels,
-                            # include_lowest=True
-                            # closed='neither',
+                            duplicates='drop'
+                                       )
+
+        self.Combined[column+'_EB'] = pd.cut(self.Combined[column],
+                            bins=pd.interval_range(start=start,freq=freq,end=end,closed='neither'),
+                            labels=labels,
                             duplicates='drop'
                                        )
 
@@ -352,24 +366,20 @@ class GetData(object):
             self.CA[column+'_MB'] = pd.cut(self.CA[column],
                                 bins=self.Manual_Bins,
                                 labels=labels,
-                                # include_lowest=True,
-                                # closed='neither',
                                 duplicates='drop'
                                            )
 
             self.US[column+'_MB'] = pd.cut(self.US[column],
                                 bins=self.Manual_Bins,
                                 labels=labels,
-                                # include_lowest=True
-                                # closed='neither',
                                 duplicates='drop'
                                            )
 
-
-        # Manual Breaks
-        # if Manual_Bins != None:
-            # self.CA_std_Bins = [self.CA[column].min()].append(x for)
-
+            self.Combined[column+'_MB'] = pd.cut(self.Combined[column],
+                                bins=self.Manual_Bins,
+                                labels=labels,
+                                duplicates='drop'
+                                           )
         
 
         self.CA['STD'] = (self.CA[column]-self.CA[column].mean())/self.CA[column].std()
@@ -377,16 +387,21 @@ class GetData(object):
         self.CA_STD_bins = (np.append(bins[::-1][:-1]*-1,bins))
         self.CA[column+'_STD'] = pd.cut(self.CA['STD'],
                             bins=self.CA_STD_bins,
-                            # labels=labels,
-                            # include_lowest=True,
                             duplicates='drop'
                                        )
+
         self.US['STD'] = (self.US[column]-self.US[column].mean())/self.US[column].std()
         bins = np.arange(0,max(self.US['STD'].min()*-1,self.US['STD'].max())+STD_i,STD_i)
         self.US_STD_bins = (np.append(bins[::-1][:-1]*-1,bins))
         self.US[column+'_STD'] = pd.cut(self.US['STD'],
                             bins=self.US_STD_bins,
-                            # labels=labels,
-                            # include_lowest=True
+                            duplicates='drop'
+                                       )
+
+        self.Combined['STD'] = (self.Combined[column]-self.Combined[column].mean())/self.Combined[column].std()
+        bins = np.arange(0,max(self.Combined['STD'].min()*-1,self.Combined['STD'].max())+STD_i,STD_i)
+        self.Combined_STD_bins = (np.append(bins[::-1][:-1]*-1,bins))
+        self.Combined[column+'_STD'] = pd.cut(self.Combined['STD'],
+                            bins=self.Combined_STD_bins,
                             duplicates='drop'
                                        )
