@@ -71,7 +71,7 @@ The time periods of these datasets are different
   * We could only look at the time period when they overlap but, but this would require us to ignore some of the data. 
   * Alternatively, we can calculate the average number of killings per year.
   * The data are not from the same periods, but they will be on the same time scale, and they will be as inclusive as possible
-  
+
 ### B) Population
   * The Canada has about 35 million residents.
   * The United States has about 327 million.  
@@ -181,36 +181,8 @@ Systemic Racism is pervasive on both sides of the border
     Indigenous  2.680509  5.813743
     
 
-
-
-
 # Systemic Racism in Policing is a Canadian Problem
 
 This issue isn't restricted to America, it's pervasive in Canada as well and can not be overlooked. 
 
 * The RCMP were created by Prime Minister John A. Macdonald.  He got the idea for the Mounties from the Royal Irish Constabulary, a paramilitary police force the British created to keep the Irish under control.  Initially called the "North West Mounted Rifles", their primary purpose to clear Indigenous people off their land.  The name was changed to "North-West Mounted Police" because officials in the United States raised concerns that an armed force along the border was a prelude to a military buildup.  This organization was renamed the Royal Canadian Mounted Police in 1904.
-
-# Questions
-* Which country is displaying normalized data?
-A) Canada
-B) The United States
-C) Both
-D) Neither
-
-
-
-<a href="IsItNormalalized_Map.png" target="_blank">View Image in New Tab</a>
-
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="IsItNormalalized_Map.png" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>

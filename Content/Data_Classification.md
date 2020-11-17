@@ -12,15 +12,11 @@ nav_order: 5
 
 We can normalize our data by demographic information at different administrative levels (eg. Province, Municipality)
 
-
-
 Police Killing Rates vary by administrative divisions, e.g. (State/Province)
 * If we want to classify rates, the first step is to look at a histograms.
 * A Histogram shows us the frequency distribution of a given variable
     * Data is grouped into a set of bins and counted
 
-
-<a href="Combined_Rate_Hist.png" target="_blank">View Image in New Tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -35,16 +31,13 @@ Police Killing Rates vary by administrative divisions, e.g. (State/Province)
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-
-    
+<a href="Combined_Rate_Hist.png" target="_blank">View Image in New Tab</a>
 
 # Outliers
 Histograms can be useful for spotting outliers in a dataset
 * The Indigenouos Police Killing rate hisogram for the US shows an outlier
     * Vermont has a rate many times higher than the nearest value
 
-
-<a href="Combined_State_Hist_by_Race.png" target="_blank">View Image in New Tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -59,8 +52,7 @@ Histograms can be useful for spotting outliers in a dataset
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-  
-
+<a href="Combined_State_Hist_by_Race.png" target="_blank">View Image in New Tab</a>
 
 # Classification Methods
 
@@ -87,9 +79,6 @@ We'll cover five classification methods
     * e.g. The minimum is .3 and the maximum is 9.8, so we can split that into four bins 2.4 units wide
 
 
-
-<a href="EqualInterval_Map.png" target="_blank">View Image in New Tab</a>
-
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
@@ -103,8 +92,8 @@ We'll cover five classification methods
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
+<a href="EqualInterval_Map.png" target="_blank">View Image in New Tab</a>
 
-<a href="EqualInterval_Hist.png" target="_blank">View Image in New Tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -119,6 +108,7 @@ We'll cover five classification methods
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
+<a href="EqualInterval_Hist.png" target="_blank">View Image in New Tab</a>
 
 
 # Quantiles
@@ -127,7 +117,7 @@ We'll cover five classification methods
   * The data is ranked and broken up by percentiles:
     * Wih 5 classes, class 1 contains 0-20%, class 2 is 20-40%, class 3 is 40-60%, class 4 is 60-80%, & class 5 is 80-100%
 
-<a href="Quantile_Map.png" target="_blank">View Image in New Tab</a>
+
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -142,8 +132,8 @@ We'll cover five classification methods
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
+<a href="Quantile_Map.png" target="_blank">View Image in New Tab</a>
 
-<a href="Quantiled_Hist.png" target="_blank">View Image in New Tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -158,7 +148,7 @@ We'll cover five classification methods
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-
+<a href="Quantiled_Hist.png" target="_blank">View Image in New Tab</a>
 
 # Natural Breaks
 
@@ -166,7 +156,6 @@ We'll cover five classification methods
   * This algorithm optimizes the data split into "Natural" classes
     * The algorithm maximizes within group similarity and between group dissimilarity
 
-<a href="NaturalBreaks_Map.png" target="_blank">View Image in New Tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -181,9 +170,9 @@ We'll cover five classification methods
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
+<a href="NaturalBreaks_Map.png" target="_blank">View Image in New Tab</a>
 
 
-<a href="NaturalBreaks_Hist.png" target="_blank">View Image in New Tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -198,7 +187,7 @@ We'll cover five classification methods
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-
+<a href="NaturalBreaks_Hist.png" target="_blank">View Image in New Tab</a>
 
 # Manual Breaks
 * We can define our own break values to classify data
@@ -206,8 +195,6 @@ We'll cover five classification methods
   * The choice of manual breakds can influence the way the data is percieved
 
 
-
-<a href="ManualBreaks_Map.png" target="_blank">View Image in New Tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -222,9 +209,8 @@ We'll cover five classification methods
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
+<a href="ManualBreaks_Map.png" target="_blank">View Image in New Tab</a>
 
-
-<a href="ManualBreaks_Hist.png" target="_blank">View Image in New Tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -239,14 +225,14 @@ We'll cover five classification methods
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-
+<a href="ManualBreaks_Hist.png" target="_blank">View Image in New Tab</a>
 
 # Standard Deviation
 * This distribution based classification method shows how far a value is from the mean in standard deviations.
   * It can be very informative to a knoledgable user, but it is not particularly accessible for the general public.
 
 
-<a href="STDBreaks_Map.png" target="_blank">View Image in New Tab</a>
+
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -261,9 +247,8 @@ We'll cover five classification methods
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
+<a href="STDBreaks_Map.png" target="_blank">View Image in New Tab</a>
 
-
-<a href="STDBreaks_Hist.png" target="_blank">View Image in New Tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -278,7 +263,7 @@ We'll cover five classification methods
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-
+<a href="STDBreaks_Hist.png" target="_blank">View Image in New Tab</a>
 
 # Question:
 

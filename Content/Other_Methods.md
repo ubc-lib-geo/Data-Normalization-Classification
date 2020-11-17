@@ -13,12 +13,9 @@ nav_order: 6
 We can normalize our data by demographic information at different administrative levels (eg. Province, Municipality)
 
 
-
 # Ratio to Ordinal
 
 
-
-<a href="Ordinal_Map_Bad_Labels.png" target="_blank">View Image in New Tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -34,9 +31,9 @@ We can normalize our data by demographic information at different administrative
  </iframe>
 </div>
 
+<a href="Ordinal_Map_Bad_Labels.png" target="_blank">View Image in New Tab</a>
 
 
-<a href="Ordinal_Map.png" target="_blank">View Image in New Tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -52,13 +49,13 @@ We can normalize our data by demographic information at different administrative
  </iframe>
 </div>
 
+<a href="Ordinal_Map.png" target="_blank">View Image in New Tab</a>
 
 
 # Categorical
 
 
 
-<a href="MostNumerousRace_Map.png" target="_blank">View Image in New Tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -73,9 +70,10 @@ We can normalize our data by demographic information at different administrative
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
+<a href="MostNumerousRace_Map.png" target="_blank">View Image in New Tab</a>
 
 
-<a href="HighestRateRace_Map.png" target="_blank">View Image in New Tab</a>
+
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -90,3 +88,5 @@ We can normalize our data by demographic information at different administrative
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
+
+<a href="HighestRateRace_Map.png" target="_blank">View Image in New Tab</a>

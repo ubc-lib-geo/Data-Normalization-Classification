@@ -31,22 +31,10 @@ Comparing the proportion of police killings for each demogrpahic group to their 
 
 For example, Canada's Total Police Killing Rate is 0.81 killings per million residents per year
 
-<!-- <img src="https://render.githubusercontent.com/render/math?math= PKR = (\frac{556 Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{19.5 yr}) = 0.81 killings per million ppl per yr"> -->
-
 ![\Large PKR = (\frac{556 Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{19.5 yr}) = 0.81 killings per million ppl per yr](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
-<!-- 
-  This is how I wrote the equation in the .ipynb markdown cell.  It dosn't work here so I tried the img above
-\begin{align}
-\ PKR & = (\frac{556 Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{19.5 yr})$ \\
-\end{2align} -->
+This does not describe the whole picture, because there are large dispariteis in the police killing rate between demographic groups.  The PKR for Indigneous and Black people are 2.76 and 2.05 per million people per year.  The PKR for White people is 0.47 per million people per year.
 
-This does not describe the whole picture, because there are large dispariteis in the police killing rate between demographic groups.
-  * The PKR for Indigneous people is 2.76 killings per million people per year
-  * The PKR for Black peopole is 2.05 killings per million people per year
-  * The PKR for White peopole is 0.47 killings per million people per year
-
-<a href="CA_Race_Normalized.png" target="_blank">View Image in New Tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -61,11 +49,12 @@ This does not describe the whole picture, because there are large dispariteis in
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
+<a href="CA_Race_Normalized.png" target="_blank">View Image in New Tab</a>
 
 
 
 
-# What would we excpect from a uniform proportional distribution.
+# What would we excpect from a uniform proportional distribution?
 
 A [Chi Square](https://www.youtube.com/watch?v=2QeDRsxSF9M) test can be used to check if the observed number of police killings by racial group is significantly different than what we'd expect
 ex. 
@@ -74,12 +63,10 @@ Here is an example for the country as a whole:
 
 There were 556 police killings in Canada between Jan 2000 and June 2020, meaning the police killing rate was: 0.81 per million residents per year.
   * If Systemic Racism did not exist in Canada, as the RCMP commissioner claims ... This rate would apply to each demographic group. We can get the epxected distribution by multiplying the population of each demographic group by the average PKR and the record lenght (20.4 years).
-  * The Chi Square test, will compare the expected and observed distribution to see if the deviations in the observed killings are beyond what would be randomly expected 
-    * The test is significant to p =  5.2e-62
-      * There is VERY STRONG evidence showing that there are systemic racial biases in police killings
+  * The Chi Square test, will compare the expected and observed distribution to see if the deviations in the observed killings are beyond what would be randomly expected.
+    * The test is significant to p < 0.0001, meaning there is VERY STRONG evidence showing that there are systemic racial biases in police killings.
 
 
-Power_divergenceResult(statistic=304.9759918146094, pvalue=5.23539302248104e-62)
 
 |                         | Total Population (Millions)   | Expected Distribtuion   |   Observed Killings |
 |:------------------------|:------------------------------|:------------------------|--------------------:|
@@ -94,6 +81,3 @@ Power_divergenceResult(statistic=304.9759918146094, pvalue=5.23539302248104e-62)
 | Visible minority, n.i.e | 0.3                           | 5.0                     |                   5 |
 | Unknown                 | --                            | --                      |                 138 |
 
-
-We can normalize and look at test statistics for different administrative levels (eg. Province, Municipality).
-  * We'll cover this in a bit
