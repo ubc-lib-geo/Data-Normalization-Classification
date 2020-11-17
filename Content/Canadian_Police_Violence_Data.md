@@ -105,7 +105,7 @@ There are 74 police services listed in the dataset, of which 10 are responsible 
 
 
 # 5) The racial breakdown of police killings.
-You might hear someone "The majority of people killied by police in Canada are White".  This statement isn't false ... but it is also very missleading.
+You might hear someone say: "The majority of people killied by police in Canada are White".  This statement isn't false ... but it is also very missleading.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -122,20 +122,12 @@ You might hear someone "The majority of people killied by police in Canada are W
 </div>
 <a href="CA_Race.png" target="_blank">View Image in New Tab</a>
 
-Demographic groups are not evenly represented in the population.  Canada's population is 73.4% White, but White people only account for 43.0% of police killings.  Meanwhile, Canada's population only 4.7% Indigenous and 3.4% Black, but these groups account for 16.2% and 8.6% of police killings respectively.  The victim's race is unreported 138 (24.8%) of the indidents, this means the numbers for across racial groups are likely higher than reported.
 
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="CA_Race_Proportional.png" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-<a href="CA_Race_Proportional.png" target="_blank">View Image in New Tab</a>
+# Poll Questions:
+
+### 3) What should we do to get a more accurate picture of the racial breakdown of police killings?
+    A) Divide by the total number of police killings to get a percentage
+    B) Subtract the Unknown category and then divide by the total number of police killings to get a percentage
+    C) Divide the the total killings of each racial group by the total population of each racial group
+    
 
