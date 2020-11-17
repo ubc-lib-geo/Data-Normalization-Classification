@@ -33,8 +33,7 @@ There were 556 killings between January 2000 - June 2020.  There was a statistic
 
 
 # 2) Age distribution of victims
-Histograms show the shape and spread of a dataset.  Here we see the age distribution of victims in 5 year increments.  The histogram shows us that the age is slightly skewed towards older ages.  
-    * The mean age of victims is 35.6 and the standard deviation is 11.6.  The youngest victim was 15 and the oldest was 77
+Histograms show the shape and spread of a dataset.  Here we see the age distribution of victims in 5 year increments.  The histogram shows us that the age is slightly skewed towards older ages.  The mean age of victims is 35.6 and the standard deviation is 11.6.  The youngest victim was 15 and the oldest was 77
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -52,11 +51,7 @@ Histograms show the shape and spread of a dataset.  Here we see the age distribu
 <a href="CA_AgeHist.png" target="_blank">View Image in New Tab</a>
 
 # 3) What type of weapon (if any) did the victim have?
-* Nearly 30% of victims were unarmed.
-    * Note - Being Armed is does not justify any individual police killing.
-    * However, in aggregate a higher number of killings of unarmed people can indicate a predisposition towards excessive use of force.
-
-<a href="CA_Weapon.png" target="_blank">View Image in New Tab</a>
+Nearly 30% of victims were unarmed.  Note - Being Armed is does not justify any individual police killing.  However, in aggregate a higher number of killings of unarmed people can indicate a predisposition towards excessive use of force.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -71,31 +66,27 @@ Histograms show the shape and spread of a dataset.  Here we see the age distribu
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
+<a href="CA_Weapon.png" target="_blank">View Image in New Tab</a>
 
 
-# 4) Which police departments are responsible for the most killings?
-Here are all departments which have killed at least ten people in the last 20 years.
-* Provincial police services and large municipal police departments are responsible for the most deaths
-* The RCMP serves as the provincial police in eight provinces and the territories.
-    * All together, the RCMP is responsible for 34% of deaths 
+# 4) Which police services are responsible for the most killings?
+There are 74 police services listed in the dataset, of which 10 are responsible for 75% of all police killings.  The RCMP are the federal police and serve as the provincial police in eight provinces and the territories.  They are the deadliest police serive in Canada.  Large municipal police departments and provincial police are responsible for the majority of the rest police killings.
 
-# 10 Deadliest Police Services
-
-|               Police Service            |Provnce|Killings|
-|-----------------------------------------|-------|-------:|
-|RCMP                                     |BC     |      78|
-|Toronto Police Service                   |ON     |      56|
-|Service de police de la Ville de Montréal|QC     |      35|
-|Sûreté du Québec                         |QC     |      34|
-|RCMP                                     |AB     |      33|
-|Edmonton Police Service                  |AB     |      27|
-|Ontario Provincial Police                |ON     |      27|
-|Calgary Police Service                   |AB     |      26|
-|Vancouver Police Department              |BC     |      24|
-|Winnipeg Police Service                  |MB     |      21|
+### Deadliest Police Departments in Canada
+|Rank|               Department                |Killings|
+|---:|-----------------------------------------|-------:|
+|   1|RCMP                                     |     149|
+|   2|Toronto Police Service                   |      56|
+|   3|Service de police de la Ville de Montréal|      35|
+|   4|Sûreté du Québec                         |      34|
+|   5|Edmonton Police Service                  |      27|
+|   6|Ontario Provincial Police                |      27|
+|   7|Calgary Police Service                   |      26|
+|   8|Vancouver Police Department              |      24|
+|   9|Winnipeg Police Service                  |      21|
+|  10|Peel Regional Police                     |      16|
 
 
-<a href="PoliceViolenceIncidents.html" target="_blank">View map new tab</a>
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -110,12 +101,11 @@ Here are all departments which have killed at least ten people in the last 20 ye
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
+<a href="PoliceViolenceIncidents.html" target="_blank">View map new tab</a>
 
 
 # 5) The racial breakdown of police killings.
-* "The majority of people killied by police in Canada are White".  This statement isn't false ... but it is very missleading.
-
-<a href="CA_Race.png" target="_blank">View Image in New Tab</a>
+You might hear someone "The majority of people killied by police in Canada are White".  This statement isn't false ... but it is also very missleading.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -130,16 +120,9 @@ Here are all departments which have killed at least ten people in the last 20 ye
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
+<a href="CA_Race.png" target="_blank">View Image in New Tab</a>
 
-
-* Demographic groups are not evenly represented in the populations
-    * Canada's population is 73.4% White, but they only account for 43.0% of police killings.
-    * Canada's population only 4.7% Indigenous and 3.4% Black, but they account for 16.2% and 8.6% of police killings  
-    * The victim's race is unreported 138 (24.8%) of the indidents.   
-
-
-
-<a href="CA_Race_Proportional.png" target="_blank">View Image in New Tab</a>
+Demographic groups are not evenly represented in the population.  Canada's population is 73.4% White, but White people only account for 43.0% of police killings.  Meanwhile, Canada's population only 4.7% Indigenous and 3.4% Black, but these groups account for 16.2% and 8.6% of police killings respectively.  The victim's race is unreported 138 (24.8%) of the indidents, this means the numbers for across racial groups are likely higher than reported.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -154,4 +137,5 @@ Here are all departments which have killed at least ten people in the last 20 ye
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
+<a href="CA_Race_Proportional.png" target="_blank">View Image in New Tab</a>
 
