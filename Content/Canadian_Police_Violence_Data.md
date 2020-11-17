@@ -6,21 +6,15 @@ nav_order: 2
 # Canadian Police Violence Data
 
 
-This data was collected by the CBC and is available for download [here](https://newsinteractives.cbc.ca/fatalpoliceencounters/)
-    
-* "There is no government database listing deaths at the hands of the police available to the public in Canada, so CBC News created its own. The CBC’s research librarians have collected detailed information on each case, such as ethnicity, the role of mental illness or substance abuse, the type of weapon used and the police service involved, to create a picture of who is dying in police encounters. "
-    
-    
-* This is not an official count because police departments in Canada are not mandated to collect all of this information.  Rather this dataset is a collection of second hand information in the form of press releases, news articles, etc.  Some records are incomplete, and the total number of incidents is likely higher than detailed here.
+This dataset covers January 2000 to June 2020 and was collected by the [CBC](https://newsinteractives.cbc.ca/fatalpoliceencounters/).  It is available for download at the bottom of the article.  
+  "There is no government database listing deaths at the hands of the police available to the public in Canada, so CBC News created its own. The CBC’s research librarians have collected detailed information on each case, such as ethnicity, the role of mental illness or substance abuse, the type of weapon used and the police service involved, to create a picture of who is dying in police encounters. "
+This is not an official count because police departments in Canada are not mandated to collect all of this information.  Rather this dataset is a collection of second hand information in the form of press releases, news articles, etc.  Some records are incomplete and the total number of incidents is higher than detailed here.  For example, this dataset does not include ["starlight tours"](https://en.wikipedia.org/wiki/Saskatoon_freezing_deaths), a heinous practce where police, most notably in Saskatoon, abduct indigenouos people during winter and drop them off in rural areas far from their homes.  Leaving them to freeze to death if they couldn't make it home. 
+  * One issue with relying on a news corporation to collect this information, is that it is not updated at regular intervals.  The last time the dataset was updated prior to this summer was in 2017.  They updated it in 2020 after the killing of George Floyd.  But once the subject falls out of the news cycle, they have little incentive to continue.
 
-# 1) Police killings by year
-* There were 556 killings between January 2000 - June 2020
-    * Increasing trend of 0.85 killings/year.
-    * 2020 is on pace to be a record breaking year.
+Despite the incomplete nature of this dataset, it is best record available.  It is important to understand the pervasiveness of police violence in Canada, because this is a problem across North America, not just in the United States
 
-    <!-- CA_Trendline.png -->
-
-<a href="CA_Trendline.png" target="_blank">View Image in New Tab</a>
+# 1) Police killings by year in Canada
+There were 556 killings between January 2000 - June 2020.  There was a statistically significant (p<0.001) increasing trend of 0.85 killings/year over this period.  As of this summer, 2020 was on pace to be a record breaking year.  
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -35,18 +29,12 @@ This data was collected by the CBC and is available for download [here](https://
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
+<a href="CA_Trendline.png" target="_blank">View Image in New Tab</a>
+
 
 # 2) Age distribution of victims
-
-Histograms show the shape and spread of a dataset.
-* Here we see the age distribution of victims in 5 year increments.
-    * The youngest was 15 and the oldest was 77
-    * The mean age is 35.6, the standard deviation is 11.6
-* The histogram shows us that the age is slightly skewed towards older ages
-    * The distribution has a tail
-
-
-<a href="CA_AgeHist.png" target="_blank">View Image in New Tab</a>
+Histograms show the shape and spread of a dataset.  Here we see the age distribution of victims in 5 year increments.  The histogram shows us that the age is slightly skewed towards older ages.  
+    * The mean age of victims is 35.6 and the standard deviation is 11.6.  The youngest victim was 15 and the oldest was 77
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -61,6 +49,7 @@ Histograms show the shape and spread of a dataset.
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
+<a href="CA_AgeHist.png" target="_blank">View Image in New Tab</a>
 
 # 3) What type of weapon (if any) did the victim have?
 * Nearly 30% of victims were unarmed.

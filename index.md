@@ -20,11 +20,11 @@ I am speaking to you today from the traditional, ancestral, and unceded territor
 
 Since some of you are spread around the continent, let's take a moment to explore [native-land.ca](https://native-land.ca/) so that you can visualize the indigenous territories, languages, and treaties in your area.
 
-
-
 # Learing Outcomes
 1) Investigate how data normalization impacts the way we perceive patterns in a dataset.
+  * Data normalization, is the process of scaling (AKA normalizing) one variable by another.
 2) Look at different data classification methods and how they impact the way we perceive patterns in a dataset.
+  * Classifiying data simplifies it so it is easier to interpret, but the classification method can have a drastic impact on how we interpret the data.
 
 
 # Poll Questions:
