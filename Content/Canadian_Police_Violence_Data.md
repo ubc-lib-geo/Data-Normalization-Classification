@@ -73,6 +73,7 @@ Nearly 30% of victims were unarmed.  Note - Being Armed is does not justify any 
 There are 74 police services listed in the dataset, of which 10 are responsible for 75% of all police killings.  The RCMP are the federal police and serve as the provincial police in eight provinces and the territories.  They are the deadliest police serive in Canada.  Large municipal police departments and provincial police are responsible for the majority of the rest police killings.
 
 ### Deadliest Police Departments in Canada
+
 |Rank|               Department                |Killings|
 |---:|-----------------------------------------|-------:|
 |   1|RCMP                                     |     149|
@@ -126,8 +127,9 @@ You might hear someone say: "The majority of people killied by police in Canada 
 # Poll Questions:
 
 ### 3) What should we do to get a more accurate picture of the racial breakdown of police killings?
-    A) Divide by the total number of police killings to get a percentage
-    B) Subtract the Unknown category and then divide by the total number of police killings to get a percentage
-    C) Divide the the total killings of each racial group by the total population of each racial group
+    A) Display the data alongsize the proportion of Canada's total population each racial group comprises 
+    B) Divide by the total number of police killings to get a percentage
+    C) Subtract the Unknown category and then divide by the total number of police killings to get a percentage
+    D) Divide the the total killings of each racial group by the total population of each racial group
     
 
