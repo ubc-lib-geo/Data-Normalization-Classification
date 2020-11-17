@@ -55,8 +55,6 @@ We can normalize our data by demographic information at different administrative
 # Categorical
 
 
-
-
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
@@ -88,5 +86,10 @@ We can normalize our data by demographic information at different administrative
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-
 <a href="HighestRateRace_Map.png" target="_blank">View Image in New Tab</a>
+
+
+# Poll Questions:
+### 11) Which of the above maps gives a more truthful representation of the data? 
+    A) Race of Majoirty of Police Killing Victims
+    B) Race Most Likely to be Killed by Police

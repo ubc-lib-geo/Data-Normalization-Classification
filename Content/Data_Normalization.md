@@ -27,14 +27,9 @@ In order to adquately acount for this, we need to Normalize our data.  Normaliza
 Comparing the proportion of police killings for each demogrpahic group to their respective proporion of the population is informative.  However, its more meaningful to combine the police killings and the population into one statistc.
 
 ### The Police Killing Rate (PKR):
-  * The PKR is the number of police killings per unit of population (ie. million) per unit of time (ie. year)
+The PKR is the number of police killings per unit of population (ie. million) per unit of time (ie. year).  For example, Canada's Total Police Killing Rate is 0.81 killings per million residents per year
 
-For example, Canada's Total Police Killing Rate is 0.81 killings per million residents per year
-
-<!-- ![\Large PKR = (\frac{556 Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{19.5 yr}) = 0.81 killings per million ppl per yr](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
- -->
-
-<a href="https://www.codecogs.com/eqnedit.php?latex=PKR&space;=&space;(\frac{556&space;Police&space;Killings}{35,151,728&space;ppl})&space;x&space;(\frac{1,000,000&space;ppl}{19.5&space;yr})&space;=&space;0.81&space;killings&space;per&space;million&space;ppl&space;per&space;yr" target="_blank"><img src="https://latex.codecogs.com/gif.latex?PKR&space;=&space;(\frac{556&space;Police&space;Killings}{35,151,728&space;ppl})&space;x&space;(\frac{1,000,000&space;ppl}{19.5&space;yr})&space;=&space;0.81&space;killings&space;per&space;million&space;ppl&space;per&space;yr" title="PKR = (\frac{556 Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{19.5 yr}) = 0.81 killings per million ppl per yr" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=PKR&space;=&space;(\frac{556&space;Police&space;Killings}{35,151,728&space;ppl})&space;x&space;(\frac{1,000,000&space;ppl}{19.5&space;yr})&space;=&space;0.81&space;/&space;million&space;ppl&space;/&space;yr" target="_blank"><img src="https://latex.codecogs.com/gif.latex?PKR&space;=&space;(\frac{556&space;Police&space;Killings}{35,151,728&space;ppl})&space;x&space;(\frac{1,000,000&space;ppl}{19.5&space;yr})&space;=&space;0.81&space;/&space;million&space;ppl&space;/&space;yr" title="PKR = (\frac{556 Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{19.5 yr}) = 0.81 / million ppl / yr" /></a>
 
 
 This does not describe the whole picture, because there are large dispariteis in the police killing rate between demographic groups.  The PKR for Indigneous and Black people are 2.76 and 2.05 per million people per year.  The PKR for White people is 0.47 per million people per year.
@@ -58,18 +53,14 @@ This does not describe the whole picture, because there are large dispariteis in
 
 
 
-# What would we excpect from a uniform proportional distribution?
+# Statistical Testing
 
-A [Chi Square](https://www.youtube.com/watch?v=2QeDRsxSF9M) test can be used to check if the observed number of police killings by racial group is significantly different than what we'd expect
-ex. 
-
-Here is an example for the country as a whole:
+What would we excpect from a uniform proportional distribution?  A [Chi Square](https://www.youtube.com/watch?v=2QeDRsxSF9M) test can be used to check if the observed number of police killings by racial group is significantly different than what would be expect if the PKR were equal between racial groups.  Here is an example for the country as a whole.
 
 There were 556 police killings in Canada between Jan 2000 and June 2020, meaning the police killing rate was: 0.81 per million residents per year.
   * If Systemic Racism did not exist in Canada, as the RCMP commissioner claims ... This rate would apply to each demographic group. We can get the epxected distribution by multiplying the population of each demographic group by the average PKR and the record lenght (20.4 years).
   * The Chi Square test, will compare the expected and observed distribution to see if the deviations in the observed killings are beyond what would be randomly expected.
     * The test is significant to p < 0.0001, meaning there is VERY STRONG evidence showing that there are systemic racial biases in police killings.
-
 
 
 |                         | Total Population (Millions)   | Expected Distribtuion   |   Observed Killings |
@@ -85,3 +76,17 @@ There were 556 police killings in Canada between Jan 2000 and June 2020, meaning
 | Visible minority, n.i.e | 0.3                           | 5.0                     |                   5 |
 | Unknown                 | --                            | --                      |                 138 |
 
+
+# Poll Questions:
+
+### 4) Do you think this pattern contiunes at the municipal department level?
+    A) Yes
+    B) No
+    C) Unsure
+    
+
+### 5) What impact do you think the missing data (Unknown race) has on this Chi Squared Analysis?
+    A) Invialidates the results
+    B) The racial disparities are likely greater than indicated
+    C) The racial dispariteis are likely less than indicated
+    D) Minimal impact, the race of Unknown victims is probably distributed similarly to those of known race
