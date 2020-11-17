@@ -31,8 +31,11 @@ Comparing the proportion of police killings for each demogrpahic group to their 
 
 For example, Canada's Total Police Killing Rate is 0.81 killings per million residents per year
 
-<!-- ![\Large PKR = (\frac{556 Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{19.5 yr}) = 0.81 killings per million ppl per yr] -->
-(<a href="https://www.codecogs.com/eqnedit.php?latex=PKR&space;=&space;(\frac{556&space;Police&space;Killings}{35,151,728&space;ppl})&space;x&space;(\frac{1,000,000&space;ppl}{19.5&space;yr})&space;=&space;0.81&space;killings&space;per&space;million&space;ppl&space;per&space;yr" target="_blank"><img src="https://latex.codecogs.com/gif.latex?PKR&space;=&space;(\frac{556&space;Police&space;Killings}{35,151,728&space;ppl})&space;x&space;(\frac{1,000,000&space;ppl}{19.5&space;yr})&space;=&space;0.81&space;killings&space;per&space;million&space;ppl&space;per&space;yr" title="PKR = (\frac{556 Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{19.5 yr}) = 0.81 killings per million ppl per yr" /></a>)
+<!-- ![\Large PKR = (\frac{556 Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{19.5 yr}) = 0.81 killings per million ppl per yr](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
+ -->
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=PKR&space;=&space;(\frac{556&space;Police&space;Killings}{35,151,728&space;ppl})&space;x&space;(\frac{1,000,000&space;ppl}{19.5&space;yr})&space;=&space;0.81&space;killings&space;per&space;million&space;ppl&space;per&space;yr" target="_blank"><img src="https://latex.codecogs.com/gif.latex?PKR&space;=&space;(\frac{556&space;Police&space;Killings}{35,151,728&space;ppl})&space;x&space;(\frac{1,000,000&space;ppl}{19.5&space;yr})&space;=&space;0.81&space;killings&space;per&space;million&space;ppl&space;per&space;yr" title="PKR = (\frac{556 Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{19.5 yr}) = 0.81 killings per million ppl per yr" /></a>
+
 
 This does not describe the whole picture, because there are large dispariteis in the police killing rate between demographic groups.  The PKR for Indigneous and Black people are 2.76 and 2.05 per million people per year.  The PKR for White people is 0.47 per million people per year.
 
