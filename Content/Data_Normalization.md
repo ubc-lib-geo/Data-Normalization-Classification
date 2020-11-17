@@ -22,15 +22,16 @@ Demographic groups are not evenly represented in the population.  Canada's popul
 </div>
 <a href="CA_Race_Proportional.png" target="_blank">View Image in New Tab</a>
 
-In order to adquately acount for this, we need to Normalize our data.  Normalization, is the process of scaling one variable by another.  For example, to find get the proportion of Canada's population made up by each racial group, we can divide the population of each racial group by the total population.  This tells the percentage of Canada's population each racial group makes up.  Normalizing by the sum of a dataset is the simplest example of data nromalization.
+In order to adquately acount for this, we need to Normalize our data.  Normalization, is the process of scaling one variable by another.  For example, to find get the proportion of Canada's population made up by each racial group, we can divide the population of each racial group by the total population.  This tells the percentage of Canada's population each racial group makes up.  Normalizing by the sum of a dataset is the simplest example of data nromalization.  Doing the same opperation to the police killings data allows us to plot them side by side because they are on the same sale (Percentage).
 
-Comparing the Proportion of Police Killings for each demogrpahic group to their respective proporion of the population is informative
-* However, its more meaningful to combine the police killings and population into one statistc: ###The Police Killing Rate (PKR)
+Comparing the proportion of police killings for each demogrpahic group to their respective proporion of the population is informative.  However, its more meaningful to combine the police killings and the population into one statistc.
+
+### The Police Killing Rate (PKR):
   * The PKR is the number of police killings per unit of population (ie. million) per unit of time (ie. year)
 
 For example, Canada's Total Police Killing Rate is 0.81 killings per million residents per year
 
-<img src="https://render.githubusercontent.com/render/math?math= PKR = (\frac{556 Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{19.5 yr}) = 0.81 killings per million ppl per yr">
+<!-- <img src="https://render.githubusercontent.com/render/math?math= PKR = (\frac{556 Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{19.5 yr}) = 0.81 killings per million ppl per yr"> -->
 
 ![\Large PKR = (\frac{556 Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{19.5 yr}) = 0.81 killings per million ppl per yr](https://latex.codecogs.com/svg.latex?x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D)
 
