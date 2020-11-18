@@ -50,7 +50,7 @@ Histograms can be useful for spotting outliers in a dataset.  The Indigenous Pol
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="Combined_State_Hist_by_Race.png" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="Combined_Hist_by_Race.png" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -60,7 +60,7 @@ Histograms can be useful for spotting outliers in a dataset.  The Indigenous Pol
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="Combined_State_Hist_by_Race.png" target="_blank">View Image in New Tab</a>
+<a href="Combined_Hist_by_Race.png" target="_blank">View Image in New Tab</a>
 
 # Classification Methods
 
@@ -270,6 +270,7 @@ This distribution-based classification method shows how far a value is from the 
     C) Natural Breaks
     D) Manual Breaks
     E) Standard Deviation
+    
 ### 10) What classification method might the RCMP choose to minimize the severity of systemic racism in policing?
     A) Equal Interval
     B) Quantiles
