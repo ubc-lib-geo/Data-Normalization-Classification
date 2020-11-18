@@ -4,17 +4,8 @@ title: Other Ways to Represent the Data
 nav_order: 6
 ---
 
-# Part 3) Data Classification, Histograms, & Cloropleth Mapping
-
-
-# Rates by Province/State
-
-
-We can normalize our data by demographic information at different administrative levels (eg. Province, Municipality)
-
-
-# Ratio to Ordinal
-
+# Ordinal Data
+Ratio data (eg. PKR) can be translated to or described as oridinal data.  Sequntial color schemes are a good choice for ordinal data as well.  The following is an example of ordinal data, but with a poor choice of category labels.  What does low, medium or high mean in this context?  
 
 
 <div style="overflow: hidden;
@@ -30,10 +21,9 @@ We can normalize our data by demographic information at different administrative
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-
 <a href="Ordinal_Map_Bad_Labels.png" target="_blank">View Image in New Tab</a>
 
-
+Here is an example with better choices.  The categories give a good description of what the data is showing.  However, we can't infer anything about the differences between categories.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -48,12 +38,14 @@ We can normalize our data by demographic information at different administrative
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-
 <a href="Ordinal_Map.png" target="_blank">View Image in New Tab</a>
 
 
-# Categorical
+# Nominal Data
 
+A nominal (categorical) varriable can take on one of a limited number of possible values, assigning each record to a a nominal category on the basis of a qualitative property.  When working with categorical data, avioid sequential and diverging colormaps, as they give the impression of an order or ranking in the data.  Choose a colormap designed for [categorical data](https://colorbrewer2.org/#type=qualitative&scheme=Accent&n=5).  You don't have to stick with the colors shown on colorbrewer, but they are a good starting point.
+
+Race is an example of categorical data, and we can choose to attribute a categorical value to the provinces/staes in a number of ways.  For instance, we could map the race making up the largest number of police killings in each province/state.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -70,7 +62,7 @@ We can normalize our data by demographic information at different administrative
 </div>
 <a href="MostNumerousRace_Map.png" target="_blank">View Image in New Tab</a>
 
-
+However, this is a bit missleading, for reasons we discussed earlier.  Its not accounting for differential population.  It is more meaningful to map the race most likely to be killed by police in each state/province.  
 
 
 <div style="overflow: hidden;
@@ -93,3 +85,6 @@ We can normalize our data by demographic information at different administrative
 ### 11) Which of the above maps gives a more truthful representation of the data? 
     A) Race of Majoirty of Police Killing Victims
     B) Race Most Likely to be Killed by Police
+
+
+    Ordinal data is data that has an order/rank to it 

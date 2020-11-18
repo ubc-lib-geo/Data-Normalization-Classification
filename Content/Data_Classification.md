@@ -6,17 +6,32 @@ nav_order: 5
 
 # Data Classification: Histograms, Classification Schemes & Cloropleth Mapping
 
+# Data Types
+There are two kinds of data, that both have two sub-types.  Qualatative (descriptinve) data includes Nominal and Ordinal Data types.  Nomial data is categorical data with no inherent ranking.  Ordinal data is categorical data that does have a rank.  Quantitative (numeric) data includes Ratio and Interval Data.  Interval data is similar to ratio data, but it lacks an absolute zero point.  Ratio data has an absolute zero point and the difference between values is meaningful.  PKR is ratio data, it can't be negative and a PKR of 2 is twice as high as a PKR of 1.
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="Ratio Interval Ordinal Nominal.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<a href="Ratio Interval Ordinal Nominal.png" target="_blank">View Image in New Tab</a>
 
 # Rates by Province/State
-
-
 We can normalize our data by demographic information at different administrative levels (eg. Province, Municipality) because PKR varries by administrative divisions.  If we want to classify rates, the first step is to look at a histograms.  A Histogram shows us the frequency distribution of a given variable.  Data is grouped into a set of bins and counted
 
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="US_Rate_Hist.png" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="Combined_Rate_Hist.png" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -35,7 +50,7 @@ Histograms can be useful for spotting outliers in a dataset.  The Indigenouos Po
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="US_State_Hist_by_Race.png" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="Combined_State_Hist_by_Race.png" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -60,14 +75,16 @@ We'll cover five classification methods
 3) Natural Breaks
 * Data is split using the Jenks algorithm
 
-4) Standard Deviation
-* Data is split to bins based on distance from the mean
-
-5) Manual Breaks
+4) Manual Breaks
 * We define our own splits
 
-# Equal Interval
+5) Standard Deviation
+* Data is split to bins based on distance from the mean
 
+### A note on color choices
+Sequential colormaps are the best choice for representing ratio data (eg. PKR).  I suggest you check out [color brewer](https://colorbrewer2.org/#type=sequential&scheme=OrRd&n=5) for help picking out color schemes. 
+
+# Equal Interval
 The simplest classification scheme is to just break the data into classes of equal sizes e.g. The minimum is .3 and the maximum is 9.8, so we can split that into four bins 2.4 units wide
 
 
@@ -104,10 +121,8 @@ The simplest classification scheme is to just break the data into classes of equ
 
 
 # Quantiles
-
 The simplest classification scheme that is based of the data distributio.  The data is ranked and broken up by percentiles:
   * class 1 contains 0-20%, class 2 is 20-40%, class 3 is 40-60%, class 4 is 60-80%, & class 5 is 80-100%
-
 
 
 <div style="overflow: hidden;
@@ -142,7 +157,6 @@ The simplest classification scheme that is based of the data distributio.  The d
 <a href="Quantiled_Hist.png" target="_blank">View Image in New Tab</a>
 
 # Natural Breaks
-
 Data is split using the [Jenks algorithm](http://wiki.gis.com/wiki/index.php/Jenks_Natural_Breaks_Classification).  This algorithm optimizes the data split into "Natural" classes.  The algorithm maximizes within group similarity and between group dissimilarity
 
 
@@ -182,7 +196,6 @@ Data is split using the [Jenks algorithm](http://wiki.gis.com/wiki/index.php/Jen
 We can define our own break values to classify data.This allows us to choose more meaningful break values if neccessary (round numbers, clean fractions, etc.  The choice of manual breakds can influence the way the data is percieved
 
 
-
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
@@ -215,9 +228,7 @@ We can define our own break values to classify data.This allows us to choose mor
 <a href="ManualBreaks_Hist.png" target="_blank">View Image in New Tab</a>
 
 # Standard Deviation
-This distribution based classification method shows how far a value is from the mean in standard deviations.  It can be very informative to a knoledgable user, but it is not particularly accessible for the general public.
-
-
+This distribution based classification method shows how far a value is from the mean in standard deviations.  It can be very informative to a knoledgable user, but it is not particularly accessible for the general public.  The standard deviation classification method converts the data to interval data (deviations above/below the mean).  [Divergin colormaps](https://colorbrewer2.org/#type=diverging&scheme=RdBu&n=5) are a better choice for interval data in many instances, as they can better highlight what values are above or below the zero point.
 
 
 <div style="overflow: hidden;
@@ -250,8 +261,6 @@ This distribution based classification method shows how far a value is from the 
  </iframe>
 </div>
 <a href="STDBreaks_Hist.png" target="_blank">View Image in New Tab</a>
-
-
 
 
 # Poll Questions:

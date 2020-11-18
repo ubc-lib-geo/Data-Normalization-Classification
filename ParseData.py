@@ -196,7 +196,9 @@ class GetData(object):
                                              )
         self.US_PoliceKillings['RACE']=self.US_PoliceKillings["Victim's race"].replace({
             'Native American':'Indigenous',
+            'unknown race':'Unknown',
             'Unknown race':'Unknown'})
+        self.US_PoliceKillings['RACE'].fillna('Unknown')
         self.US_PoliceKillings['Unarmed/Did Not Have an Actual Weapon']=self.US_PoliceKillings['Unarmed/Did Not Have an Actual Weapon'].replace({
             'Unclear':'Unarmed',
             'Unarmed/Did Not Have an Actual Weapon':'Unarmed'
@@ -217,12 +219,17 @@ class GetData(object):
                 if v.split('!!')[3]=='One race':
                     vals.append(v)
                     rename[v]=v.split('!!')[-1]
+            if v == 'Estimate!!HISPANIC OR LATINO AND RACE!!Total population':
+                vals.append(v)
+                rename[v]='Hispanic'
         US_Census = US_Census_Detailed[vals]
         US_Census=US_Census.rename(columns=rename)
         for i in US_Census_Detailed['Geographic Area Name']:
             US_Census.loc[US_Census['State']==i,'State']=us_state_abbrev[i]
         US_Census=US_Census.rename(columns={'Black or African American':'Black',
-                                   'American Indian and Alaska Native':'Indigenous'})
+                                   'American Indian and Alaska Native':'Indigenous',
+                                   'Native Hawaiian and Other Pacific Islander':'Pacific Islander',
+                                   })
         US_Census['Total']=US_Census_Detailed['Estimate!!SEX AND AGE!!Total population']
         US_Census['Mixed']=US_Census_Detailed['Estimate!!RACE!!Total population!!Two or more races']
 
@@ -261,36 +268,62 @@ class GetData(object):
         self.US = self.US.join(US_Killings_By_Year)
 
 
-    def ScaleData(self,scale=1,Categories=['Total','White','Black','Indigenous']):
+    def ScaleData(self,scale=1):#,Categories=['Total','White','Black','Indigenous']):
         # Scale the data, fill the nulls, 
+        Categories = [v for v in self.CA_PoliceKillings.RACE.unique()]
+        for c in self.US_PoliceKillings.RACE.unique():
+            if c not in self.CA_PoliceKillings.RACE.unique():
+                Categories.append(c)
+        Categories.append('Total')
         Summary={}
         Summary['US']={}
         Summary['CA']={}
-        Combined = Categories.copy()
+        CombinedCA=[]
+        CombinedUS=[]
         for cat in Categories:
             if cat == 'Unknown':
                 self.CA[cat+'_Rate']=self.CA[cat+'_Killings']/self.CA['Total']*scale/self.CA_Length
-                self.US[cat+'_Rate']=self.US[cat+'_Killings']/self.US['Total']*scale/self.US_Length
                 self.CA[cat+'_Rate']=self.CA[cat+'_Rate'].fillna(0)
+                self.US[cat+'_Rate']=self.US[cat+'_Killings']/self.US['Total']*scale/self.US_Length
                 self.US[cat+'_Rate']=self.US[cat+'_Rate'].fillna(0)
                 CA_Rate = self.CA[cat+'_Killings'].sum()/self.CA['Total'].sum()*scale/self.CA_Length
                 US_Rate = self.US[cat+'_Killings'].sum()/self.US['Total'].sum()*scale/self.US_Length
-                Combined.append(cat+'_Killings')
-                Combined.append(cat+'_Rate')
+                CombinedCA.append(cat+'_Killings')
+                CombinedCA.append(cat+'_Rate')
+                CombinedUS.append(cat+'_Killings')
+                CombinedUS.append(cat+'_Rate')
             else:
-                self.CA[cat+'_Rate']=self.CA[cat+'_Killings']/self.CA[cat]*scale/self.CA_Length
-                self.US[cat+'_Rate']=self.US[cat+'_Killings']/self.US[cat]*scale/self.US_Length
-                self.CA[cat+'_Rate']=self.CA[cat+'_Rate'].fillna(0)
-                self.US[cat+'_Rate']=self.US[cat+'_Rate'].fillna(0)
-                CA_Rate = self.CA[cat+'_Killings'].sum()/self.CA[cat].sum()*scale/self.CA_Length
-                US_Rate = self.US[cat+'_Killings'].sum()/self.US[cat].sum()*scale/self.US_Length
-                Combined.append(cat+'_Killings')
-                Combined.append(cat+'_Rate')
-            Summary['CA'][cat] = CA_Rate
-            Summary['US'][cat] = US_Rate
+                try:
+                    self.CA[cat+'_Rate']=self.CA[cat+'_Killings']/self.CA[cat]*scale/self.CA_Length
+                    self.CA[cat+'_Rate']=self.CA[cat+'_Rate'].fillna(0)
+                    CA_Rate = self.CA[cat+'_Killings'].sum()/self.CA[cat].sum()*scale/self.CA_Length
+                    CombinedCA.append(cat+'_Killings')
+                    CombinedCA.append(cat+'_Rate')
+                except:
+                    pass
+                try:
+                    self.US[cat+'_Rate']=self.US[cat+'_Killings']/self.US[cat]*scale/self.US_Length
+                    self.US[cat+'_Rate']=self.US[cat+'_Rate'].fillna(0)
+                    US_Rate = self.US[cat+'_Killings'].sum()/self.US[cat].sum()*scale/self.US_Length
+                    CombinedUS.append(cat+'_Killings')
+                    CombinedUS.append(cat+'_Rate')
+                except:
+                    pass
+                # Combined.append(cat+'_Killings')
+                # Combined.append(cat+'_Rate')
+            try:
+                Summary['CA'][cat] = CA_Rate
+            except:
+                pass
+            try:
+                Summary['US'][cat] = US_Rate
+            except:
+                pass
         self.Summary = pd.DataFrame(data=Summary)
-        Combined.append('geometry')
-        self.Combined=self.CA[Combined].append(self.US[Combined])
+        CombinedCA.append('geometry')
+        CombinedUS.append('geometry')
+        print(CombinedCA,CombinedUS)
+        self.Combined=self.CA[CombinedCA].append(self.US[CombinedUS])
 
 
     def Breaks(self,column,classes=5,labels=None,Manual_Bins=None,STD_i = 1):
