@@ -13,7 +13,7 @@ There are two kinds of data, that both have two sub-types.  Qualitative (descrip
 <div style="overflow: hidden;
   padding-top: 56.25%;
   position: relative">
-  <iframe src="Ratio Interval Ordinal Nominal.png" title="Processes" scrolling="no" frameborder="0"
+  <iframe src="DataTypes.png" title="Processes" scrolling="no" frameborder="0"
     style="border: 0;
    height: 100%;
    left: 0;
@@ -23,7 +23,7 @@ There are two kinds of data, that both have two sub-types.  Qualitative (descrip
    <p>Your browser does not support iframes.</p>
  </iframe>
 </div>
-<a href="Ratio Interval Ordinal Nominal.png" target="_blank">View Image in New Tab</a>
+<a href="DataTypes.png" target="_blank">View Image in New Tab</a>
 
 # Rates by Province/State
 We can normalize our data by demographic information at different administrative levels (eg. Province, Municipality) because PKR varies by administrative divisions.  If we want to classify rates, the first step is to look at a histogram.  A Histogram shows us the frequency distribution of a given variable.  Data is grouped into a set of bins and counted.
