@@ -270,11 +270,11 @@ class GetData(object):
 
     def ScaleData(self,scale=1,Categories=['Total','White','Black','Indigenous']):
         # Scale the data, fill the nulls, 
-        # Categories = [v for v in self.CA_PoliceKillings.RACE.unique()]
-        # for c in self.US_PoliceKillings.RACE.unique():
-        #     if c not in self.CA_PoliceKillings.RACE.unique():
-        #         Categories.append(c)
-        # Categories.append('Total')
+        Categories = [v for v in self.CA_PoliceKillings.RACE.unique()]
+        for c in self.US_PoliceKillings.RACE.unique():
+            if c not in self.CA_PoliceKillings.RACE.unique():
+                Categories.append(c)
+        Categories.append('Total')
         Summary={}
         Summary['US']={}
         Summary['CA']={}
@@ -299,6 +299,8 @@ class GetData(object):
                     CA_Rate = self.CA[cat+'_Killings'].sum()/self.CA[cat].sum()*scale/self.CA_Length
                     CombinedCA.append(cat+'_Killings')
                     CombinedCA.append(cat+'_Rate')
+                    CombinedCA.append(cat)
+                    Summary['CA'][cat] = CA_Rate
                 except:
                     pass
                 try:
@@ -307,22 +309,26 @@ class GetData(object):
                     US_Rate = self.US[cat+'_Killings'].sum()/self.US[cat].sum()*scale/self.US_Length
                     CombinedUS.append(cat+'_Killings')
                     CombinedUS.append(cat+'_Rate')
+                    CombinedUS.append(cat)
+                    Summary['US'][cat] = US_Rate
                 except:
                     pass
                 # Combined.append(cat+'_Killings')
                 # Combined.append(cat+'_Rate')
-            try:
-                Summary['CA'][cat] = CA_Rate
-            except:
-                pass
-            try:
-                Summary['US'][cat] = US_Rate
-            except:
-                pass
+            # try:
+            # except:
+            #     pass
+            # try:
+            # except:
+            #     pass
         self.Summary = pd.DataFrame(data=Summary)
         CombinedCA.append('geometry')
         CombinedUS.append('geometry')
+        CombinedCA.append('Country')
+        CombinedUS.append('Country')
         print(CombinedCA,CombinedUS)
+        self.CA['Country'] = 'CA'
+        self.US['Country'] = 'US'
         self.Combined=self.CA[CombinedCA].append(self.US[CombinedUS])
 
 
