@@ -268,13 +268,13 @@ class GetData(object):
         self.US = self.US.join(US_Killings_By_Year)
 
 
-    def ScaleData(self,scale=1):#,Categories=['Total','White','Black','Indigenous']):
+    def ScaleData(self,scale=1,Categories=['Total','White','Black','Indigenous']):
         # Scale the data, fill the nulls, 
-        Categories = [v for v in self.CA_PoliceKillings.RACE.unique()]
-        for c in self.US_PoliceKillings.RACE.unique():
-            if c not in self.CA_PoliceKillings.RACE.unique():
-                Categories.append(c)
-        Categories.append('Total')
+        # Categories = [v for v in self.CA_PoliceKillings.RACE.unique()]
+        # for c in self.US_PoliceKillings.RACE.unique():
+        #     if c not in self.CA_PoliceKillings.RACE.unique():
+        #         Categories.append(c)
+        # Categories.append('Total')
         Summary={}
         Summary['US']={}
         Summary['CA']={}

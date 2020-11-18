@@ -8,7 +8,7 @@ nav_order: 1
 ### Workshop by June Skeeter
 
 ## Content Warning:
-This workshop deals with a difficult and painful subject that may be triggering to some people.  The datasets we're using today describe incidents of police killings in Canada and the United States.  We are focusing on police violence today because GIS is a powerful tool that can be used to promote social and ecological justice.  Today, we are using this data to emphasize the importance of data normalization and highlight how different data classification methods impact the ways we perceive information.
+This workshop deals with a difficult and painful subject that may be triggering to some people, especially BIPOC individuals.  The datasets we're using today describe incidents of police killings in Canada and the United States.  We are focusing on police violence today because GIS is a powerful tool that can be used to promote social and ecological justice.  Today, we are using this data to emphasize the importance of data normalization and highlight how different data classification methods impact the ways we perceive information.
 
 
 # Land acknowledgement
