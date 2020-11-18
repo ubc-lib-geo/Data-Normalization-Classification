@@ -4,10 +4,11 @@ title: Data Classification
 nav_order: 5
 ---
 
-# Data Classification: Histograms, Classification Schemes & Cloropleth Mapping
+# Data Classification: Histograms, Classification Schemes & Choropleth Mapping
 
 # Data Types
-There are two kinds of data, that both have two sub-types.  Qualatative (descriptinve) data includes Nominal and Ordinal Data types.  Nomial data is categorical data with no inherent ranking.  Ordinal data is categorical data that does have a rank.  Quantitative (numeric) data includes Ratio and Interval Data.  Interval data is similar to ratio data, but it lacks an absolute zero point.  Ratio data has an absolute zero point and the difference between values is meaningful.  PKR is ratio data, it can't be negative and a PKR of 2 is twice as high as a PKR of 1.
+There are two kinds of data, that both have two sub-types.  Qualitative (descriptive) data includes Nominal and Ordinal Data types.  Nominal data is categorical data with no inherent ranking.  Ordinal data is categorical data that does have a rank.  Quantitative (numeric) data includes Ratio and Interval Data.  Interval data is similar to ratio data, but it lacks an absolute zero point.  Ratio data has an absolute zero point and the difference between values is meaningful.  PKR is ratio data, it can't be negative and a PKR of 2 is twice as high as a PKR of 1.
+
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -25,7 +26,7 @@ There are two kinds of data, that both have two sub-types.  Qualatative (descrip
 <a href="Ratio Interval Ordinal Nominal.png" target="_blank">View Image in New Tab</a>
 
 # Rates by Province/State
-We can normalize our data by demographic information at different administrative levels (eg. Province, Municipality) because PKR varries by administrative divisions.  If we want to classify rates, the first step is to look at a histograms.  A Histogram shows us the frequency distribution of a given variable.  Data is grouped into a set of bins and counted
+We can normalize our data by demographic information at different administrative levels (eg. Province, Municipality) because PKR varies by administrative divisions.  If we want to classify rates, the first step is to look at a histogram.  A Histogram shows us the frequency distribution of a given variable.  Data is grouped into a set of bins and counted.
 
 
 <div style="overflow: hidden;
@@ -44,8 +45,7 @@ We can normalize our data by demographic information at different administrative
 <a href="Combined_Rate_Hist.png" target="_blank">View Image in New Tab</a>
 
 # Outliers
-Histograms can be useful for spotting outliers in a dataset.  The Indigenouos Police Killing rate hisogram for the US shows an outlier.  Vermont has a rate many times higher than the nearest value
-
+Histograms can be useful for spotting outliers in a dataset.  The Indigenous Police Killing rate histogram for the US shows an outlier.  Vermont has a rate many times higher than the nearest value
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -121,7 +121,7 @@ The simplest classification scheme is to just break the data into classes of equ
 
 
 # Quantiles
-The simplest classification scheme that is based of the data distributio.  The data is ranked and broken up by percentiles:
+The simplest classification scheme that is based of nthe data distribution.  The data is ranked and broken up by percentiles:
   * class 1 contains 0-20%, class 2 is 20-40%, class 3 is 40-60%, class 4 is 60-80%, & class 5 is 80-100%
 
 
@@ -193,8 +193,7 @@ Data is split using the [Jenks algorithm](http://wiki.gis.com/wiki/index.php/Jen
 <a href="NaturalBreaks_Hist.png" target="_blank">View Image in New Tab</a>
 
 # Manual Breaks
-We can define our own break values to classify data.This allows us to choose more meaningful break values if neccessary (round numbers, clean fractions, etc.  The choice of manual breakds can influence the way the data is percieved
-
+We can define our own break values to classify data.  This allows us to choose more meaningful break values if necessary (round numbers, clean fractions, etc.  The choice of manual breaks can influence the way the data is perceived.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -228,7 +227,7 @@ We can define our own break values to classify data.This allows us to choose mor
 <a href="ManualBreaks_Hist.png" target="_blank">View Image in New Tab</a>
 
 # Standard Deviation
-This distribution based classification method shows how far a value is from the mean in standard deviations.  It can be very informative to a knoledgable user, but it is not particularly accessible for the general public.  The standard deviation classification method converts the data to interval data (deviations above/below the mean).  [Divergin colormaps](https://colorbrewer2.org/#type=diverging&scheme=RdBu&n=5) are a better choice for interval data in many instances, as they can better highlight what values are above or below the zero point.
+This distribution-based classification method shows how far a value is from the mean in standard deviations.  It can be very informative to a knowledgeable user, but it is not particularly accessible for the general public.  The standard deviation classification method converts the data to interval data (deviations above/below the mean).  [Diverging colormaps](https://colorbrewer2.org/#type=diverging&scheme=RdBu&n=5) are a better choice for interval data in many instances, as they can better highlight what values are above or below the zero point.
 
 
 <div style="overflow: hidden;
@@ -271,7 +270,7 @@ This distribution based classification method shows how far a value is from the 
     C) Natural Breaks
     D) Manual Breaks
     E) Standard Deviation
-### 10) What classification method migth the RCMP choose to minimize the severity of systemic racism in policing?
+### 10) What classification method might the RCMP choose to minimize the severity of systemic racism in policing?
     A) Equal Interval
     B) Quantiles
     C) Natural Breaks

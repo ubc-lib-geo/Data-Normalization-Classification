@@ -5,16 +5,16 @@ nav_order: 2
 ---
 # Canadian Police Violence Data
 
-
 This dataset covers January 2000 to June 2020 and was collected by the [CBC](https://newsinteractives.cbc.ca/fatalpoliceencounters/).  It is available for download at the bottom of the article.  
   "There is no government database listing deaths at the hands of the police available to the public in Canada, so CBC News created its own. The CBC’s research librarians have collected detailed information on each case, such as ethnicity, the role of mental illness or substance abuse, the type of weapon used and the police service involved, to create a picture of who is dying in police encounters. "
-This is not an official count because police departments in Canada are not mandated to collect all of this information.  Rather this dataset is a collection of second hand information in the form of press releases, news articles, etc.  Some records are incomplete and the total number of incidents is higher than detailed here.  For example, this dataset does not include ["starlight tours"](https://en.wikipedia.org/wiki/Saskatoon_freezing_deaths), a heinous practce where police, most notably in Saskatoon, abduct indigenouos people during winter and drop them off in rural areas far from their homes.  Leaving them to freeze to death if they couldn't make it home. 
+This is not an official count because police departments in Canada are not mandated to collect all of this information.  Rather this dataset is a collection of second-hand information in the form of press releases, news articles, etc.  Some records are incomplete and the total number of incidents is higher than detailed here.  For example, this dataset does not include ["starlight tours"](https://en.wikipedia.org/wiki/Saskatoon_freezing_deaths), a heinous practice where police, most notably in Saskatoon, abduct indigenous people during winter and drop them off in rural areas far from their homes.  Leaving them to freeze to death if they couldn't make it home. 
   * One issue with relying on a news corporation to collect this information, is that it is not updated at regular intervals.  The last time the dataset was updated prior to this summer was in 2017.  They updated it in 2020 after the killing of George Floyd.  But once the subject falls out of the news cycle, they have little incentive to continue.
 
 Despite the incomplete nature of this dataset, it is best record available.  It is important to understand the pervasiveness of police violence in Canada, because this is a problem across North America, not just in the United States
 
 # 1) Police killings by year in Canada
-There were 556 killings between January 2000 - June 2020.  There was a statistically significant (p<0.001) increasing trend of 0.85 killings/year over this period.  As of this summer, 2020 was on pace to be a record breaking year.  
+There were 556 killings between January 2000 - June 2020.  There was a statistically significant (p<0.001) increasing trend of 0.85 killings/year over this period.  As of this summer, 2020 was on pace to be a record-breaking year.  
+
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -33,7 +33,7 @@ There were 556 killings between January 2000 - June 2020.  There was a statistic
 
 
 # 2) Age distribution of victims
-Histograms show the shape and spread of a dataset.  Here we see the age distribution of victims in 5 year increments.  The histogram shows us that the age is slightly skewed towards older ages.  The mean age of victims is 35.6 and the standard deviation is 11.6.  The youngest victim was 15 and the oldest was 77
+Histograms show the shape and spread of a dataset.  Here we see the age distribution of victims in 5-year increments.  The histogram shows us that the age is slightly skewed towards older ages.  The mean age of victims is 35.6 and the standard deviation is 11.6.  The youngest victim was 15 and the oldest was 77
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -70,7 +70,7 @@ Nearly 30% of victims were unarmed.  Note - Being Armed is does not justify any 
 
 
 # 4) Which police services are responsible for the most killings?
-There are 74 police services listed in the dataset, of which 10 are responsible for 75% of all police killings.  The RCMP are the federal police and serve as the provincial police in eight provinces and the territories.  They are the deadliest police serive in Canada.  Large municipal police departments and provincial police are responsible for the majority of the rest police killings.
+There are 74 police services listed in the dataset, of which 10 are responsible for 75% of all police killings.  The RCMP are the federal police and serve as the provincial police in eight provinces and the territories.  They are the deadliest police sericve in Canada.  Large municipal police departments and provincial police are responsible for the majority of the rest police killings.
 
 ### Deadliest Police Departments in Canada
 
@@ -106,7 +106,7 @@ There are 74 police services listed in the dataset, of which 10 are responsible 
 
 
 # 5) The racial breakdown of police killings.
-You might hear someone say: "The majority of people killied by police in Canada are White".  This statement isn't false ... but it is also very missleading.
+You might hear someone say: "The majority of people killed by police in Canada are White".  This statement isn't false ... but it is also very misleading.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -127,9 +127,9 @@ You might hear someone say: "The majority of people killied by police in Canada 
 # Poll Questions:
 
 ### 3) What should we do to get a more accurate picture of the racial breakdown of police killings?
-    A) Display the data alongsize the proportion of Canada's total population each racial group comprises 
+    A) Display the data alongside the proportion of Canada's total population each racial group comprises 
     B) Divide by the total number of police killings to get a percentage
     C) Subtract the Unknown category and then divide by the total number of police killings to get a percentage
-    D) Divide the the total killings of each racial group by the total population of each racial group
+    D) Divide the total killings of each racial group by the total population of each racial group
     
 

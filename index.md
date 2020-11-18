@@ -8,7 +8,7 @@ nav_order: 1
 ### Workshop by June Skeeter
 
 ## Content Warning:
-This workshop deals with a difficult and painful subject that may be triggering to some people.  The datasets we're using today describe incidents of police killings in Canada and the United States.  We are focusing on police violence today because GIS is a powerful tool that can be used to promote social and ecological justice.  Today, we are using this data to emphasize the importance of data nomralization and highlight how different data classification methods impact the ways we percieve information.
+This workshop deals with a difficult and painful subject that may be triggering to some people.  The datasets we're using today describe incidents of police killings in Canada and the United States.  We are focusing on police violence today because GIS is a powerful tool that can be used to promote social and ecological justice.  Today, we are using this data to emphasize the importance of data normalization and highlight how different data classification methods impact the ways we perceive information.
 
 
 # Land acknowledgement
@@ -20,22 +20,22 @@ I am speaking to you today from the traditional, ancestral, and unceded territor
 
 Since some of you are spread around the continent, let's take a moment to explore [native-land.ca](https://native-land.ca/) so that you can visualize the indigenous territories, languages, and treaties in your area.
 
-# Learing Outcomes
+# Learning Outcomes
 1) Investigate how data normalization impacts the way we perceive patterns in a dataset.
   * Data normalization, is the process of scaling (AKA normalizing) one variable by another.
 2) Look at different data classification methods and how they impact the way we perceive patterns in a dataset.
-  * Classifiying data simplifies it so it is easier to interpret, but the classification method can have a drastic impact on how we interpret the data.
+  * Classifying data simplifies it so it is easier to interpret, but the classification method can have a drastic impact on how we interpret the data.
 
 
 # Poll Questions:
 
-### 1) Which country has a higher frequency of police violence?
+### 1) Which country do you thinkg has a higher frequency of police violence?
     A) Canada
     B) The United States
     C) They're about equal
     
-### 2) Which country has a greater racial disparity in incidetns of police violence?
+### 2) Which country do you thinkg has a greater racial disparity in incidents of police violence?
     A) Canada
     B) The United States
     C) They're about equal
-  
+
