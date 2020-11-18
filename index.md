@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Introudction
+title: Introduction
 nav_order: 1
 ---
 # Data Normalization & Classification: Highlighting Racial Disparities in Police Violence
@@ -23,18 +23,19 @@ Since some of you are spread around the continent, let's take a moment to explor
 # Learning Outcomes
 1) Investigate how data normalization impacts the way we perceive patterns in a dataset.
   * Data normalization, is the process of scaling (AKA normalizing) one variable by another.
+  
 2) Look at different data classification methods and how they impact the way we perceive patterns in a dataset.
   * Classifying data simplifies it so it is easier to interpret, but the classification method can have a drastic impact on how we interpret the data.
 
 
 # Poll Questions:
 
-### 1) Which country do you thinkg has a higher frequency of police violence?
+### 1) Which country do you think has a higher frequency of police violence?
     A) Canada
     B) The United States
     C) They're about equal
     
-### 2) Which country do you thinkg has a greater racial disparity in incidents of police violence?
+### 2) Which country do you think has a greater racial disparity in incidents of police violence?
     A) Canada
     B) The United States
     C) They're about equal
