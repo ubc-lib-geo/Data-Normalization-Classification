@@ -5,7 +5,7 @@ nav_order: 2
 ---
 # Canadian Police Violence Data
 
-This dataset covers January 2000 to June 2020 and was collected by the [CBC](https://newsinteractives.cbc.ca/fatalpoliceencounters/).  It is available for download at the bottom of the article.  
+This dataset covers January 2000 to December 2020 and was collected by the [CBC](https://newsinteractives.cbc.ca/fatalpoliceencounters/).  It is available for download at the bottom of the article.  
 
   "There is no government database listing deaths at the hands of the police available to the public in Canada, so CBC News created its own. The CBC’s research librarians have collected detailed information on each case, such as ethnicity, the role of mental illness or substance abuse, the type of weapon used and the police service involved, to create a picture of who is dying in police encounters. "
 
