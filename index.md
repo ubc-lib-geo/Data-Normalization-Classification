@@ -21,7 +21,7 @@ Since some of you are spread around the continent, let's take a moment to explor
 
 * 1) Investigate how data normalization impacts the way we perceive patterns in a dataset.
 
-* 2) Look at different data classification methods and how they impact the way we perceive patterns in a dataset.
+* 2) Look at different data classification methods and how they impact the patterns we perceive in a dataset.
 
 * 3) See an example of how Open Source GIS can be applied to social justice issues.
  
