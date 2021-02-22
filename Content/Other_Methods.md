@@ -81,8 +81,8 @@ However, this is a bit misleading, for reasons we discussed earlier.  Its not ac
 
 
 # Poll Questions:
-### 11) Which of the above maps gives a more truthful representation of the data? 
-    A) Race of majority of Police Killing Victims
+### 11) Which map gives a more truthful representation of the data? 
+    A) Race of Majority of Police Killing Victims
     B) Race Most Likely to be Killed by Police
 
 
