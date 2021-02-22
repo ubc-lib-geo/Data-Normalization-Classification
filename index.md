@@ -23,7 +23,7 @@ Since some of you are spread around the continent, let's take a moment to explor
 
 * 2) Look at different data classification methods and how they impact the way we perceive patterns in a dataset.
 
-*3) See an example of how Open Source GIS can be applied to social justice issues.
+* 3) See an example of how Open Source GIS can be applied to social justice issues.
  
 # Definitions
 **Data normalization:** The process of scaling one variable by another.  Normalization alows us to highlight patterns in one variable that may be masked that varibles correlation with another.  
