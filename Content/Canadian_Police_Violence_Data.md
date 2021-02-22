@@ -7,7 +7,7 @@ nav_order: 2
 
 This dataset covers January 2000 to June 2020 and was collected by the [CBC](https://newsinteractives.cbc.ca/fatalpoliceencounters/).  It is available for download at the bottom of the article.  
 
-    "There is no government database listing deaths at the hands of the police available to the public in Canada, so CBC News created its own. The CBC’s research librarians have collected detailed information on each case, such as ethnicity, the role of mental illness or substance abuse, the type of weapon used and the police service involved, to create a picture of who is dying in police encounters. "
+  "There is no government database listing deaths at the hands of the police available to the public in Canada, so CBC News created its own. The CBC’s research librarians have collected detailed information on each case, such as ethnicity, the role of mental illness or substance abuse, the type of weapon used and the police service involved, to create a picture of who is dying in police encounters. "
 
 This is not an official count because police departments in Canada are not mandated to collect all of this information.  Rather this dataset is a collection of second-hand information in the form of press releases, news articles, etc.  Some records are missing or incomplete.  The total number of incidents is higher than detailed here.  For example, this dataset does not include the killings of Rodney Naistus and Lawrence Wegner in January and February 2000.
 * Rodeny and Lawrence were victims ["starlight tours"](https://en.wikipedia.org/wiki/Saskatoon_freezing_deaths), a heinous practice where police, abduct indigenous people during winter and drop them off in rural areas far from their homes, leaving them to freeze to death if they couldn't make it home.  
@@ -20,8 +20,8 @@ Despite the incomplete nature of this dataset, it is best record available.  It 
 
 # 1) Police killings by year in Canada
 
-## 2020 was a record-breaking year, with *at least* 48 police involved killings.
-There were *at least* 578 killings between January 2000 - November 2020.  There was a statistically significant (p<0.001) increasing trend of 1.04 killings/year over this period.  
+## 2020 was a record-breaking year, with *at least* 49 police involved killings.
+There were *at least* 579 killings between January 2000 - November 2020.  There was a statistically significant (p<0.001) increasing trend of 1.05 killings/year over this period.  
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -88,7 +88,7 @@ There are 86 police services listed in the dataset, of which 11 are responsible 
 |   3|RCMP                                     |AB      |      36|
 |   4|Service de police de la Ville de Montréal|QC      |      36|
 |   5|Sûreté du Québec                         |QC      |      36|
-|   6|Ontario Provincial Police                |ON      |      32|
+|   6|Ontario Provincial Police                |ON      |      33|
 |   7|Edmonton Police Service                  |AB      |      28|
 |   8|Calgary Police Service                   |AB      |      26|
 |   9|Vancouver Police Department              |BC      |      24|

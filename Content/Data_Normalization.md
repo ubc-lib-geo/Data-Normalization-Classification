@@ -5,7 +5,7 @@ nav_order: 3
 ---
 # Data Normalization
 
-Demographic groups are not evenly represented in the population.  Canada's population is 73.4% White, but White people only account for 43.0% of police killings.  Meanwhile, Canada's population only 4.7% Indigenous and 3.4% Black, but these groups account for 16.2% and 8.6% of police killings respectively.  The victim's race is unreported 138 (24.8%) of the incidents, this means the numbers for across racial groups are likely higher than reported.
+Demographic groups are not evenly represented in the population.  Canada's population is 73.4% White, but White people only account for 41.6% of police killings.  Meanwhile, Canada's population is only 4.8% Indigenous and 3.4% Black, but these groups account for 16.8% and 8.5% of police killings respectively.  The victim's race is unreported 150 (25.9%) of the incidents, this means the numbers for across racial groups are likely higher than reported.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -27,13 +27,13 @@ In order to adequately account for this, we need to Normalize our data.  Normali
 Comparing the proportion of police killings for each demographic group to their respective proportion of the population is informative.  However, its more meaningful to combine the police killings and the population into one statistic.
 
 ### The Police Killing Rate (PKR):
-The PKR is the number of police killings per unit of population (ie. million) per unit of time (ie. year).  For example, Canada's Total Police Killing Rate is 0.81 killings per million residents per year
+The PKR is the number of police killings per unit of population (ie. million) per unit of time (ie. year).  For example, Canada's Total Police Killing Rate is 0.878 killings per million residents per year.
 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=PKR&space;=&space;(\frac{556&space;Police&space;Killings}{35,151,728&space;ppl})&space;x&space;(\frac{1,000,000&space;ppl}{19.5&space;yr})&space;=&space;0.81&space;/&space;million&space;ppl&space;/&space;yr" target="_blank"><img src="https://latex.codecogs.com/gif.latex?PKR&space;=&space;(\frac{556&space;Police&space;Killings}{35,151,728&space;ppl})&space;x&space;(\frac{1,000,000&space;ppl}{19.5&space;yr})&space;=&space;0.81&space;/&space;million&space;ppl&space;/&space;yr" title="PKR = (\frac{556 Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{19.5 yr}) = 0.81 / million ppl / yr" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=PKR&space;=&space;(\frac{579Police&space;Killings}{35,151,728&space;ppl})&space;x&space;(\frac{1,000,000&space;ppl}{21&space;yr})&space;=&space;0.78&space;/&space;million&space;ppl&space;/&space;yr" target="_blank"><img src="https://latex.codecogs.com/gif.latex?PKR&space;=&space;(\frac{579Police&space;Killings}{35,151,728&space;ppl})&space;x&space;(\frac{1,000,000&space;ppl}{21&space;yr})&space;=&space;0.78&space;/&space;million&space;ppl&space;/&space;yr" title="PKR = (\frac{579Police Killings}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{21 yr}) = 0.78 / million ppl / yr" /></a>
 
 
-This does not describe the whole picture, because there are large disparities in the police killing rate between demographic groups.  The PKR for Indigenous and Black people are 2.76 and 2.05 per million people per year.  The PKR for White people is 0.47 per million people per year.
+This does not describe the whole picture, because there are large disparities in the police killing rate between demographic groups.  The PKR for Indigenous and Black people are **2.76** and **1.95** per million people per year.  The PKR for White people is 0.44 per million people per year.
 
 
 <div style="overflow: hidden;
@@ -58,25 +58,24 @@ This does not describe the whole picture, because there are large disparities in
 
 What would we expect from a uniform proportional distribution?  A [Chi Square](https://www.youtube.com/watch?v=2QeDRsxSF9M) test can be used to check if the observed number of police killings by racial group is significantly different than what would be expect if the PKR were equal between racial groups.  Here is an example for the country as a whole.
 
-There were 556 police killings in Canada between Jan 2000 and June 2020, meaning the police killing rate was: 0.81 per million residents per year.
-  * If Systemic Racism did not exist in Canada, as the RCMP commissioner claims ... This rate would apply to each demographic group. We can get the expected distribution by multiplying the population of each demographic group by the average PKR and the record length (20.4 years).
+There were 579 police killings in Canada between January 2000 and December 2020, meaning the police killing rate was: 0.78 per million residents per year.
+  * If Systemic Racism did not exist in Canada, as the RCMP commissioner Brenda Lucki claimed ... This rate would apply to each demographic group. We can get the expected distribution by multiplying the population of each demographic group by the average PKR and the record length (21 years).
   * The Chi Square test, will compare the expected and observed distribution to see if the deviations in the observed killings are beyond what would be randomly expected.
-    * The test is significant to p < 0.0001, meaning there is VERY STRONG evidence showing that there are systemic racial biases in police killings.
+    * The test is significant to p < 0.0001, meaning there is **VERY STRONG** evidence showing that there are systemic racial biases in police killings.
 
 
 |                         | Total Population (Millions)   | Expected Distribtuion   |   Observed Killings |
 |:------------------------|:------------------------------|:------------------------|--------------------:|
-| Total                   | 35.1                          | 556.0                   |                 556 |
-| White                   | 25.8                          | 408.0                   |                 239 |
-| Asian                   | 3.2                           | 50.0                    |                  16 |
-| South Asian             | 1.9                           | 30.0                    |                  12 |
-| Indigenous              | 1.6                           | 26.0                    |                  90 |
-| Black                   | 1.1                           | 18.0                    |                  48 |
+| Total                   | 35.1                          | 579.0                   |                 579 |
+| White                   | 25.8                          | 425.0                   |                 241 |
+| Asian                   | 3.2                           | 52.0                    |                  17 |
+| South Asian             | 1.9                           | 31.0                    |                  12 |
+| Indigenous              | 1.6                           | 27.0                    |                  97 |
+| Black                   | 1.1                           | 19.0                    |                  49 |
 | Arab                    | 0.5                           | 8.0                     |                   5 |
 | Latin American          | 0.4                           | 7.0                     |                   3 |
-| Visible minority, n.i.e | 0.3                           | 5.0                     |                   5 |
-| Unknown                 | --                            | --                      |                 138 |
-
+| Visible minority, n.i.e | 0.3                           | 6.0                     |                   5 |
+| Unknown                 | --                            | --                      |                 150 |
 
 # Poll Questions:
 
