@@ -7,9 +7,12 @@ nav_order: 4
 # The United States Data
  
 The United States Data is collected by a collaboration of researchers and data scientists and is available for download [here](https://mappingpoliceviolence.org/).
-"We believe the data represented on this site is the most comprehensive accounting of people killed by police since 2013. Note that the Mapping Police Violence database is more comprehensive than the Washington Post police shootings database: while Washington Post only tracks cases where people are fatally shot by on-duty police officers, our database includes additional incidents such as cases where police kill someone through use of a chokehold, baton, taser or other means as well as cases such as killings by off-duty police."
 
-This is not an official count either as this dataset is a collection of second-hand information in the form of press releases, news articles, etc. Some records are incomplete, and the total number of incidents is likely higher than detailed here.  However, one advantage of this dataset over the US data is that it is updated regularly.  Giving a more accurate temporal picture of current trends.
+*"We believe the data represented on this site is the most comprehensive accounting of people killed by police since 2013. Note that the Mapping Police Violence database is more comprehensive than the Washington Post police shootings database: while Washington Post only tracks cases where people are fatally shot by on-duty police officers, our database includes additional incidents such as cases where police kill someone through use of a chokehold, baton, taser or other means as well as cases such as killings by off-duty police."*
+
+This is not an official count either as this dataset is a collection of second-hand information in the form of press releases, news articles, etc. Some records are incomplete, and the total number of incidents is likely higher than detailed here.
+
+One advantage of this dataset over the US data is that it is updated regularly.  Giving a more accurate temporal picture of current trends.
 
 
 <div style="overflow: hidden;
