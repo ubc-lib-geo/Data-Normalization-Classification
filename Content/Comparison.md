@@ -103,7 +103,7 @@ Scaled, to their respective populations, we can see that Indigenous and Black pe
 
 # Systemic Racism in Canadian Policing
 
-However, the disparity between races is actually greater in Canada than the United States.  To show this, we can divide the black and indigenous rates for each country by the white rate (ie. Normalizing again).  This will tell us how many times more likely a black or indigenous individual is to be killed by the police than a white individual in each country.  We can see that Indigenous and Black Canadians are 6.2 and 4.4 times more likely to be killed by police than a White Canadian.  These disparities are higher than in the US.
+However, the disparity between races is actually greater in Canada than the United States.  To show this, we can divide the black and indigenous rates for each country by the white rate (ie. Normalizing again).  This will tell us how many times more likely a black or indigenous individual is to be killed by the police than a white individual in each country.  We can see that Indigenous and Black Canadians are 6.3 and 4.4 times more likely to be killed by police than a White Canadian.  These disparities are higher than in the US.
 
 
 <div style="overflow: hidden;

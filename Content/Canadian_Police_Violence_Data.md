@@ -21,7 +21,7 @@ Despite the incomplete nature of this dataset, it is best record available.  It 
 # 1) Police killings by year in Canada
 
 ## 2020 was a record-breaking year, with *at least* 49 police involved killings.
-There were *at least* 579 killings between January 2000 - November 2020.  There was a statistically significant (p<0.001) increasing trend of 1.05 killings/year over this period.  
+There were *at least* 581 killings between January 2000 - December 2020.  There was a statistically significant (p<0.001) increasing trend of 1.07 killings/year over this period.  Is this trend real? Or an artifact of increased awareness and acess to information?
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -77,7 +77,7 @@ Nearly 30% of victims were unarmed.  **Note** Being Armed is does *not* justify 
 
 
 # 4) Which police services are responsible for the most killings?
-There are 86 police services listed in the dataset, of which 11 are responsible for 68% of all police killings.  The RCMP are responsible for 27% (155)) of all police killings in Canada.  They are the federal police and serve as the provincial police in eight provinces and the territories.  The BC RCMP are far and away the deadliest police sericve in Canada.  Large municipal police departments and provincial police are responsible for the majority of the rest police killings.
+There are 86 police services listed in the dataset, of which 11 are responsible for 68% of all police killings.  The RCMP are responsible for 27% (156)) of all police killings in Canada.  They are the federal police and serve as the provincial police in eight provinces and the territories.  The BC RCMP are far and away the deadliest police sericve in Canada.  Large municipal police departments and provincial police are responsible for the majority of the rest police killings.
 
 ### Deadliest Police Services in Canada
 
