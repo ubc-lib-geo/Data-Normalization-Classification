@@ -85,7 +85,7 @@ There were 579 police killings in Canada between January 2000 and December 2020,
     
 
 ### 5) What impact do you think the missing data (Unknown race) has on this Chi Squared Analysis?
-    A) Invialidates the results
+    A) Invalidates  the results
     B) The racial disparities are likely greater than indicated
-    C) The racial dispariteis are likely less than indicated
+    C) The racial disparities are likely less than indicated
     D) Minimal impact, the race of Unknown victims is probably distributed similarly to those of known race

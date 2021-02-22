@@ -40,7 +40,7 @@ There were *at least* 581 killings between January 2000 - December 2020.  There 
 
 
 # 2) Age distribution of victims
-Histograms show the shape and spread of a dataset.  Here we see the age distribution of victims in 5-year increments.  The histogram shows us that the age is slightly skewed towards older ages.  The mean age of victims is 35.6 and the standard deviation is 11.6.  The youngest victim was 15 and the oldest was 77
+Histograms show the shape and spread of a dataset.  Here we see the age distribution of victims in 5-year increments.  The histogram shows us that the age is slightly skewed towards older ages.  The mean age of victims is 35.6 and the standard deviation is 11.9.  The youngest victim was 1 and the oldest was 77
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
