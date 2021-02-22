@@ -58,7 +58,7 @@ Histograms show the shape and spread of a dataset.  Here we see the age distribu
 <a href="CA_AgeHist.png" target="_blank">View Image in New Tab</a>
 
 # 3) What type of weapon (if any) did the victim have?
-Nearly 30% of victims were unarmed.  Note - Being Armed is does not justify any individual police killing.  However, in aggregate a higher number of killings of unarmed people can indicate a predisposition towards excessive use of force.
+Nearly 30% of victims were unarmed.  **Note** Being Armed is does *not* justify any individual police killing.  However, in aggregate a higher number of killings of unarmed people can indicate a predisposition towards excessive use of force.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -77,22 +77,23 @@ Nearly 30% of victims were unarmed.  Note - Being Armed is does not justify any 
 
 
 # 4) Which police services are responsible for the most killings?
-There are 74 police services listed in the dataset, of which 10 are responsible for 75% of all police killings.  The RCMP are the federal police and serve as the provincial police in eight provinces and the territories.  They are the deadliest police sericve in Canada.  Large municipal police departments and provincial police are responsible for the majority of the rest police killings.
+There are 86 police services listed in the dataset, of which 11 are responsible for 68% of all police killings.  The RCMP are responsible for 27% (155)) of all police killings in Canada.  They are the federal police and serve as the provincial police in eight provinces and the territories.  The BC RCMP are far and away the deadliest police sericve in Canada.  Large municipal police departments and provincial police are responsible for the majority of the rest police killings.
 
-### Deadliest Police Departments in Canada
+### Deadliest Police Services in Canada
 
-|Rank|               Department                |Killings|
-|---:|-----------------------------------------|-------:|
-|   1|RCMP                                     |     149|
-|   2|Toronto Police Service                   |      56|
-|   3|Service de police de la Ville de Montréal|      35|
-|   4|Sûreté du Québec                         |      34|
-|   5|Edmonton Police Service                  |      27|
-|   6|Ontario Provincial Police                |      27|
-|   7|Calgary Police Service                   |      26|
-|   8|Vancouver Police Department              |      24|
-|   9|Winnipeg Police Service                  |      21|
-|  10|Peel Regional Police                     |      16|
+|Rank|               Department                |Province|Killings|
+|---:|-----------------------------------------|--------|-------:|
+|   1|RCMP                                     |BC      |      80|
+|   2|Toronto Police Service                   |ON      |      57|
+|   3|RCMP                                     |AB      |      36|
+|   4|Service de police de la Ville de Montréal|QC      |      36|
+|   5|Sûreté du Québec                         |QC      |      36|
+|   6|Ontario Provincial Police                |ON      |      32|
+|   7|Edmonton Police Service                  |AB      |      28|
+|   8|Calgary Police Service                   |AB      |      26|
+|   9|Vancouver Police Department              |BC      |      24|
+|  10|Winnipeg Police Service                  |MB      |      21|
+|  11|Peel Regional Police                     |ON      |      16|
 
 
 
