@@ -45,7 +45,7 @@ We can normalize our data by demographic information at different administrative
 <a href="Combined_Rate_Hist.png" target="_blank">View Image in New Tab</a>
 
 # Outliers
-Histograms can be useful for spotting outliers in a dataset.  The Indigenous Police Killing rate histogram for the US shows an outlier.  Vermont has a rate many times higher than the nearest value
+Histograms can be useful for spotting outliers in a dataset.  The Indigenous Police Killing rate histogram for the US shows an outlier.  Vermont has a rate many times higher than the nearest value.  This is because the at 1743 individuals, the Indigenoous population of Vermont only makes up 0.3% of the states population.  So one killing diruing this time period leads to a very high PKR.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
