@@ -55,7 +55,7 @@ There are more police killings in the United States than in Canada.
 
 # Poll Questions:
 
-### 6) What factors do we need to look at to compare rates of police killings between Canada and the United States? (select all that apply)
+### 6) What factors do we need to look at to calculate rates of police killings in Canada and the United States? (select all that apply)
     A) The population of both countries
     B) The record lengths of both datasets
     C) The different socio-economic circumstances of each country
