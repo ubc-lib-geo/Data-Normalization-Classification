@@ -18,8 +18,11 @@ Before beginning the workshop, its important to acknowledge the indigenous lands
 Since some of you are spread around the continent, let's take a moment to explore [native-land.ca](https://native-land.ca/) so that you can visualize the indigenous territories, languages, and treaties in your area.
 
 # Learning Outcomes
+
 1) Investigate how data normalization impacts the way we perceive patterns in a dataset.
-2) Look at different data classification methods and how they impact the way we perceive patterns in a dataset.
+
+2) Look at different data classification methods and how they impact the patterns we perceive in a dataset.
+
 3) See an example of how Open Source GIS can be applied to social justice issues.
  
 # Definitions
