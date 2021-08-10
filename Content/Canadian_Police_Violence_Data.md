@@ -5,6 +5,11 @@ nav_order: 2
 ---
 # Canadian Police Violence Data
 
+## Notes on Terminology
+
+**Police Killing:** A death directly resulting from police use of force.  Including but not limited to: shooting, tazing, other use of force.
+
+**Police-Involved Deaths**  Any civilian death at the hands of police or in the custody of police.  Includes police killings, and deaths resulting from police negligence/inaction: suicide, overdoses, medical emergencies, etc.  This is broader term that is more difficult to refute on the grounds of semantics.  
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -21,20 +26,31 @@ nav_order: 2
 </div>
 <a href="CBC_screenshot.png" target="_blank">View Image in New Tab</a>
 
-
 *"There is no government database listing deaths at the hands of the police available to the public in Canada, so CBC News created its own. The CBC’s research librarians have collected detailed information on each case, such as ethnicity, the role of mental illness or substance abuse, the type of weapon used and the police service involved, to create a picture of who is dying in police encounters."*
 
-A dataset covering January 2000 to December 2020 was collected by the [CBC](https://newsinteractives.cbc.ca/fatalpoliceencounters/). But this is not an official count, police in Canada are not mandated to collect/publish data regarding deaths.  This dataset is a collection of second-hand: press releases, news articles, etc.  Most records are incomplete.  Many more are missing (eg. ["starlight tour"](https://en.wikipedia.org/wiki/Saskatoon_freezing_deaths) deaths.  Further the data 
+A dataset covering January 2000 to December 2020 was collected by the [CBC](https://newsinteractives.cbc.ca/fatalpoliceencounters/). This is not an official or complete count, police in Canada are not mandated to collect/publish data regarding deaths.  This dataset is a collection of second-hand: press releases, news articles, etc.  Most records are incomplete.  Many more are missing (eg. ["starlight tour"](https://en.wikipedia.org/wiki/Saskatoon_freezing_deaths) deaths.  Further the dataset is not updated regularly.  The dataset was first published in 2018 but was not updated again until summer 2020.
 
-A key issue with relying on a news corporation to collect this information, is that it is not updated at regular intervals.  The last time the dataset was updated prior to this summer was in 2017. They updated it in 2020 after the killing of George Floyd.  But once the subject falls out of the news cycle, they have little incentive to continue.
-  * I have added incidents that were omitted in the Deady Force Article and updated it through December 2020 to the best of my abilities.  However, it is difficult to find information regarding police killings (esepecially historically) so my updates are also incomplete.
 
-Despite the incomplete nature of this dataset, it is best record available.  It is important to understand the pervasiveness of police violence ans sytemic racism in policing in Canada, This is a problem across North America, not just in the United States.
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="KCC_screenshot.png" title="Processes" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+<a href="KCC_screenshot.png" target="_blank">View Image in New Tab</a>
 
-# 1) Police killings by year in Canada
+A more up to date record is available on [killercopscanada](https://killercopscanada.wordpress.com/), a WordPress blog run by an anonymous user that was started in 2015.  This blog contains 600+ posts pertaining to at least 400+ incidents, 200+ are missing from the CBC dataset.  We have combined these data sets into one, more comprehensive database.  
 
-## 2020 was a record-breaking year, with *at least* 49 police involved killings.
-There were *at least* 581 killings between January 2000 - December 2020.  There was a statistically significant (p<0.001) increasing trend of 1.07 killings/year over this period.  Is this trend real? Or an artifact of increased awareness and acess to information?
+## Police involved deaths by year in Canada
+
+2020 was a record-breaking year, with *at least* 74 police involved deaths.  There was a statistically significant (p<0.001) increasing trend of 2.6 killings/year over this period.  Is this trend real? Or an artifact of increased awareness and access to information?
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -52,8 +68,9 @@ There were *at least* 581 killings between January 2000 - December 2020.  There 
 <a href="CA_Trendline.png" target="_blank">View Image in New Tab</a>
 
 
-# 2) Age distribution of victims
-Histograms show the shape and spread of a dataset.  Here we see the age distribution of victims in 5-year increments.  The histogram shows us that the age is slightly skewed towards older ages.  The mean age of victims is 35.6 and the standard deviation is 11.9.  The youngest victim was 1 and the oldest was 77
+## Age of the victims
+
+Histograms show the shape and spread of a dataset.  Here we see the age distribution of victims in 5-year increments.  The histogram shows us that the age is slightly skewed towards older ages.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -70,8 +87,8 @@ Histograms show the shape and spread of a dataset.  Here we see the age distribu
 </div>
 <a href="CA_AgeHist.png" target="_blank">View Image in New Tab</a>
 
-# 3) What type of weapon (if any) did the victim have?
-Nearly 30% of victims were unarmed.  **Note** Being Armed is does *not* justify any individual police killing.  However, in aggregate a higher number of killings of unarmed people can indicate a predisposition towards excessive use of force.
+## What type of weapon (if any) did the victim have?
+Over 45% of victims were unarmed.  **Note** Being Armed is does *not* justify any individual police killing.  However, in aggregate a higher number of killings of unarmed people can indicate a predisposition towards excessive use of force.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -89,45 +106,32 @@ Nearly 30% of victims were unarmed.  **Note** Being Armed is does *not* justify 
 <a href="CA_Weapon.png" target="_blank">View Image in New Tab</a>
 
 
-# 4) Which police services are responsible for the most killings?
-There are 86 police services listed in the dataset, of which 11 are responsible for 68% of all police killings.  The RCMP are responsible for 27% (156)) of all police killings in Canada.  They are the federal police and serve as the provincial police in eight provinces and the territories.  The BC RCMP are far and away the deadliest police sericve in Canada.  Large municipal police departments and provincial police are responsible for the majority of the rest police killings.
-
-### Deadliest Police Services in Canada
+## Which police departments are responsible for the most deaths?
+There are over 100 departments in the dataset, of which the 17 below are responsible for 73% of all the deaths. 
 
 |Rank|               Department                |Province|Killings|
 |---:|-----------------------------------------|--------|-------:|
-|   1|RCMP                                     |BC      |      80|
-|   2|Toronto Police Service                   |ON      |      57|
-|   3|RCMP                                     |AB      |      36|
-|   4|Service de police de la Ville de Montréal|QC      |      36|
-|   5|Sûreté du Québec                         |QC      |      36|
-|   6|Ontario Provincial Police                |ON      |      33|
-|   7|Edmonton Police Service                  |AB      |      28|
-|   8|Calgary Police Service                   |AB      |      26|
-|   9|Vancouver Police Department              |BC      |      24|
-|  10|Winnipeg Police Service                  |MB      |      21|
-|  11|Peel Regional Police                     |ON      |      16|
-
-
-
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="PoliceViolenceIncidents.html" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-<a href="PoliceViolenceIncidents.html" target="_blank">View map new tab</a>
+|   1|RCMP                                     |BC      |     108|
+|   2|Toronto Police Service                   |ON      |      71|
+|   3|Ontario Provincial Police                |ON      |      52|
+|   4|RCMP                                     |AB      |      50|
+|   5|Sûreté du Québec                         |QC      |      47|
+|   6|Edmonton Police Service                  |AB      |      43|
+|   7|Service de police de la Ville de Montreal|QC      |      32|
+|   8|Winnipeg Police Service                  |MB      |      31|
+|   9|Calgary Police Service                   |AB      |      31|
+|  10|Vancouver Police Department              |BC      |      27|
+|  11|Peel Regional Police                     |ON      |      21|
+|  12|RCMP                                     |SK      |      16|
+|  13|Ottawa Police Service                    |ON      |      16|
+|  14|York Regional Police                     |ON      |      12|
+|  15|RCMP                                     |NU      |      10|
+|  16|London Police Service                    |ON      |      10|
+|  17|Hamilton Police Service                  |ON      |      10|
 
 
 # 5) The racial breakdown of police killings.
-You might hear someone say: "The majority of people killed by police in Canada are White".  This statement isn't false ... but it is also very misleading.
+You might hear someone say: "The majority of people killed by police in Canada are White".  This statement might not be false ... but it is also very misleading.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
