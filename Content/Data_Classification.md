@@ -250,14 +250,14 @@ This distribution-based classification method shows how far a value is from the 
 
 ## Poll Questions:
 
-### 7) If you want to highlight the severity of systemic racism in policing, which classification method would be best?
+### 7) If you want to highlight the severity of police involved deaths in Canada, which classification method would be best?
     A) Equal Interval
     B) Quantiles
     C) Natural Breaks
     D) Manual Breaks
     E) Standard Deviation
     
-### 8) What classification method might the RCMP choose to minimize the severity of systemic racism in policing?
+### 8) What classification method might the RCMP choose to minimize the severity of police involved deaths in Canada?
     A) Equal Interval
     B) Quantiles
     C) Natural Breaks

@@ -4,6 +4,8 @@ title: Other Ways to Represent the Data
 nav_order: 6
 ---
 
+# Other Ways to Represent the Data: Ordinal and Nominal
+
 ## Ordinal Data
 Ratio data (eg. PKR) can be translated to or described as original data.  Sequential color schemes are a good choice for ordinal data as well.  The following is an example of ordinal data, but with a poor choice of category labels.  What does low, medium or high mean in this context?  
 
@@ -44,7 +46,7 @@ Here is an example with better choices.  The categories give a good description 
 ## Nominal Data
 A nominal (categorical) variable can take on one of a limited number of possible values, assigning each record to a nominal category on the basis of a qualitative property.  When working with categorical data, avoid sequential and diverging colormaps, as they give the impression of an order or ranking in the data.  Choose a colormap designed for [categorical data](https://colorbrewer2.org/#type=qualitative&scheme=Accent&n=5).  You don't have to stick with the colors shown on color brewer, but they are a good starting point.
 
-Race is an example of categorical data, and we can choose to attribute a categorical value to the provinces/states in a number of ways.  For instance, we could map the race making up the largest number of police killings in each province/state.
+Race is an example of categorical data, and we can choose to attribute a categorical value to the provinces/states in a number of ways.  For instance, we could map the race making up the largest number of police involved deaths in each province/state.
 
 
 <div style="overflow: hidden;
@@ -82,7 +84,7 @@ However, this is a bit misleading, for reasons we discussed earlier.  Its not ac
 
 ## Poll Questions:
 ### 9) Which map gives a more truthful representation of the data? 
-    A) Race of Majority of Police Killing Victims
-    B) Race Most Likely to be Killed by Police
+    A) Race of Majoirty of Victims
+    B) Race Most Likely to be Victims
 
 
