@@ -5,7 +5,7 @@ nav_order: 3
 ---
 # Data Normalization
 
-Demographic groups are not evenly represented in the population.  Canada's population is 73.4% White, but White people only account for 41.5% of police involved deaths.  Meanwhile, Canada's population is only 4.8% Indigenous and 3.4% Black, but these groups account for 17.0% and 8.4% of police involved deaths respectively.  The victim's race is unreported 150 (25.8%) of the incidents, this means the numbers for across racial groups are likely higher than reported.
+Demographic groups are not evenly represented in the population.  Canada's population is >70% White, but White people only account for 35% of police involved deaths.  Meanwhile, Canada's population is only 5% Indigenous and 3% Black, but these groups account for 18% and 8% of police involved deaths respectively.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -22,17 +22,17 @@ Demographic groups are not evenly represented in the population.  Canada's popul
 </div>
 <a href="CA_Race_Proportional.png" target="_blank">View Image in New Tab</a>
 
-In order to adequately account for this, we need to Normalize our data.  Normalization, is the process of scaling one variable by another.  For example, to find get the proportion of Canada's population made up by each racial group, we can divide the population of each racial group by the total population.  This tells the percentage of Canada's population each racial group makes up.  Normalizing by the sum of a dataset is the simplest example of data normalization.  Doing the same operation to the police involved deaths data allows us to plot them side by side because they are on the same sale (Percentage).
+In order to account for this, we need to Normalize our data.  Normalization, is the process of scaling one variable by another.  For example, to find the proportion of Canada's population made up by each racial group, we can divide the population of each racial group by the total population.  This tells the percentage of Canada's population each group makes up.  Normalizing by the sum of a dataset is the simplest example of data normalization.  Doing the same operation to the police involved deaths data allows us to plot them side by side because they are on the same scale (Percentage).
 
-Comparing the proportion of police involved deaths for each demographic group to their respective proportion of the population is informative.  However, its more meaningful to combine the police involved deaths and the population into one statistic.
 
-### The Police Involved Death Rate
-The death is the number of policeinvolved deaths per unit of population (ie. million) per unit of time (ie. year).  For example, Canada's rate is 1.1 police involved deaths per million residents per year.
+
+## The Police Involved Death Rate
+Comparing the proportion of police involved deaths for each demographic group to their respective proportion of the population is informative.  However, its more meaningful to combine the police involved deaths and the population into one statistic.  The Death Rate is the number of police involved deaths per unit of population (ie. million) per unit of time (ie. year).
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=Death&space;Rate&space;=&space;(\frac{797&space;Deaths}{35,151,728&space;ppl})&space;x&space;(\frac{1,000,000&space;ppl}{21&space;yr})&space;=&space;1.1&space;Deaths&space;/million&space;/&space;yr" target="_blank"><img src="https://latex.codecogs.com/gif.latex?Death&space;Rate&space;=&space;(\frac{797&space;Deaths}{35,151,728&space;ppl})&space;x&space;(\frac{1,000,000&space;ppl}{21&space;yr})&space;=&space;1.1&space;Deaths&space;/million&space;/&space;yr" title="Death Rate = (\frac{797 Deaths}{35,151,728 ppl}) x (\frac{1,000,000 ppl}{21 yr}) = 1.1 Deaths /million / yr" /></a>
 
 
-This does not describe the whole picture, because there are large disparities in the police involved death rate between demographic groups.  The PKR for Indigenous and Black people are **2.82** and **1.95** per million people per year.  The PKR for White people is 0.44 per million people per year.
+This does not describe the whole picture, because there are large disparities in the police involved death rate between demographic groups.  The Death Rate for Indigenous and Black people are **3.8** and **2.3** per million per year.  The White people, it is only 0.5 per million per year.
 
 
 <div style="overflow: hidden;
@@ -49,8 +49,6 @@ This does not describe the whole picture, because there are large disparities in
  </iframe>
 </div>
 <a href="CA_Race_Normalized.png" target="_blank">View Image in New Tab</a>
-
-
 
 
 ## Statistical Testing
@@ -80,6 +78,7 @@ Power_divergenceResult(statistic=533.1042844134683, pvalue=6.0930082003129934e-1
 * Even **assuming all Unknown are White**, which is highly unrealistic, the test is still shows irrefutable evidence of systemic racial bias.
 
 Power_divergenceResult(statistic=364.8967491570321, pvalue=7.959950923149648e-75)
+
 |                         |   Total Population (Millions) |   Expected Deaths |   Observed Deaths |
 |:------------------------|------------------------------:|------------------:|------------------:|
 | Total                   |                          35.1 |               797 |               797 |

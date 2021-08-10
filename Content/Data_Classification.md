@@ -49,28 +49,28 @@ We can normalize our data by demographic information at different administrative
 
 We'll cover five classification methods
 
-1) Equal Interval
+**1) Equal Interval**
 * Data is split to bins of equal width regardless of distribution
 
-2) Quantiles
+**2) Quantiles**
 * Data is split by percentiles
 
-3) Natural Breaks
+**3) Natural Breaks**
 * Data is split using the Jenks algorithm
 
-4) Manual Breaks
+**4) Manual Breaks**
 * We define our own splits
 
-5) Standard Deviation
+**5) Standard Deviation**
 * Data is split to bins based on distance from the mean
 
-### A note on color choices
+**A note on color choices**
 Sequential colormaps are the best choice for representing ratio data (eg. PKR).  I suggest you check out [color brewer](https://colorbrewer2.org/#type=sequential&scheme=OrRd&n=5) for help picking out color schemes. 
 
 ## Equal Interval
 The simplest classification scheme is to just break the data into classes of equal sizes e.g. The minimum is 0.3 and the maximum is 10.6, so we can split that into four bins 2.6 units wide.
 
-### Nunavut has the highest Police involved death Rate of any administrative sub-division in Canada or the United States.   The numbers presented here are contradicted by the [CBC's own reporting](https://www.cbc.ca/news/canada/north/nunavut-police-related-death-rate-high-data-1.5645619).  This article suggests the death rates may be much higher across the north than presented here.
+**Nunavut has the highest Police involved death Rate of any administrative sub-division in Canada or the United States.**
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -107,7 +107,7 @@ The simplest classification scheme is to just break the data into classes of equ
 
 
 ## Quantiles
-The simplest classification scheme that is based of nthe data distribution.  The data is ranked and broken up by percentiles:
+The simplest classification scheme that is based on the data's distribution.  The data is ranked and broken up by percentiles:
   * class 1 contains 0-20%, class 2 is 20-40%, class 3 is 40-60%, class 4 is 60-80%, & class 5 is 80-100%
 
 
@@ -179,7 +179,7 @@ Data is split using the [Jenks algorithm](http://wiki.gis.com/wiki/index.php/Jen
 <a href="NaturalBreaks_Hist.png" target="_blank">View Image in New Tab</a>
 
 ## Manual Breaks
-We can define our own break values to classify data.  This allows us to choose more meaningful break values if necessary (round numbers, clean fractions, etc.  The choice of manual breaks can influence the way the data is perceived.
+We can define our own break values to classify data.  This allows us to choose more meaningful break values if necessary (round numbers, clean fractions, etc).  The choice of manual breaks can influence the way the data is perceived.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -213,7 +213,7 @@ We can define our own break values to classify data.  This allows us to choose m
 <a href="ManualBreaks_Hist.png" target="_blank">View Image in New Tab</a>
 
 ## Standard Deviation
-This distribution-based classification method shows how far a value is from the mean in standard deviations.  It can be very informative to a knowledgeable user, but it is not particularly accessible for the general public.  The standard deviation classification method converts the data to interval data (deviations above/below the mean).  [Diverging colormaps](https://colorbrewer2.org/#type=diverging&scheme=RdBu&n=5) are a better choice for interval data in many instances, as they can better highlight what values are above or below the zero point.
+This distribution-based classification method shows how far a value is from the mean in standard deviations.  It can be very informative to a knowledgeable user, but it is not accessible for the general public.  The standard deviation classification method converts the data to interval data (deviations above/below the mean).  [Diverging colormaps](https://colorbrewer2.org/#type=diverging&scheme=RdBu&n=5) are a better choice for interval data in many instances, as they can better highlight what values are above or below the zero point.
 
 
 <div style="overflow: hidden;

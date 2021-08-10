@@ -83,9 +83,7 @@ By normalizing, we can more directly compare the patterns between geographic reg
 
 ## Racial Disparities
 
-The police violence dataset and census for each country use different demographic groupings so we can't directly compare between all groups.  However, three demographic groups: White, Black, and Indigenous are recorded by each census, so we'll compare between these.  Whites are the majority in both countries, while black and indigenous people disproportionately impacted by police involved deaths on both sides of the border.  One Caveat, the race of the victim is unknown for 25% of Canadian and 9% of United States.  This adds uncertainty to the comparison.  It also means that the Police Involved Death Rates by race are underestimated, especially for Canada.
-
-Scaled, to their respective populations, we can see that Indigenous and Black people are much more likely to be killed by the police than white people in both Canada and the United States and the overall rates for each racial group are higher in the US than Canada.
+The data for each country use different demographic groupings so we can't directly compare between all groups.  However, three demographic groups: White, Black, and Indigenous are present in both.  *A caveat*, the race of is unknown for 37% of Canadian and 10% of United States victims.  This adds uncertainty to the comparison.  It also means that the Police Involved Death Rates by race are underestimated, especially for Canada.  Scaled, to their respective populations, we can see that Indigenous and Black people are much more likely to be killed by the police than white people in both Canada and the United States.  **The police involved death rate for Indigenous people in Canada is higher than in the United States.**
 
 
 
@@ -106,8 +104,7 @@ Scaled, to their respective populations, we can see that Indigenous and Black pe
 
 ## Systemic Racism in Canadian Policing
 
-However, the disparity between races is actually greater in Canada than the United States.  To show this, we can divide the black and indigenous rates for each country by the white rate (ie. Normalizing again).  This will tell us how many times more likely a black or indigenous individual is to be killed by the police than a white individual in each country.  We can see that Indigenous and Black Canadians are 6.3 and 4.4 times more likely to be killed by police than a White Canadian.  These disparities are higher than in the US.
-
+The disparity between races is greater in Canada than the United States for both Black and Indigenous people.  To show this, we can divide the black and indigenous rates for each country by the white rate (ie. Normalizing again).  This will tell us how many times more likely a Black or Indigenous individual is to be a victim than a white individual in each country.  We can see that Indigenous and Black Canadians are 11 and 4 times more likely to be killed by police than a White Canadian respectively.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
