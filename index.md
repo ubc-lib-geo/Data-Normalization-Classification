@@ -4,7 +4,8 @@ title: Introduction
 nav_order: 1
 ---
 # Data Normalization & Classification: Highlighting Racial Disparities in Police Violence
-Workshop created by June Skeeter (They/Them/Theirs) skeeter1@mail.ubc.ca for the UBC Library Search Commons
+Workshop created for the UBC Library Search Commons by:
+June Skeeter (They/Them/Theirs) skeeter1@mail.ubc.ca 
 
 ## Land Acknowledgement
 I am speaking to you today from the traditional, ancestral, and unceded territory of the Coast Salish Peoples including the xʷməθkʷəy̓əm (Musqueam), səl̓ilwətaɁɬ təməxʷ (Tsleil-Waututh), Skwxwú7mesh-ulh Temíx̱w (Squamish) Nations.  This data map was pulled from [native-land.ca](https://native-land.ca/).  This is by no means a definitive source, but it's a good place to start building an understanding of the Indigenous territories, languages, and treaties in your area.
@@ -36,12 +37,12 @@ Canadian policing institutions rely on secrecy and the a of statistics to perpet
 
 ## Poll Questions:
 
-### 1) Which country do you think has a higher frequency of police violence?
+### 1) Which country do you think has a higher frequency of police involved deaths?
     A) Canada
     B) The United States
     C) They're about equal
     
-### 2) Which country do you think has a greater racial disparity in incidents of police violence?
+### 2) Which country do you think has a greater racial disparity in incidents of police involved deaths?
     A) Canada
     B) The United States
     C) They're about equal

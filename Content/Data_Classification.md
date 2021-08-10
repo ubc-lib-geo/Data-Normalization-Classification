@@ -70,7 +70,7 @@ Sequential colormaps are the best choice for representing ratio data (eg. PKR). 
 ## Equal Interval
 The simplest classification scheme is to just break the data into classes of equal sizes e.g. The minimum is 0.3 and the maximum is 10.6, so we can split that into four bins 2.6 units wide.
 
-### Nunavut has the highest Police Killing Rate of any administrative sub-division in Canada or the United States.   The numbers presented here are contradicted by the [CBC's own reporting](https://www.cbc.ca/news/canada/north/nunavut-police-related-death-rate-high-data-1.5645619).  This article suggests the death rates may be much higher across the north than presented here.
+### Nunavut has the highest Police involved death Rate of any administrative sub-division in Canada or the United States.   The numbers presented here are contradicted by the [CBC's own reporting](https://www.cbc.ca/news/canada/north/nunavut-police-related-death-rate-high-data-1.5645619).  This article suggests the death rates may be much higher across the north than presented here.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;

@@ -34,7 +34,7 @@ One advantage of this dataset over the US data is that it is updated regularly. 
 
 ## Comparing Canada and the United States  
 
-There are more police killings in the United States than in Canada.   
+There are more police involved deaths in the United States than in Canada.   
 
 <a href="RawComparison.png" target="_blank">View Image in New Tab</a>
 
@@ -62,7 +62,7 @@ There are more police killings in the United States than in Canada.
     
 
 
-## Police Killing Rates
+## Police Involved Death Rates
 
 By normalizing, we can more directly compare the patterns between geographic regions with different characteristics (Population) and datasets of different lengths.  Police in the United states are, on the whole, more likely to kill someone than Canadian Police.  However, this doesn't tell the full story.  Systemic Racism is pervasive on both sides of the border, and there are sever racial disparities in both countries.
 
@@ -83,7 +83,7 @@ By normalizing, we can more directly compare the patterns between geographic reg
 
 ## Racial Disparities
 
-The police violence dataset and census for each country use different demographic groupings so we can't directly compare between all groups.  However, three demographic groups: White, Black, and Indigenous are recorded by each census, so we'll compare between these.  Whites are the majority in both countries, while black and indigenous people disproportionately impacted by police killings on both sides of the border.  One Caveat, the race of the victim is unknown for 25% of Canadian and 9% of United States.  This adds uncertainty to the comparison.  It also means that the Police Killing Rates by race are underestimated, especially for Canada.
+The police violence dataset and census for each country use different demographic groupings so we can't directly compare between all groups.  However, three demographic groups: White, Black, and Indigenous are recorded by each census, so we'll compare between these.  Whites are the majority in both countries, while black and indigenous people disproportionately impacted by police involved deaths on both sides of the border.  One Caveat, the race of the victim is unknown for 25% of Canadian and 9% of United States.  This adds uncertainty to the comparison.  It also means that the Police Involved Death Rates by race are underestimated, especially for Canada.
 
 Scaled, to their respective populations, we can see that Indigenous and Black people are much more likely to be killed by the police than white people in both Canada and the United States and the overall rates for each racial group are higher in the US than Canada.
 
@@ -126,12 +126,12 @@ However, the disparity between races is actually greater in Canada than the Unit
 
 
 ## Poll Questions:
-### 5) Which country has a higher frequency of police violence?
+### 5) Which country has a higher frequency of police involved deaths?
     A) Canada
     B) The United States
     C) They're about equal
     
-### 6) Which country has a greater racial disparity in incidents of police violence?
+### 6) Which country has a greater racial disparity in incidents of police involved deaths?
     A) Canada
     B) The United States
     C) They're about equal    

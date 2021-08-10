@@ -26,9 +26,10 @@ nav_order: 2
 </div>
 <a href="CBC_screenshot.png" target="_blank">View Image in New Tab</a>
 
-*"There is no government database listing deaths at the hands of the police available to the public in Canada, so CBC News created its own. The CBC’s research librarians have collected detailed information on each case, such as ethnicity, the role of mental illness or substance abuse, the type of weapon used and the police service involved, to create a picture of who is dying in police encounters."*
+A dataset covering January 2000 to December 2020 was collected by the [CBC](https://newsinteractives.cbc.ca/fatalpoliceencounters/). 
+* *"There is no government database listing deaths at the hands of the police available to the public in Canada, so CBC News created its own. The CBC’s research librarians have collected detailed information on each case, such as ethnicity, the role of mental illness or substance abuse, the type of weapon used and the police service involved, to create a picture of who is dying in police encounters."*
 
-A dataset covering January 2000 to December 2020 was collected by the [CBC](https://newsinteractives.cbc.ca/fatalpoliceencounters/). This is not an official or complete count, police in Canada are not mandated to collect/publish data regarding deaths.  This dataset is a collection of second-hand: press releases, news articles, etc.  Most records are incomplete.  Many more are missing (eg. ["starlight tour"](https://en.wikipedia.org/wiki/Saskatoon_freezing_deaths) deaths.  Further the dataset is not updated regularly.  The dataset was first published in 2018 but was not updated again until summer 2020.
+This is not an official/complete count, police in Canada are not mandated to collect/publish data regarding deaths.  This dataset is a collection of second-hand information: press releases, news articles, etc.  Most records are incomplete.  Many more are missing (eg. ["starlight tour"](https://en.wikipedia.org/wiki/Saskatoon_freezing_deaths) deaths).  Further the data is not updated regularly, it was first published in 2018 but was not updated again until summer 2020.
 
 
 <div style="overflow: hidden;
@@ -46,11 +47,11 @@ A dataset covering January 2000 to December 2020 was collected by the [CBC](http
 </div>
 <a href="KCC_screenshot.png" target="_blank">View Image in New Tab</a>
 
-A more up to date record is available on [killercopscanada](https://killercopscanada.wordpress.com/), a WordPress blog run by an anonymous user that was started in 2015.  This blog contains 600+ posts pertaining to at least 400+ incidents, 200+ are missing from the CBC dataset.  We have combined these data sets into one, more comprehensive database.  
+A more up to date record is available on [killercopscanada](https://killercopscanada.wordpress.com/), a WordPress blog run by an anonymous user that was started in July 2015.  This blog contains 600+ posts pertaining to at least 400+ incidents, 200+ are missing from the CBC dataset.  We have combined these data sets into one, more comprehensive database.  
 
 ## Police involved deaths by year in Canada
 
-2020 was a record-breaking year, with *at least* 74 police involved deaths.  There was a statistically significant (p<0.001) increasing trend of 2.6 killings/year over this period.  Is this trend real? Or an artifact of increased awareness and access to information?
+2020 was a record-breaking year, with *at least* 74 police involved deaths.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -88,7 +89,7 @@ Histograms show the shape and spread of a dataset.  Here we see the age distribu
 <a href="CA_AgeHist.png" target="_blank">View Image in New Tab</a>
 
 ## What type of weapon (if any) did the victim have?
-Over 45% of victims were unarmed.  **Note** Being Armed is does *not* justify any individual police killing.  However, in aggregate a higher number of killings of unarmed people can indicate a predisposition towards excessive use of force.
+Over 45% of victims were unarmed.  **Note** Being Armed is does *not* justify any individual police killing.  However, in aggregate a higher number of unarmed victims can indicate a predisposition towards excessive use of force.
 
 <div style="overflow: hidden;
   padding-top: 56.25%;
@@ -109,7 +110,7 @@ Over 45% of victims were unarmed.  **Note** Being Armed is does *not* justify an
 ## Which police departments are responsible for the most deaths?
 There are over 100 departments in the dataset, of which the 17 below are responsible for 73% of all the deaths. 
 
-|Rank|               Department                |Province|Killings|
+|Rank|               Department                |Province|Deaths  |
 |---:|-----------------------------------------|--------|-------:|
 |   1|RCMP                                     |BC      |     108|
 |   2|Toronto Police Service                   |ON      |      71|
@@ -130,7 +131,7 @@ There are over 100 departments in the dataset, of which the 17 below are respons
 |  17|Hamilton Police Service                  |ON      |      10|
 
 
-# 5) The racial breakdown of police killings.
+## The racial breakdown of victims.
 You might hear someone say: "The majority of people killed by police in Canada are White".  This statement might not be false ... but it is also very misleading.
 
 <div style="overflow: hidden;
@@ -151,10 +152,13 @@ You might hear someone say: "The majority of people killed by police in Canada a
 
 # Poll Questions:
 
-### 3) What should we do to get a more accurate picture of the racial breakdown of police killings?
-    A) Display the data alongside the proportion of Canada's total population each racial group comprises 
-    B) Divide by the total number of police killings to get a percentage
-    C) Subtract the Unknown category and then divide by the total number of police killings to get a percentage
-    D) Divide the total killings of each racial group by the total population of each racial group
+### 3) What should we do to get a more accurate picture of the racial breakdown of police involved deaths?
+    A) Display the data alongside the proportion of Canada's total population that
+       each racial group comprises 
+    B) Divide by the total number of deaths to get a percentage
+    C) Subtract the Unknown category and then divide by the total number of deaths
+       to get a percentage
+    D) Divide the total deaths of each racial group by the total population of each racial
+       group
     
 
