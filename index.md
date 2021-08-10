@@ -4,18 +4,21 @@ title: Introduction
 nav_order: 1
 ---
 # Data Normalization & Classification: Highlighting Racial Disparities in Police Violence
+Workshop created by June Skeeter (They/Them/Theirs) skeeter1@mail.ubc.ca for the UBC Library Search Commons
 
-### Workshop by June Skeeter
+# Land Acknowledgement
+I am speaking to you today from the traditional, ancestral, and unceded territory of the Coast Salish Peoples including the xʷməθkʷəy̓əm (Musqueam), səl̓ilwətaɁɬ təməxʷ (Tsleil-Waututh), Skwxwú7mesh-ulh Temíx̱w (Squamish) Nations.  This data map was pulled from [native-land.ca](https://native-land.ca/).  This is by no means a definitive source, but it's a good place to start building an understanding of the Indigenous territories, languages, and treaties in your area.
+<iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=49.268264,-123.157480" style="width:100%; height:500px; border:none;"></iframe>
 
-## Content Warning:
-This workshop deals with a difficult and painful subject that may be triggering to some people, especially BIPOC individuals.  The datasets we're using today describe incidents of police killings in Canada and the United States.  We are focusing on police violence today because GIS is a powerful tool that can be used to promote social and ecological justice.  Today, we are using this data to emphasize the importance of data normalization and highlight how different data classification methods impact the ways we perceive information.
+
+# Content Warning
+
+This workshop deals with a difficult and painful subject that may be triggering to some, especially BIPOC individuals.  We are going to use a dataset of police involved deaths in Canada from 2000-2017.  The data was obtained from Pivot Legal Society and initially collected by the CBC.  The intent behind choosing this dataset end goal of this workshop is to show that programming and data analysis can be powerful tools for promoting social and environmental justice issues.  
 
 
-# Land acknowledgement
-Before beginning the workshop, its important to acknowledge the indigenous lands where we are located.  I am speaking to you today from the traditional, ancestral, and unceded territory of the Coast Salish Peoples including the xʷməθkʷəy̓əm (Musqueam), səl̓ilwətaɁɬ təməxʷ (Tsleil-Waututh), Skwxwú7mesh-ulh Temíx̱w (Squamish) Nations.
-<iframe src="https://native-land.ca/api/embed/embed.html?maps=territories&position=49.268264,-123.157480" style="width:100%; height:300px; border:none;"></iframe>
+### Why Police-Involved Deaths in Canada?
 
-Since some of you are spread around the continent, let's take a moment to explore [native-land.ca](https://native-land.ca/) so that you can visualize the indigenous territories, languages, and treaties in your area.
+Canadian policing institutions rely on secrecy and the a of statistics to perpetuate the narrative that police violence and systemic racism are "just American issues" and that Canada is "better".  As a white settler and immigrant from the United States, I fell for that narrative and did not question it for years.  But it is patently untrue, police violence and systemic racism are serious issues in Canadian society and they need to be part of the public discourse in order to dismantle these systems of oppression and hold Canadian institutions accountable.
 
 # Learning Outcomes
 
@@ -26,11 +29,11 @@ Since some of you are spread around the continent, let's take a moment to explor
 3) See an example of how Open Source GIS can be applied to social justice issues.
  
 # Definitions
-**Data normalization:** The process of scaling one variable by another.  Normalization alows us to highlight patterns in one variable that may be masked that varibles correlation with another.  
+**Data normalization:** The process of scaling one variable by another.  Normalization allows us to highlight patterns in one variable that may be masked that variables correlation with another.  
 
-**Data Classification** Methods of grouping data into smaller numbers of classes so they are easier to interpret.  The choice of classification method can have a drastic impact on how we percieve a data set and should be carefuly considered.
+**Data Classification** Methods of grouping data into smaller numbers of classes so they are easier to interpret.  The choice of classification method can have a drastic impact on how we perceive a data set and should be carefully considered.
 
-**Open Source GIS** GIS tools and software that are freely availble online.  Open source technology is more accessible than proprietary tools like ArcPro, making them useful tools for individuals and organizations that lack the resources of large institutions like UBC.
+**Open Source GIS** GIS tools and software that are freely available online.  Open source technology is more accessible than proprietary tools like ArcPro, making them useful tools for individuals and organizations that lack the resources of large institutions like UBC.
 
 
 # Poll Questions:
