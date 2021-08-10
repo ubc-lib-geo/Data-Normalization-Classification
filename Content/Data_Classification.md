@@ -8,7 +8,7 @@ nav_order: 5
 
 ## Data Types
 
-There are two kinds of data, that both have two sub-types.  Qualitative (descriptive) data includes Nominal and Ordinal Data types.  Nominal data is categorical data with no inherent ranking.  Ordinal data is categorical data that does have a rank.  Quantitative (numeric) data includes Ratio and Interval Data.  Interval data is similar to ratio data, but it lacks an absolute zero point.  Ratio data has an absolute zero point and the difference between values is meaningful.  PKR is ratio data, it can't be negative and a PKR of 2 is twice as high as a PKR of 1.
+There are two kinds of data, that both have two sub-types.  Qualitative (descriptive) data includes Nominal and Ordinal Data types.  Nominal data is categorical data with no inherent ranking.  Ordinal data is categorical data that does have a rank.  Quantitative (numeric) data includes Ratio and Interval Data.  Interval data is similar to ratio data, but it lacks an absolute zero point.  Ratio data has an absolute zero point and the difference between values is meaningful.  The death rate is ratio data, it can't be negative and a rate of 2 is twice as high as a rate of 1.
 
 
 <div style="overflow: hidden;
